@@ -1,0 +1,154 @@
+2022-10-17 02:11:18,696 INFO    StreamThr :1597903 [internal.py:wandb_internal():91] W&B internal server running at pid: 1597903, started at: 2022-10-17 02:11:18.686895
+2022-10-17 02:11:18,697 DEBUG   HandlerThread:1597903 [handler.py:handle_request():138] handle_request: status
+2022-10-17 02:11:18,700 DEBUG   SenderThread:1597903 [sender.py:send_request():317] send_request: status
+2022-10-17 02:11:18,701 DEBUG   SenderThread:1597903 [sender.py:send():303] send: header
+2022-10-17 02:11:18,701 DEBUG   SenderThread:1597903 [sender.py:send():303] send: run
+2022-10-17 02:11:18,702 INFO    WriterThread:1597903 [datastore.py:open_for_write():75] open: /u/junkaiwu/ECE537_Project/text2unit/scripts/wandb/run-20221017_021118-15rwxtq8/run-15rwxtq8.wandb
+2022-10-17 02:11:18,842 DEBUG   HandlerThread:1597903 [handler.py:handle_request():138] handle_request: check_version
+2022-10-17 02:11:18,874 INFO    SenderThread:1597903 [dir_watcher.py:__init__():216] watching files in: /u/junkaiwu/ECE537_Project/text2unit/scripts/wandb/run-20221017_021118-15rwxtq8/files
+2022-10-17 02:11:18,874 INFO    SenderThread:1597903 [sender.py:_start_run_threads():931] run started: 15rwxtq8 with start time 1665990678.66308
+2022-10-17 02:11:18,874 DEBUG   SenderThread:1597903 [sender.py:send():303] send: summary
+2022-10-17 02:11:18,875 INFO    SenderThread:1597903 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-17 02:11:18,876 DEBUG   SenderThread:1597903 [sender.py:send_request():317] send_request: check_version
+2022-10-17 02:11:18,915 DEBUG   HandlerThread:1597903 [handler.py:handle_request():138] handle_request: run_start
+2022-10-17 02:11:18,922 DEBUG   HandlerThread:1597903 [meta.py:__init__():34] meta init
+2022-10-17 02:11:18,922 DEBUG   HandlerThread:1597903 [meta.py:__init__():49] meta init done
+2022-10-17 02:11:18,922 DEBUG   HandlerThread:1597903 [meta.py:probe():215] probe
+2022-10-17 02:11:18,941 DEBUG   HandlerThread:1597903 [git.py:repo():40] git repository is invalid
+2022-10-17 02:11:18,941 DEBUG   HandlerThread:1597903 [meta.py:_save_pip():53] save pip
+2022-10-17 02:11:18,951 DEBUG   HandlerThread:1597903 [meta.py:_save_pip():67] save pip done
+2022-10-17 02:11:18,951 DEBUG   HandlerThread:1597903 [meta.py:_save_conda():74] save conda
+2022-10-17 02:11:19,876 INFO    Thread-13 :1597903 [dir_watcher.py:_on_file_created():275] file/dir created: /u/junkaiwu/ECE537_Project/text2unit/scripts/wandb/run-20221017_021118-15rwxtq8/files/requirements.txt
+2022-10-17 02:11:19,876 INFO    Thread-13 :1597903 [dir_watcher.py:_on_file_created():275] file/dir created: /u/junkaiwu/ECE537_Project/text2unit/scripts/wandb/run-20221017_021118-15rwxtq8/files/conda-environment.yaml
+2022-10-17 02:11:19,877 INFO    Thread-13 :1597903 [dir_watcher.py:_on_file_created():275] file/dir created: /u/junkaiwu/ECE537_Project/text2unit/scripts/wandb/run-20221017_021118-15rwxtq8/files/wandb-summary.json
+2022-10-17 02:11:31,043 DEBUG   HandlerThread:1597903 [meta.py:_save_conda():84] save conda done
+2022-10-17 02:11:31,043 DEBUG   HandlerThread:1597903 [meta.py:probe():253] probe done
+2022-10-17 02:11:31,271 DEBUG   HandlerThread:1597903 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-17 02:11:31,272 DEBUG   SenderThread:1597903 [sender.py:send_request():317] send_request: stop_status
+2022-10-17 02:11:31,315 DEBUG   SenderThread:1597903 [sender.py:send():303] send: telemetry
+2022-10-17 02:11:31,317 DEBUG   SenderThread:1597903 [sender.py:send():303] send: files
+2022-10-17 02:11:31,317 INFO    SenderThread:1597903 [sender.py:_save_file():1171] saving file wandb-metadata.json with policy now
+2022-10-17 02:11:31,603 INFO    Thread-17 :1597903 [upload_job.py:push():143] Uploaded file /tmp/tmp1twehc2gwandb/2se3vgft-wandb-metadata.json
+2022-10-17 02:11:31,885 INFO    Thread-13 :1597903 [dir_watcher.py:_on_file_modified():292] file/dir modified: /u/junkaiwu/ECE537_Project/text2unit/scripts/wandb/run-20221017_021118-15rwxtq8/files/conda-environment.yaml
+2022-10-17 02:11:31,885 INFO    Thread-13 :1597903 [dir_watcher.py:_on_file_created():275] file/dir created: /u/junkaiwu/ECE537_Project/text2unit/scripts/wandb/run-20221017_021118-15rwxtq8/files/output.log
+2022-10-17 02:11:31,885 INFO    Thread-13 :1597903 [dir_watcher.py:_on_file_created():275] file/dir created: /u/junkaiwu/ECE537_Project/text2unit/scripts/wandb/run-20221017_021118-15rwxtq8/files/wandb-metadata.json
+2022-10-17 02:11:33,886 INFO    Thread-13 :1597903 [dir_watcher.py:_on_file_modified():292] file/dir modified: /u/junkaiwu/ECE537_Project/text2unit/scripts/wandb/run-20221017_021118-15rwxtq8/files/output.log
+2022-10-17 02:11:39,891 INFO    Thread-13 :1597903 [dir_watcher.py:_on_file_modified():292] file/dir modified: /u/junkaiwu/ECE537_Project/text2unit/scripts/wandb/run-20221017_021118-15rwxtq8/files/output.log
+2022-10-17 02:11:43,922 DEBUG   HandlerThread:1597903 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-17 02:11:43,922 DEBUG   SenderThread:1597903 [sender.py:send_request():317] send_request: stop_status
+2022-10-17 02:11:46,766 DEBUG   HandlerThread:1597903 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-17 02:11:46,767 DEBUG   SenderThread:1597903 [sender.py:send():303] send: history
+2022-10-17 02:11:46,767 DEBUG   SenderThread:1597903 [sender.py:send():303] send: summary
+2022-10-17 02:11:46,770 INFO    SenderThread:1597903 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-17 02:11:46,896 INFO    Thread-13 :1597903 [dir_watcher.py:_on_file_modified():292] file/dir modified: /u/junkaiwu/ECE537_Project/text2unit/scripts/wandb/run-20221017_021118-15rwxtq8/files/wandb-summary.json
+2022-10-17 02:11:47,297 DEBUG   SenderThread:1597903 [sender.py:send():303] send: stats
+2022-10-17 02:11:47,730 DEBUG   HandlerThread:1597903 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-17 02:11:47,731 DEBUG   SenderThread:1597903 [sender.py:send():303] send: history
+2022-10-17 02:11:47,731 DEBUG   SenderThread:1597903 [sender.py:send():303] send: summary
+2022-10-17 02:11:47,732 INFO    SenderThread:1597903 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-17 02:11:47,848 DEBUG   HandlerThread:1597903 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-17 02:11:47,848 DEBUG   SenderThread:1597903 [sender.py:send():303] send: history
+2022-10-17 02:11:47,848 DEBUG   SenderThread:1597903 [sender.py:send():303] send: summary
+2022-10-17 02:11:47,849 INFO    SenderThread:1597903 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-17 02:11:47,897 INFO    Thread-13 :1597903 [dir_watcher.py:_on_file_modified():292] file/dir modified: /u/junkaiwu/ECE537_Project/text2unit/scripts/wandb/run-20221017_021118-15rwxtq8/files/wandb-summary.json
+2022-10-17 02:11:48,031 DEBUG   HandlerThread:1597903 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-17 02:11:48,031 DEBUG   SenderThread:1597903 [sender.py:send():303] send: history
+2022-10-17 02:11:48,032 DEBUG   SenderThread:1597903 [sender.py:send():303] send: summary
+2022-10-17 02:11:48,033 INFO    SenderThread:1597903 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-17 02:11:48,123 DEBUG   HandlerThread:1597903 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-17 02:11:48,124 DEBUG   SenderThread:1597903 [sender.py:send():303] send: history
+2022-10-17 02:11:48,124 DEBUG   SenderThread:1597903 [sender.py:send():303] send: summary
+2022-10-17 02:11:48,125 INFO    SenderThread:1597903 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-17 02:11:48,313 DEBUG   HandlerThread:1597903 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-17 02:11:48,314 DEBUG   SenderThread:1597903 [sender.py:send():303] send: history
+2022-10-17 02:11:48,315 DEBUG   SenderThread:1597903 [sender.py:send():303] send: summary
+2022-10-17 02:11:48,316 INFO    SenderThread:1597903 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-17 02:11:48,408 DEBUG   HandlerThread:1597903 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-17 02:11:48,408 DEBUG   SenderThread:1597903 [sender.py:send():303] send: history
+2022-10-17 02:11:48,408 DEBUG   SenderThread:1597903 [sender.py:send():303] send: summary
+2022-10-17 02:11:48,409 INFO    SenderThread:1597903 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-17 02:11:48,599 DEBUG   HandlerThread:1597903 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-17 02:11:48,599 DEBUG   SenderThread:1597903 [sender.py:send():303] send: history
+2022-10-17 02:11:48,600 DEBUG   SenderThread:1597903 [sender.py:send():303] send: summary
+2022-10-17 02:11:48,601 INFO    SenderThread:1597903 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-17 02:11:48,690 DEBUG   HandlerThread:1597903 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-17 02:11:48,691 DEBUG   SenderThread:1597903 [sender.py:send():303] send: history
+2022-10-17 02:11:48,691 DEBUG   SenderThread:1597903 [sender.py:send():303] send: summary
+2022-10-17 02:11:48,692 INFO    SenderThread:1597903 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-17 02:11:48,878 DEBUG   HandlerThread:1597903 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-17 02:11:48,879 DEBUG   SenderThread:1597903 [sender.py:send():303] send: history
+2022-10-17 02:11:48,899 INFO    Thread-13 :1597903 [dir_watcher.py:_on_file_modified():292] file/dir modified: /u/junkaiwu/ECE537_Project/text2unit/scripts/wandb/run-20221017_021118-15rwxtq8/files/wandb-summary.json
+2022-10-17 02:11:48,950 DEBUG   SenderThread:1597903 [sender.py:send():303] send: summary
+2022-10-17 02:11:48,951 INFO    SenderThread:1597903 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-17 02:11:48,971 DEBUG   HandlerThread:1597903 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-17 02:11:48,971 DEBUG   SenderThread:1597903 [sender.py:send():303] send: history
+2022-10-17 02:11:48,971 DEBUG   SenderThread:1597903 [sender.py:send():303] send: summary
+2022-10-17 02:11:48,973 INFO    SenderThread:1597903 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-17 02:11:49,160 DEBUG   HandlerThread:1597903 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-17 02:11:49,160 DEBUG   SenderThread:1597903 [sender.py:send():303] send: history
+2022-10-17 02:11:49,161 DEBUG   SenderThread:1597903 [sender.py:send():303] send: summary
+2022-10-17 02:11:49,162 INFO    SenderThread:1597903 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-17 02:11:49,252 DEBUG   HandlerThread:1597903 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-17 02:11:49,252 DEBUG   SenderThread:1597903 [sender.py:send():303] send: history
+2022-10-17 02:11:49,253 DEBUG   SenderThread:1597903 [sender.py:send():303] send: summary
+2022-10-17 02:11:49,254 INFO    SenderThread:1597903 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-17 02:11:49,441 DEBUG   HandlerThread:1597903 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-17 02:11:49,441 DEBUG   SenderThread:1597903 [sender.py:send():303] send: history
+2022-10-17 02:11:49,442 DEBUG   SenderThread:1597903 [sender.py:send():303] send: summary
+2022-10-17 02:11:49,443 INFO    SenderThread:1597903 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-17 02:11:49,551 DEBUG   HandlerThread:1597903 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-17 02:11:49,551 DEBUG   SenderThread:1597903 [sender.py:send():303] send: history
+2022-10-17 02:11:49,551 DEBUG   SenderThread:1597903 [sender.py:send():303] send: summary
+2022-10-17 02:11:49,552 INFO    SenderThread:1597903 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-17 02:11:49,734 DEBUG   HandlerThread:1597903 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-17 02:11:49,735 DEBUG   SenderThread:1597903 [sender.py:send():303] send: history
+2022-10-17 02:11:49,735 DEBUG   SenderThread:1597903 [sender.py:send():303] send: summary
+2022-10-17 02:11:49,736 INFO    SenderThread:1597903 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-17 02:11:49,822 DEBUG   HandlerThread:1597903 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-17 02:11:49,823 DEBUG   SenderThread:1597903 [sender.py:send():303] send: history
+2022-10-17 02:11:49,823 DEBUG   SenderThread:1597903 [sender.py:send():303] send: summary
+2022-10-17 02:11:49,824 INFO    SenderThread:1597903 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-17 02:11:49,900 INFO    Thread-13 :1597903 [dir_watcher.py:_on_file_modified():292] file/dir modified: /u/junkaiwu/ECE537_Project/text2unit/scripts/wandb/run-20221017_021118-15rwxtq8/files/output.log
+2022-10-17 02:11:49,900 INFO    Thread-13 :1597903 [dir_watcher.py:_on_file_modified():292] file/dir modified: /u/junkaiwu/ECE537_Project/text2unit/scripts/wandb/run-20221017_021118-15rwxtq8/files/wandb-summary.json
+2022-10-17 02:11:49,900 INFO    Thread-13 :1597903 [dir_watcher.py:_on_file_modified():292] file/dir modified: /u/junkaiwu/ECE537_Project/text2unit/scripts/wandb/run-20221017_021118-15rwxtq8/files/config.yaml
+2022-10-17 02:11:50,003 DEBUG   HandlerThread:1597903 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-17 02:11:50,004 DEBUG   SenderThread:1597903 [sender.py:send():303] send: history
+2022-10-17 02:11:50,004 DEBUG   SenderThread:1597903 [sender.py:send():303] send: summary
+2022-10-17 02:11:50,005 INFO    SenderThread:1597903 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-17 02:11:50,100 DEBUG   HandlerThread:1597903 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-17 02:11:50,100 DEBUG   SenderThread:1597903 [sender.py:send():303] send: history
+2022-10-17 02:11:50,100 DEBUG   SenderThread:1597903 [sender.py:send():303] send: summary
+2022-10-17 02:11:50,101 INFO    SenderThread:1597903 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-17 02:11:50,296 DEBUG   HandlerThread:1597903 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-17 02:11:50,297 DEBUG   SenderThread:1597903 [sender.py:send():303] send: history
+2022-10-17 02:11:50,297 DEBUG   SenderThread:1597903 [sender.py:send():303] send: summary
+2022-10-17 02:11:50,298 INFO    SenderThread:1597903 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-17 02:11:50,390 DEBUG   HandlerThread:1597903 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-17 02:11:50,390 DEBUG   SenderThread:1597903 [sender.py:send():303] send: history
+2022-10-17 02:11:50,390 DEBUG   SenderThread:1597903 [sender.py:send():303] send: summary
+2022-10-17 02:11:50,391 INFO    SenderThread:1597903 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-17 02:11:50,580 DEBUG   HandlerThread:1597903 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-17 02:11:50,580 DEBUG   SenderThread:1597903 [sender.py:send():303] send: history
+2022-10-17 02:11:50,580 DEBUG   SenderThread:1597903 [sender.py:send():303] send: summary
+2022-10-17 02:11:50,587 INFO    SenderThread:1597903 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-17 02:11:50,670 DEBUG   HandlerThread:1597903 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-17 02:11:50,670 DEBUG   SenderThread:1597903 [sender.py:send():303] send: history
+2022-10-17 02:11:50,670 DEBUG   SenderThread:1597903 [sender.py:send():303] send: summary
+2022-10-17 02:11:50,671 INFO    SenderThread:1597903 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-17 02:11:50,852 DEBUG   HandlerThread:1597903 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-17 02:11:50,853 DEBUG   SenderThread:1597903 [sender.py:send():303] send: history
+2022-10-17 02:11:50,853 DEBUG   SenderThread:1597903 [sender.py:send():303] send: summary
+2022-10-17 02:11:50,854 INFO    SenderThread:1597903 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-17 02:11:50,901 INFO    Thread-13 :1597903 [dir_watcher.py:_on_file_modified():292] file/dir modified: /u/junkaiwu/ECE537_Project/text2unit/scripts/wandb/run-20221017_021118-15rwxtq8/files/wandb-summary.json
+2022-10-17 02:11:50,945 DEBUG   HandlerThread:1597903 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-17 02:11:50,946 DEBUG   SenderThread:1597903 [sender.py:send():303] send: history
+2022-10-17 02:11:50,946 DEBUG   SenderThread:1597903 [sender.py:send():303] send: summary
+2022-10-17 02:11:50,949 INFO    SenderThread:1597903 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-17 02:11:51,134 DEBUG   HandlerThread:1597903 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-17 02:11:51,135 DEBUG   SenderThread:1597903 [sender.py:send():303] send: history
+2022-10-17 02:11:51,135 DEBUG   SenderThread:1597903 [sender.py:send():303] send: summary
+2022-10-17 02:11:51,137 INFO    SenderThread:1597903 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-17 02:11:51,226 DEBUG   HandlerThread:1597903 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-17 02:11:51,226 DEBUG   SenderThread:1597903 [sender.py:send():303] send: history
+2022-10-17 02:11:51,226 DEBUG   SenderThread:1597903 [sender.py:send():303] send: summary
+2022-10-17 02:11:51,228 INFO    SenderThread:1597903 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end

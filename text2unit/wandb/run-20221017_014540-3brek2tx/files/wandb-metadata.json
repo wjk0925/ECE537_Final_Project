@@ -1,0 +1,23 @@
+{
+    "os": "Linux-4.18.0-305.57.1.el8_4.x86_64-x86_64-with-redhat-8.4-Ootpa",
+    "python": "3.7.13",
+    "heartbeatAt": "2022-10-17T06:45:41.168379",
+    "startedAt": "2022-10-17T06:45:40.867275",
+    "docker": null,
+    "gpu": "NVIDIA A40",
+    "gpu_count": 1,
+    "cpu_count": 64,
+    "cuda": null,
+    "args": [
+        "--epochs",
+        "7",
+        "--num_workers",
+        "4"
+    ],
+    "state": "running",
+    "program": "train.py",
+    "codePath": "train.py",
+    "host": "gpub048.delta.internal.ncsa.edu",
+    "username": "junkaiwu",
+    "executable": "/u/junkaiwu/.conda/envs/diffusion/bin/python"
+}
