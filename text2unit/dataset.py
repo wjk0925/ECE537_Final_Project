@@ -8,9 +8,10 @@ from utils.text import text_to_sequence
 
 # paired text and content units
 class Text2UnitDataset(torch.utils.data.Dataset):
-    def __init__(self, txt_path, feature_type, max_len=999, min_len=30):
+    def __init__(self, txt_path, feature_type, split="train", max_in_len=256, min_in_len=20, max_out_len=700):
         super().__init__()
         assert feature_type in ["hubert"]
+        self.split = split
         self.feature_type = feature_type
 
         self.data_dict = {}
@@ -23,7 +24,10 @@ class Text2UnitDataset(torch.utils.data.Dataset):
                 text_len = len(utterance_dict["transcription"])
                 unit_len = len(utterance_dict[feature_type].split(" "))
                 
-                if text_len <= min_len or text_len >= max_len:
+                if text_len < (min_in_len - 1) or text_len > (max_in_len - 1):
+                    continue
+                    
+                if unit_len > (max_out_len - 2):
                     continue
 
                 idx = len(self.data_dict)
@@ -33,6 +37,10 @@ class Text2UnitDataset(torch.utils.data.Dataset):
                 self.data_dict[idx] = utterance_dict
 
     def __len__(self):
+
+        if self.split == "val":
+            return len(self.data_dict) // 2
+        
         return len(self.data_dict)
         
     def __getitem__(self, idx):
@@ -65,6 +73,26 @@ class Collator:
             'text': text,
             'unit': unit,
         }
+    
+class Collator_v2:
+    def __init__(self, max_in_len=256):
+        self.mode = "seq2seq" # some random thing, not used
+        self.max_in_len = max_in_len
+
+    def collate(self, minibatch):
+        max_out_len = np.max([len(data["unit"]) for data in minibatch])
+
+        for data in minibatch:
+            data["text"] = np.pad(data["text"], (0, self.max_in_len - len(data["text"])))
+            data["unit"] = np.pad(data["unit"], (0, max_out_len - len(data["unit"])))
+
+        text = torch.from_numpy(np.stack([data['text'] for data in minibatch]))
+        unit = torch.from_numpy(np.stack([data['unit'] for data in minibatch]))
+
+        return {
+            'text': text,
+            'unit': unit,
+        }
 
 def from_path(txt_path, batch_size, split="train", num_workers=16, is_distributed=False):
     dataset = Text2UnitDataset(txt_path, "hubert")
@@ -82,6 +110,27 @@ def from_path(txt_path, batch_size, split="train", num_workers=16, is_distribute
         dataset,
         batch_size=batch_size,
         collate_fn=Collator().collate,
+        shuffle=shuffle,
+        num_workers=num_workers,
+        sampler=DistributedSampler(dataset) if is_distributed else None,
+        drop_last=True)
+
+def from_path_v2(txt_path, batch_size, split="train", max_in_len=256, min_in_len=20, max_out_len=700, num_workers=16, is_distributed=False):
+    dataset = Text2UnitDataset(txt_path, "hubert", split=split, max_in_len=max_in_len, min_in_len=min_in_len, max_out_len=max_out_len)
+    
+    # max_in_len = np.max(dataset.in_lens)
+    # max_out_len = np.max(dataset.out_lens)
+    
+    shuffle = not is_distributed if split == "train" else False
+    if split != "train":
+        is_distributed = False
+        
+    print(f"Shuffle is {shuffle}")
+    
+    return torch.utils.data.DataLoader(
+        dataset,
+        batch_size=batch_size,
+        collate_fn=Collator_v2(max_in_len=max_in_len).collate,
         shuffle=shuffle,
         num_workers=num_workers,
         sampler=DistributedSampler(dataset) if is_distributed else None,

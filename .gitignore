@@ -1,7 +1,4 @@
-sketchpaper.ipynb
-*/sketchpaper.ipynb
-*/*/sketchpaper.ipynb
-*/*/*/sketchpaper.ipynb
+**/sketchpaper.ipynb
 Untitled.ipynb
 */Untitled.ipynb
 */*/Untitled.ipynb
@@ -10,9 +7,9 @@ Untitled.ipynb
 */.ipynb_checkpoints
 */*/.ipynb_checkpoints
 */*/*/.ipynb_checkpoints
-wandb
-*/wandb
-*/*/wandb
-*/*/*/wandb
+**/wandb
 *.out
 *.err
+**/__pycache__
+**/*targets*.km
+**/*pred*.km

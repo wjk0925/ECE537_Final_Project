@@ -15,16 +15,27 @@ import os
 
 from train import cal_acc, decode_transformer_model
 
+from argparse import ArgumentParser
+
 
 if __name__ == '__main__':
     
-    exp_dir = "/scratch/bbmx/junkaiwu/text2unit_transformer/dmodel_512_nheads_8_layers_6_batch_64_clip_1.0_factor_1.0_warmup_4000"
+    parser = ArgumentParser()
     
-    train_txt_path = "/u/junkaiwu/ECE537_Project/datasets/LJSpeech/hubert100/train_t.txt"
-    val_txt_path = "/u/junkaiwu/ECE537_Project/datasets/LJSpeech/hubert100/val_t.txt"
+    parser.add_argument('--vocab_size', type=int, default=100)
+    parser.add_argument('--num_workers', type=int, default=16)
+    parser.add_argument('--batch_size', type=int, default=64)
     
-    train_dataloader = from_path(train_txt_path, 16, "train", 1, is_distributed=False)
-    val_dataloader = from_path(val_txt_path, 16, "val", 1, is_distributed=False)
+    
+    args = parser.parse_args()
+    
+    exp_dir = f"/scratch/bbmx/junkaiwu/text2unit_transformer/hubert{args.vocab_size}_v1"
+    
+    val_txt_path = f"/u/junkaiwu/ECE537_Project/datasets/LJSpeech/hubert100/val{args.vocab_size}.txt"
+    test_txt_path = f"/u/junkaiwu/ECE537_Project/datasets/LJSpeech/hubert100/test{args.vocab_size}.txt"
+    
+    val_dataloader = from_path(val_txt_path, args.batch_size, "val", args.num_workers, is_distributed=False)
+    test_dataloader = from_path(test_txt_path, args.batch_size, "test", args.num_workers, is_distributed=False)
     
     device = torch.device('cuda') # only single gpu
     src_vocab_size = len(symbols)
@@ -38,7 +49,7 @@ if __name__ == '__main__':
                                      dropout_rate=0.1,
                                      embedding_factor=1.0)
 
-    decoder = TransformerDecoder(trg_vocab_size=103,
+    decoder = TransformerDecoder(trg_vocab_size=args.vocab_size+3,
                                  embedding_dim=512,
                                  num_heads=8,
                                  num_layers=6,
@@ -50,7 +61,7 @@ if __name__ == '__main__':
     encoder = encoder.to(device)
     decoder = decoder.to(device)
     
-    for epoch in [261, 192, 129, 66, 33]:
+    for epoch in [297, 153, 99]:
         print(f"Evaluating {epoch}")
         encoder_path = os.path.join(exp_dir, f"encoder_{epoch}.pt")
         decoder_path = os.path.join(exp_dir, f"decoder_{epoch}.pt")
@@ -67,25 +78,130 @@ if __name__ == '__main__':
         # encoder.train()
         # decoder.train()
         
-        for i, data in enumerate(val_dataloader):
+        from torchmetrics import MatchErrorRate
+        metric = MatchErrorRate()
+        
+        print("Evaluating Val Set")
+        
+        val_preds = []
+        val_targets = []
+                
+        for i, data in enumerate(tqdm(val_dataloader)):
             src = data["text"]
             trg = data["unit"]
             src = src.to(device).transpose(0,1) # [max_src_length, batch_size]
             trg = trg.to(device).transpose(0,1) # [max_trg_length, batch_size]
             
-            curr_output, curr_predictions = decode_transformer_model(encoder, decoder, src, 800, 103, device)
-            
-            #print(trg.shape)
-            #print(curr_output.shape)
-            #print(curr_predictions.shape)
-                
+            curr_output, curr_predictions = decode_transformer_model(encoder, decoder, src, 800, args.vocab_size+3, device)
+                            
             curr_output = curr_output[:, :trg.shape[0]].transpose(0,1)
             
-            acc = cal_acc(curr_output[1:], trg[1:], return_arr=True)
+                        
+            for b_i in range(curr_output.shape[1]):
+                pred_str = ""
+                target_str = ""
+                                
+                for token in curr_output[:, b_i]:
+                    if token == 1:
+                        continue
+                    if token == 2:
+                        break
+                    pred_str += str(int(token.item()))
+                    pred_str += " "
+                    
+                for token in trg[:, b_i]:
+                    if token == 1:
+                        continue
+                    if token == 2:
+                        break
+                    target_str += str(int(token.item()))
+                    target_str += " "
+                    
+                
+                pred_str = pred_str[:-1]
+                target_str = target_str[:-1]
+                
+                val_preds.append(pred_str)
+                val_targets.append(target_str)
+                
+                                
+        assert len(val_preds) == len(val_targets)
+        
+        val_err_rate = metric(val_preds, val_targets)
+        
+        print(f"Val Error Rate is {val_err_rate}")
+        
+        print("Evaluating Test Set")
+        
+        test_preds = []
+        test_targets = []
+                
+        for i, data in enumerate(tqdm(test_dataloader)):
+            src = data["text"]
+            trg = data["unit"]
+            src = src.to(device).transpose(0,1) # [max_src_length, batch_size]
+            trg = trg.to(device).transpose(0,1) # [max_trg_length, batch_size]
             
-            print(acc)
-            print(torch.mean(acc))
+            curr_output, curr_predictions = decode_transformer_model(encoder, decoder, src, 800, args.vocab_size+3, device)
+                            
+            curr_output = curr_output[:, :trg.shape[0]].transpose(0,1)
             
-            if i == 20:
-                break
+                        
+            for b_i in range(curr_output.shape[1]):
+                pred_str = ""
+                target_str = ""
+                                
+                for token in curr_output[:, b_i]:
+                    if token == 1:
+                        continue
+                    if token == 2:
+                        break
+                    pred_str += str(int(token.item()) - 3)
+                    pred_str += " "
+                    
+                for token in trg[:, b_i]:
+                    if token == 1:
+                        continue
+                    if token == 2:
+                        break
+                    target_str += str(int(token.item()) - 3)
+                    target_str += " "
+                    
+                
+                pred_str = pred_str[:-1]
+                target_str = target_str[:-1]
+                
+                test_preds.append(pred_str)
+                test_targets.append(target_str)
+            
+                                
+        assert len(test_preds) == len(test_targets)
+        
+        test_err_rate = metric(test_preds, test_targets)
+        
+        print(f"Test Error Rate is {test_err_rate}")
+        
+        p_f = open(f"/u/junkaiwu/ECE537_Project/datasets/LJSpeech/hubert100/val{args.vocab_size}_{epoch}_preds.km", "w")
+        t_f = open(f"/u/junkaiwu/ECE537_Project/datasets/LJSpeech/hubert100/val{args.vocab_size}_{epoch}_targets.km", "w")
+        
+        for i in range(len(val_preds)):
+            p_f.write(str(i) + "|" + val_preds[i] + "\n")
+            t_f.write(str(i) + "|" + val_targets[i] + "\n")
+        
+        p_f.close()
+        t_f.close()
+                
+        p_f = open(f"/u/junkaiwu/ECE537_Project/datasets/LJSpeech/hubert100/test{args.vocab_size}_{epoch}_preds.km", "w")
+        t_f = open(f"/u/junkaiwu/ECE537_Project/datasets/LJSpeech/hubert100/test{args.vocab_size}_{epoch}_targets.km", "w")
+        
+        for i in range(len(test_preds)):
+            p_f.write(str(i) + "|" + test_preds[i] + "\n")
+            t_f.write(str(i) + "|" +  test_targets[i] + "\n")
+        
+        p_f.close()
+        t_f.close()
+                
+                
+        
+        
 

@@ -73,18 +73,22 @@ def decode_transformer_model(encoder, decoder, src, max_decode_len, trg_vocab_si
             ended = ended + (predictions.to(torch.device("cpu")) == 2)
             
             if torch.all(ended):
-                print("Ended Early")
+                # print("Ended Early")
                 break
                 
     return curr_output, curr_predictions
 
 def main(args):
-
-    exp_name = f"dmodel_{args.embedding_dim}_nheads_{args.num_heads}_layers_{args.num_layers}_batch_{args.train_batch_size}_clip_{args.grad_clip}_factor_{args.factor}_warmup_{args.warmup_steps}"
-    os.makedirs(f"/scratch/bbmx/junkaiwu/text2unit_transformer/{exp_name}", exist_ok=True)
+    
+    if args.exp_name is None:
+        exp_name = f"dmodel_{args.embedding_dim}_nheads_{args.num_heads}_layers_{args.num_layers}_batch_{args.train_batch_size}_clip_{args.grad_clip}_factor_{args.factor}_warmup_{args.warmup_steps}"
+    else:
+        exp_name = args.exp_name
+        
+    os.makedirs(f"{args.ckpt_dir}/{exp_name}", exist_ok=True)
 
     import wandb
-    wandb.init(project="537", name=exp_name)
+    wandb.init(project="537", name=exp_name, entity=args.wandb_entity)
     wandb.config = args
 
     train_dataloader = from_path(args.train_txt_path, args.train_batch_size, "train", num_workers=args.num_workers, is_distributed=False)
@@ -229,124 +233,12 @@ if __name__ == '__main__':
     parser.add_argument('--betas', type=float, nargs='+', default=[0.9, 0.98])
     parser.add_argument('--eps', type=float, default=1e-09)
     
+    # ckpt & wandb
+    parser.add_argument('--ckpt_dir', default="/scratch/bbmx/junkaiwu/text2unit_transformer")
+    parser.add_argument('--exp_name', default=None)
+    parser.add_argument('--wandb_entity', default="wujunkai")
+    
     main(parser.parse_args())
-
-    """
-    models: (512, 8, 6)
-    batch: 32 64
-    grad_clip 1 3 5
-    factor 1.0 1.5
-    warmup 4000 8000
-    """
-
-    """
-    
-
-    batch_size = 64
-
-    train_dataloader = from_path("/u/junkaiwu/ECE537_Project/datasets/LJSpeech/hubert100/train_t.txt", batch_size, "train", num_workers=4, is_distributed=False)
-    
-    val_dataloader = from_path("/u/junkaiwu/ECE537_Project/datasets/LJSpeech/hubert100/val_t.txt", 32, "val", num_workers=4, is_distributed=False)
-    
-    device = torch.device('cuda')
-    
-    src_vocab_size = len(symbols)
-    trg_vocab_size = 103
-    embedding_dim = 256
-    num_heads = 4
-    num_layers = 6
-    dim_feedforward = 2048
-    dropout_rate=0.1
-    
-    max_len_src = 500
-    max_len_trg = 1000
-    
-    
-    
-    encoder = TransformerEncoder(src_vocab_size=src_vocab_size, 
-                                 embedding_dim=embedding_dim, 
-                                 num_heads=num_heads, 
-                                 num_layers=num_layers, 
-                                 dim_feedforward=dim_feedforward, 
-                                 max_len_src=max_len_src,
-                                 dropout_rate=dropout_rate)
-    
-    decoder = TransformerDecoder(trg_vocab_size=trg_vocab_size,
-                                 embedding_dim=embedding_dim,
-                                 num_heads=num_heads,
-                                 num_layers=num_layers,
-                                 dim_feedforward=dim_feedforward,
-                                 max_len_trg=max_len_trg,
-                                 dropout_rate=dropout_rate)
-    
-    encoder = encoder.to(device)
-    decoder = decoder.to(device)
-    
-    encoder.train()
-    decoder.train()
-    
-    criterion = torch.nn.CrossEntropyLoss(ignore_index=0, label_smoothing=0.1)
-    
-    transformer_model_params = list(encoder.parameters()) + list(decoder.parameters())
-    
-    warmup_steps = 4000
-    
-    factor = 1.0
-    peak_lr = embedding_dim**(-0.5) * warmup_steps**(-0.5)
-    noam = lambda step: (step / warmup_steps) * peak_lr if step < warmup_steps else embedding_dim**(-0.5) * min(step**(-0.5), step * warmup_steps**(-1.5))
-    
-    betas = (0.9, 0.98)
-    eps = 1e-09
-    
-    optimizer = torch.optim.Adam(transformer_model_params, betas=betas, eps=eps, lr=factor)
-    
-    scheduler = torch.optim.lr_scheduler.LambdaLR(optimizer, noam)
-    
-    for epoch in range(25):
-    
-        losses = []
-        accs = []
-
-        for data in tqdm(train_dataloader):
-
-            src = data["text"]
-            trg = data["unit"]
-
-            src = src.to(device).transpose(0,1) # [max_src_length, batch_size]
-            trg = trg.to(device).transpose(0,1) # [max_trg_length, batch_size]
-
-            enc_out = encoder(src)
-            output = decoder(trg[:-1, :], enc_out)
-
-            output_flatten = output.reshape(-1, output.shape[2])
-            trg_flatten = trg[1:].reshape(-1)
-            
-            predictions = torch.argmax(output, dim=2)
-            acc = cal_acc(predictions, trg[1:])
-            accs.append(acc.item())
-            
-            optimizer.zero_grad()
-
-            loss = criterion(output_flatten, trg_flatten)
-            losses.append(loss.item())
-
-            loss.backward()
-            
-            # Clip to avoid exploding grading issues
-            torch.nn.utils.clip_grad_norm_(encoder.parameters(), max_norm=1)
-            torch.nn.utils.clip_grad_norm_(decoder.parameters(), max_norm=1)
-
-            optimizer.step()
-            scheduler.step()
-
-        print(np.mean(losses))
-        print(np.mean(accs))
-        print("")
-        
-        torch.save(encoder.state_dict(), f"/scratch/bbmx/junkaiwu/text2unit_transformer/noam_test/encoder_{epoch}")
-        torch.save(decoder.state_dict(), f"/scratch/bbmx/junkaiwu/text2unit_transformer/noam_test/decoder_{epoch}")
-
-        """
             
         
             
