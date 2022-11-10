@@ -1,0 +1,7 @@
+I am writing down some random sentences to test this speech synthesis model.
+You are sure about that
+You are sure about that?
+A transformer encoder-decoder model is used for text to unit.
+DiffWave is trained on LJSpeech.
+ECE 537 Speech Processing Fundamentals, Fall 2022
+and used an exceedingly beautiful type, which is indeed to look at a transition between Gothic and Roman,

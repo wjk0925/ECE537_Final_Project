@@ -1,0 +1,10 @@
+I am writing down some random sentences to test this speech synthesis model.
+DiffWave is trained on LJSpeech. 
+Short sentence
+ECE 537 Speech Processing Fundamentals Fall 2022 is taught by Mark Hasegawa-Johnson
+The text to unit module does not infer any pitch information.
+The text to unit module does not infer any pitch information?
+The following are selected from LJSpeech test set
+and used an exceedingly beautiful type, which is indeed to look at a transition between Gothic and Roman,
+The evidence from first to last was circumstantial,
+The general solidity of a page is much to be sought for

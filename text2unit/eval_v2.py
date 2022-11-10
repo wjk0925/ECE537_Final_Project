@@ -23,6 +23,8 @@ if __name__ == '__main__':
     parser = ArgumentParser()
     
     parser.add_argument('--vocab_size', type=int, default=100)
+    parser.add_argument('--exp_dir', required=True)
+    parser.add_argument('--test_txt_path', required=True)
     parser.add_argument('--num_workers', type=int, default=16)
     parser.add_argument('--batch_size', type=int, default=64)
     parser.add_argument('--epoch', type=int, default=295)
@@ -30,9 +32,12 @@ if __name__ == '__main__':
     
     args = parser.parse_args()
     
-    exp_dir = f"/scratch/bbmx/junkaiwu/text2unit_transformer/hubert{args.vocab_size}_v2"
+    #exp_dir = f"/scratch/bbmx/junkaiwu/text2unit_transformer/hubert{args.vocab_size}_v2"
     
-    test_txt_path = f"/u/junkaiwu/ECE537_Project/datasets/LJSpeech/hubert100/test{args.vocab_size}.txt"
+    #test_txt_path = f"/u/junkaiwu/ECE537_Project/datasets/LJSpeech/hubert100/test{args.vocab_size}.txt"
+    
+    exp_dir = args.exp_dir
+    test_txt_path = args.test_txt_path
     
     test_dataloader = from_path_v2(test_txt_path, args.batch_size, split="test", max_in_len=200, max_out_len=512, num_workers=args.num_workers, is_distributed=False)
     
@@ -129,14 +134,14 @@ if __name__ == '__main__':
     print(f"Test Error Rate is {test_err_rate}")
 
     p_f = open(f"{exp_dir}/{args.epoch}_preds.km", "w")
-    t_f = open(f"{exp_dir}/{args.epoch}_targets.km", "w")
+    #t_f = open(f"{exp_dir}/{args.epoch}_targets.km", "w")
 
     for i in range(len(test_preds)):
         p_f.write(str(i) + "|" + test_preds[i] + "\n")
-        t_f.write(str(i) + "|" +  test_targets[i] + "\n")
+        #t_f.write(str(i) + "|" +  test_targets[i] + "\n")
 
     p_f.close()
-    t_f.close()
+    #t_f.close()
                 
                 
         

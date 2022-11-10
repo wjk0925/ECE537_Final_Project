@@ -1,0 +1,9 @@
+I am writing down some random sentences to test this speech synthesis model.
+DiffWave is trained on LJSpeech.
+It works badly for short
+This model works badly for short sentences, as shown by the previous examples
+ECE 537 Speech Processing Fundamentals Fall 2022 is taught by Mark Hasegawa-Johnson
+and used an exceedingly beautiful type, which is indeed to look at a transition between Gothic and Roman,
+The evidence from first to last was circumstantial,
+The general solidity of a page is much to be sought for
+The Fleet, which stood in Farringdon Street,
