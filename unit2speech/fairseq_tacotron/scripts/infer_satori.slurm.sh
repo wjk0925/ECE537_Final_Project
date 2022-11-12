@@ -8,7 +8,7 @@
 #SBATCH --gpus-per-node=1
 #SBATCH --nodes=1
 #SBATCH --ntasks-per-node=1
-#SBATCH --time=1:00:00
+#SBATCH --time=2:00:00
 #SBATCH --qos=sched_level_2
 #SBATCH --cpus-per-task=16
 #SBATCH --exclude=node0019
@@ -49,39 +49,43 @@ date
 
 fairseq_root="/home/junkaiwu/fairseq-0.12.2"
 tacotron_dir="/home/junkaiwu/ECE537_Final_Project/unit2speech/fairseq_tacotron"
+export PYTHONPATH=${fairseq_root}:${fairseq_root}/examples/textless_nlp/gslm/unit2speech
 
 feature_type="hubert"
 models_path="/nobackup/users/junkaiwu/models/fairseq_tacotron_unti2speech"
 out_root="/nobackup/users/junkaiwu/outputs/hubert_tacotron_unit2speech"
+waveglow_path="${models_path}/waveglow_256channels_new.pt"
 
 sigma=0.666
 denoiser_strength=0.1
 
 vocab_size=200
-endding="_noisy_v1" 
+endding="" 
 split="test"
-num_generate=20
 
-tts_model_path="${models_path}/${feature_type}${vocab_size}.pt"
-waveglow_path="${models_path}/waveglow_256channels_new.pt"
-code_dict_path="${models_path}/code_dict_${feature_type}${vocab_size}"
-quantized_unit_path="/home/junkaiwu/ECE537_Final_Project/datasets/LJSpeech/hubert/${split}${vocab_size}${endding}.txt"
-out_dir="${out_root}/${split}${vocab_size}${endding}"
+vocab_sizes=( 100 200 )
 
-export PYTHONPATH=${fairseq_root}:${fairseq_root}/examples/textless_nlp/gslm/unit2speech
+for i in ${!vocab_sizes[@]}; do
 
-srun --ntasks=1 --exclusive --gres=gpu:1 --mem=200G -c 16 python ${fairseq_root}/examples/textless_nlp/gslm/unit2speech/synthesize_audio_from_units.py \
-    --tts_model_path ${tts_model_path} \
-    --quantized_unit_path ${quantized_unit_path} \
-    --feature_type ${feature_type} \
-    --out_audio_dir ${out_dir} \
-    --waveglow_path  ${waveglow_path} \
-    --code_dict_path ${code_dict_path} \
-    --max_decoder_steps 2000 \
-    --sigma ${sigma} \
-    --denoiser_strength ${denoiser_strength} \
-    --num_generate ${num_generate}
-    
-python ${tacotron_dir}/to16k.py --audio_dir ${out_dir}
+    vocab_size=${vocab_sizes[$i]}
 
+    tts_model_path="${models_path}/${feature_type}${vocab_size}.pt"
+    code_dict_path="${models_path}/code_dict_${feature_type}${vocab_size}"
+    quantized_unit_path="/home/junkaiwu/ECE537_Final_Project/datasets/LJSpeech/hubert/${split}${vocab_size}${endding}.txt"
+    out_dir="${out_root}/${split}${vocab_size}${endding}"
+
+    srun --ntasks=1 --exclusive --gres=gpu:1 --mem=200G -c 16 python ${fairseq_root}/examples/textless_nlp/gslm/unit2speech/synthesize_audio_from_units.py \
+        --tts_model_path ${tts_model_path} \
+        --quantized_unit_path ${quantized_unit_path} \
+        --feature_type ${feature_type} \
+        --out_audio_dir ${out_dir} \
+        --waveglow_path  ${waveglow_path} \
+        --code_dict_path ${code_dict_path} \
+        --max_decoder_steps 2000 \
+        --sigma ${sigma} \
+        --denoiser_strength ${denoiser_strength}
+
+    python ${tacotron_dir}/to16k.py --audio_dir ${out_dir}
+
+done
 
