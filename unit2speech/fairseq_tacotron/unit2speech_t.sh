@@ -1,13 +1,14 @@
 #!/bin/bash
-FAIRSEQ_ROOT="/u/junkaiwu/fairseq"
+FAIRSEQ_ROOT="/home/junkaiwu/fairseq"
 FEATURE_TYPE="hubert"
-UNIT_SIZE=100
-MODELS_PATH="/projects/bbmx/junkaiwu/models/fairseq_tacotron_unit2speech"
+UNIT_SIZE=
+MODELS_PATH="/home/junkaiwu/models/fairseq_tacotron_unit2speech"
 QUANTIZED_UNIT_DIR=
 QUANTIZED_UNIT_BASE=
-OUT_ROOT="/scratch/bbmx/junkaiwu/537/unit2speech/fairseq_tacotron"
+OUT_ROOT="/home/junkaiwu/outputs/tacotron_unti2speech"
 SIGMA=0.666
 DENOISER_STRENGTH=0.1
+NUM_GENERATE=9999999
 . parse_options.sh || exit 1;
 
 TTS_MODEL_PATH="${MODELS_PATH}/${FEATURE_TYPE}${UNIT_SIZE}.pt"
@@ -26,6 +27,7 @@ PYTHONPATH=${FAIRSEQ_ROOT}:${FAIRSEQ_ROOT}/examples/textless_nlp/gslm/unit2speec
     --code_dict_path ${CODE_DICT_PATH} \
     --max_decoder_steps 2000 \
     --sigma ${SIGMA} \
-    --denoiser_strength ${DENOISER_STRENGTH}
+    --denoiser_strength ${DENOISER_STRENGTH} \
+    --num_generate ${NUM_GENERATE}
     
 python to16k.py --audio_dir ${OUT_DIR}
