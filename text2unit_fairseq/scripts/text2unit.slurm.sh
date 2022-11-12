@@ -1,24 +1,24 @@
 #!/bin/bash
 #SBATCH -J t2u
-#SBATCH -o logs/t2u_%j.%N.out
-#SBATCH -e logs/t2u_%j.%N.err
-#SBATCH --mail-user=heting@mit.edu
+#SBATCH -o t2u_%j.%N.out
+#SBATCH -e t2u_%j.%N.err
+#SBATCH --mail-user=junkaiwu@mit.edu
 #SBATCH --mail-type=ALL
 #SBATCH --gres=gpu:4
 #SBATCH --gpus-per-node=4
 #SBATCH --nodes=1
 #SBATCH --ntasks-per-node=1
-#SBATCH --cpus-per-task=16
-#SBATCH --mem=0
 #SBATCH --time=24:00:00
 #SBATCH --wait-all-nodes=1
 #SBATCH --qos=sched_level_2
+#SBATCH --cpus-per-task=16
+#SBATCH --mem=0
 #SBATCH --exclusive
 #SBATCH --exclude=node0013,node0010,node0020,node0039,node0040
 
 ## User python environment
-PYTHON_VIRTUAL_ENVIRONMENT=babblenet
-CONDA_ROOT=/nobackup/users/heting/espnet/tools/conda
+PYTHON_VIRTUAL_ENVIRONMENT=fairseq3
+CONDA_ROOT=/nobackup/users/junkaiwu/anaconda3
 
 ## Activate WMLCE virtual environment
 source ${CONDA_ROOT}/etc/profile.d/conda.sh
@@ -49,26 +49,15 @@ echo ""
 echo " Run started at:- "
 date
 
-DATASET=aishell3-g2p
-# P_LABEL='km'
-# MAX_LEN_A=80
-P_LABEL='txt'
-MAX_LEN_A=40
-
-G_LABEL='hanzi'
-# fairseq-preprocess --source-lang ${G_LABEL} --target-lang ${P_LABEL} \
-#     --trainpref $TEXT/train --validpref $TEXT/dev --testpref $TEXT/test \
-#     --destdir $(pwd)/data-bin/${DATASET}-${P_LABEL}-${G_LABEL} \
-#     --workers 20
-
-project=transformer_iwslt_de_en-${DATASET}-text2unit-hubert_l6-${G_LABEL}-${P_LABEL}-v2
-save_dir=$(pwd)/outputs/${project}
+name="ljspeech_hubert200"
+project=transformer_iwslt_de_en-${name}
+fairseq_root="/home/junkaiwu/fairseq-0.12.2"
+t2u_dir="/home/junkaiwu/ECE537_Project/text2unit_fairseq"
+save_dir="/nobackup/users/junkaiwu/outputs/t2u/${project}"
 mkdir -p ${save_dir}
-DATA=data-bin/aishell3-g2p-unit2text-hubert_l6_${P_LABEL}
-# save_dir=$(pwd)/outputs/transformer_iwslt_de_en-${DATASET}
 
 srun --gres=gpu:4 --ntasks=1 fairseq-train \
-    ${DATA} \
+    ${t2u_dir}/data-bin/${name} \
     --distributed-world-size 4 --fp16 \
     --save-dir ${save_dir} --log-file ${save_dir}/train.log --log-format json \
     --arch transformer_iwslt_de_en --share-decoder-input-output-embed \
@@ -78,9 +67,9 @@ srun --gres=gpu:4 --ntasks=1 fairseq-train \
     --criterion label_smoothed_cross_entropy --label-smoothing 0.1 --skip-invalid-size-inputs-valid-test \
     --max-tokens 4096 \
     --eval-bleu \
-    --eval-bleu-args "{\"beam\": 5, \"max_len_a\": ${MAX_LEN_A}, \"max_len_b\": 10}" \
+    --eval-bleu-args "{\"beam\": 5, \"max_len_a\": 10, \"max_len_b\": 5}" \
     --eval-bleu-detok moses \
     --eval-bleu-remove-bpe \
     --eval-bleu-print-samples \
-	--save-interval-updates 10000 --keep-interval-updates 1 --no-epoch-checkpoints \
+	--save-interval-updates 10000 --keep-interval-updates 5 \
     --best-checkpoint-metric bleu --maximize-best-checkpoint-metric --wandb-project ${project}
