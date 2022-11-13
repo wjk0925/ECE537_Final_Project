@@ -1,11 +1,11 @@
 #!/bin/bash
-#SBATCH -J t2u
-#SBATCH -o t2u_%j.%N.out
-#SBATCH -e t2u_%j.%N.err
+#SBATCH -J t2u_eval
+#SBATCH -o t2u_eval_%j.%N.out
+#SBATCH -e t2u_eval_%j.%N.err
 #SBATCH --mail-user=junkaiwu@mit.edu
 #SBATCH --mail-type=ALL
-#SBATCH --gres=gpu:4
-#SBATCH --gpus-per-node=4
+#SBATCH --gres=gpu:1
+#SBATCH --gpus-per-node=1
 #SBATCH --nodes=1
 #SBATCH --ntasks-per-node=1
 #SBATCH --time=24:00:00
@@ -57,23 +57,21 @@ project=transformer_iwslt_de_en-${name}
 fairseq_root="/home/junkaiwu/fairseq-0.12.2"
 t2u_dir="/home/junkaiwu/ECE537_Final_Project/text2unit_fairseq"
 save_dir="/nobackup/users/junkaiwu/outputs/t2u/${project}"
-mkdir -p ${save_dir}
 
-srun --gres=gpu:4 --ntasks=1 fairseq-train \
-    ${t2u_dir}/data-bin/${name} \
-    --distributed-world-size 4 --fp16 \
-    --save-dir ${save_dir} --log-file ${save_dir}/train.log --log-format json \
-    --arch transformer_iwslt_de_en --share-decoder-input-output-embed \
-    --optimizer adam --adam-betas '(0.9, 0.98)' --clip-norm 0.0 \
-    --lr 5e-4 --lr-scheduler inverse_sqrt --warmup-updates 4000 \
-    --dropout 0.3 --weight-decay 0.0001 \
-    --criterion label_smoothed_cross_entropy --label-smoothing 0.1 --skip-invalid-size-inputs-valid-test \
-    --max-tokens 4096 \
-    --eval-bleu \
-    --eval-bleu-args "{\"beam\": 5, \"max_len_a\": 10, \"max_len_b\": 5}" \
-    --eval-bleu-detok moses \
-    --eval-bleu-remove-bpe \
-    --eval-bleu-print-samples \
-	--keep-last-epochs 5 --keep-best-checkpoints 10 \
-    --patience 30 \
-    --best-checkpoint-metric bleu --maximize-best-checkpoint-metric --wandb-project ${project}
+ckpts=( 26 )
+beams=( 5 )
+
+for i in ${!ckpts[@]}; do
+    ckpt=${ckpts[$i]}
+    for j in ${!beams[@]}; do
+        beam=${beams[$i]}
+        srun --gres=gpu:1 --ntasks=1 fairseq-generate ${t2u_dir}/data-bin/${name} \
+            --path ${save_dir}/checkpoint${ckpt}.pt \
+            --batch-size 128 --beam ${beam} --remove-bpe
+    
+    done
+done
+
+
+
+
