@@ -3,7 +3,7 @@ name="ljspeech_hubert200_noisy_v1"
 . parse_options.sh || exit 1;
 
 
-fairseq-preprocess --source-lang unit --target-lang char \
+fairseq-preprocess --source-lang char --target-lang unit \
     --trainpref /home/junkaiwu/ECE537_Final_Project/text2unit_fairseq/data/${name}/train \
     --validpref /home/junkaiwu/ECE537_Final_Project/text2unit_fairseq/data/${name}/val \
     --testpref /home/junkaiwu/ECE537_Final_Project/text2unit_fairseq/data/${name}/test \

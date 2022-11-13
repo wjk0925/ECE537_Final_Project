@@ -17,12 +17,15 @@
 #SBATCH --exclude=node0013,node0010,node0020,node0039,node0040
 
 ## User python environment
-PYTHON_VIRTUAL_ENVIRONMENT=fairseq3
-CONDA_ROOT=/nobackup/users/junkaiwu/anaconda3
+## PYTHON_VIRTUAL_ENVIRONMENT=babblenet
+## CONDA_ROOT=/nobackup/users/junkaiwu/anaconda3
 
 ## Activate WMLCE virtual environment
-source ${CONDA_ROOT}/etc/profile.d/conda.sh
-conda activate $PYTHON_VIRTUAL_ENVIRONMENT
+## source ${CONDA_ROOT}/etc/profile.d/conda.sh
+## conda activate $PYTHON_VIRTUAL_ENVIRONMENT
+
+source /nobackup/users/heting/espnet/tools/conda/bin/../etc/profile.d/conda.sh
+conda activate babblenet # change it to your conda environment
 
 ulimit -s unlimited
 
@@ -52,7 +55,7 @@ date
 name="ljspeech_hubert200"
 project=transformer_iwslt_de_en-${name}
 fairseq_root="/home/junkaiwu/fairseq-0.12.2"
-t2u_dir="/home/junkaiwu/ECE537_Project/text2unit_fairseq"
+t2u_dir="/home/junkaiwu/ECE537_Final_Project/text2unit_fairseq"
 save_dir="/nobackup/users/junkaiwu/outputs/t2u/${project}"
 mkdir -p ${save_dir}
 
