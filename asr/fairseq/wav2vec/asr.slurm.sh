@@ -52,14 +52,14 @@ lexicon_path="/home/junkaiwu/workspace/ulm_eval/models/asr/lexicon_ltr.lst"
 
 roots=( "/nobackup/users/junkaiwu/outputs/hubert_tacotron_unit2speech/preds_26_5/16k" "/nobackup/users/junkaiwu/outputs/hubert_tacotron_unit2speech/preds_31_5/16k" "/nobackup/users/junkaiwu/outputs/hubert_tacotron_unit2speech/preds_40_5/16k" )
 
-manifest_dir="${root}/manifest"
-results_dir="${root}/asr_outputs"
-
-mkdir -p ${manifest_dir}
-cp ${dict_path} ${manifest_dir}
-
 for i in ${!roots[@]}; do
     root=${roots[$i]}
+
+    manifest_dir="${root}/manifest"
+    results_dir="${root}/asr_outputs"
+
+    mkdir -p ${manifest_dir}
+    cp ${dict_path} ${manifest_dir}
 
     srun --ntasks=1 --exclusive --gres=gpu:1 --mem=200G -c 16 python generate_manifest.py --root ${root} --transcription_path /home/junkaiwu/ECE537_Final_Project/datasets/LJSpeech/ljspeech.json --dict_path dict.ltr.txt
 
