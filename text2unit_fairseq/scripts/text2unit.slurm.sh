@@ -53,27 +53,29 @@ echo " Run started at:- "
 date
 
 name="ljspeech_hubert200"
-project=transformer_iwslt_de_en-${name}
+arch="transformer_iwslt_de_en"
+clip-norm=0.0
+lr=5e-4
+warmup-updates=4000
+dropout=0.3
+project=${arch}-${name}
 fairseq_root="/home/junkaiwu/fairseq-0.12.2"
 t2u_dir="/home/junkaiwu/ECE537_Final_Project/text2unit_fairseq"
-save_dir="/nobackup/users/junkaiwu/outputs/t2u/${project}"
+save_dir="${t2u_dir}/outputs/${project}"
 mkdir -p ${save_dir}
 
 srun --gres=gpu:4 --ntasks=1 fairseq-train \
     ${t2u_dir}/data-bin/${name} \
     --distributed-world-size 4 --fp16 \
     --save-dir ${save_dir} --log-file ${save_dir}/train.log --log-format json \
-    --arch transformer_iwslt_de_en --share-decoder-input-output-embed \
-    --optimizer adam --adam-betas '(0.9, 0.98)' --clip-norm 0.0 \
+    --arch ${arch} --share-decoder-input-output-embed \
+    --optimizer adam --adam-betas '(0.9, 0.98)' --clip-norm ${clip_norm} \
     --lr 5e-4 --lr-scheduler inverse_sqrt --warmup-updates 4000 \
-    --dropout 0.3 --weight-decay 0.0001 \
+    --dropout ${dropout} --weight-decay 0.0001 \
     --criterion label_smoothed_cross_entropy --label-smoothing 0.1 --skip-invalid-size-inputs-valid-test \
     --max-tokens 4096 \
     --eval-bleu \
     --eval-bleu-args "{\"beam\": 5, \"max_len_a\": 10, \"max_len_b\": 5}" \
-    --eval-bleu-detok moses \
-    --eval-bleu-remove-bpe \
-    --eval-bleu-print-samples \
-	--keep-last-epochs 5 --keep-best-checkpoints 10 \
+	--keep-last-epochs 1 --keep-best-checkpoints 20 \
     --patience 30 \
     --best-checkpoint-metric bleu --maximize-best-checkpoint-metric --wandb-project ${project}
