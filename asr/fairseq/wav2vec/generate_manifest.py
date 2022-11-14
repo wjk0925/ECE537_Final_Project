@@ -74,9 +74,22 @@ def main(args):
                 "{}\t{}".format(os.path.relpath(file_path, dir_path), frames), file=dest
             )
             
-            audio_name = os.path.basename(filename).strip("wav")
+            audio_name = os.path.basename(file_path).strip(".wav")
             text = transcription_dict[audio_name]["char"]
-            char = text.replace(" ", "|")
+            processed_text = ""
+            for c in text:
+                if c == " ":
+                    processed_text += c
+                elif c in vocab:
+                    processed_text += c
+                elif c.lower() in vocab:
+                    processed_text += c.lower()
+                elif c.upper() in vocab:
+                    processed_text += c.upper()
+                else:
+                    continue
+
+            char = processed_text.replace(" ", "|")
             char = (" ").join(char)
 
             test_ltr.write(char + "\n")
