@@ -58,12 +58,17 @@ results_dir="${root}/asr_outputs"
 mkdir -p ${manifest_dir}
 cp ${dict_path} ${manifest_dir}
 
-srun --ntasks=1 --exclusive --gres=gpu:1 --mem=200G -c 16 python generate_manifest.py --root ${root} --transcription_path /home/junkaiwu/ECE537_Project/datasets/LJSpeech/ljspeech.json --dict_path dict.ltr.txt
+for i in ${!roots[@]}; do
+    root=${roots[$i]}
 
-srun --ntasks=1 --exclusive --gres=gpu:1 --mem=200G -c 16 python ${FAIRSEQ_ROOT}/examples/speech_recognition/infer.py  \
-    ${manifest_dir} \
-    --task audio_finetuning --nbest 1 --path ${wav2vec_path} \
-    --gen-subset=test --results-path ${results_dir} \
-    --w2l-decoder kenlm --lm-model ${lm_path} \
-    --lexicon ${lexicon_path} --word-score -1 \
-    --sil-weight 0 --lm-weight 2 --criterion ctc --labels ltr --max-tokens 600000 --remove-bpe letter | tee ${results_dir}/data-bin/tee_results.txt
+    srun --ntasks=1 --exclusive --gres=gpu:1 --mem=200G -c 16 python generate_manifest.py --root ${root} --transcription_path /home/junkaiwu/ECE537_Project/datasets/LJSpeech/ljspeech.json --dict_path dict.ltr.txt
+
+    srun --ntasks=1 --exclusive --gres=gpu:1 --mem=200G -c 16 python ${FAIRSEQ_ROOT}/examples/speech_recognition/infer.py  \
+        ${manifest_dir} \
+        --task audio_finetuning --nbest 1 --path ${wav2vec_path} \
+        --gen-subset=test --results-path ${results_dir} \
+        --w2l-decoder kenlm --lm-model ${lm_path} \
+        --lexicon ${lexicon_path} --word-score -1 \
+        --sil-weight 0 --lm-weight 2 --criterion ctc --labels ltr --max-tokens 600000 --remove-bpe letter | tee ${results_dir}/data-bin/tee_results.txt
+
+done
