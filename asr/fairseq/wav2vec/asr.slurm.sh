@@ -50,7 +50,7 @@ wav2vec_path="/home/junkaiwu/workspace/ulm_eval/models/asr/wav2vec_big_960h.pt"
 lm_path="/home/junkaiwu/workspace/ulm_eval/models/asr/4-gram.bin"
 lexicon_path="/home/junkaiwu/workspace/ulm_eval/models/asr/lexicon_ltr.lst"
 
-roots=( "/nobackup/users/junkaiwu/outputs/hubert_tacotron_unit2speech/preds_26_5/16k" "/nobackup/users/junkaiwu/outputs/hubert_tacotron_unit2speech/preds_31_5/16k" "/nobackup/users/junkaiwu/outputs/hubert_tacotron_unit2speech/preds_40_5/16k" )
+roots=( "/nobackup/users/junkaiwu/data/LJSpeech-1.1/test" )
 
 for i in ${!roots[@]}; do
     root=${roots[$i]}
