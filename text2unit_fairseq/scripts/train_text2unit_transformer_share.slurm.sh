@@ -51,8 +51,8 @@ t2u_dir="/home/junkaiwu/ECE537_Final_Project/text2unit_fairseq"
 
 # change these
 dataset="ljspeech_hubert200"
-dropouts=( 0.1 0.3 )
-max_tokenss=( 8192 4096 )
+dropouts=( 0.3 0.1 )
+max_tokenss=( 4096 8192 )
 validation_interval=16
 patience=15
 
