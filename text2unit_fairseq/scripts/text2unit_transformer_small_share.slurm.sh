@@ -54,7 +54,7 @@ dataset="ljspeech_hubert200"
 dropouts=( 0.1 )
 max_tokenss=( 8192 )
 validation_interval=3
-patience=2
+patience=1
 
 max_epochs=()
 for ii in {1..20}
@@ -73,12 +73,10 @@ for i in ${!dropouts[@]}; do
         mkdir -p ${project_dir}
 
         stop_training_file="${project_dir}/stop_training.txt"
+        echo ${stop_training_file}
 
         for k in ${!max_epochs[@]}; do
             max_epoch=${max_epochs[$k]}
-
-            source /nobackup/users/heting/espnet/tools/conda/bin/../etc/profile.d/conda.sh
-            conda activate babblenet # change it to your conda environment
 
             if [ -f "$stop_training_file" ]; then
             	echo "stop training!"
