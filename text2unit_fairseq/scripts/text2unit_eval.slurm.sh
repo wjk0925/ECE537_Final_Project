@@ -58,8 +58,8 @@ fairseq_root="/home/junkaiwu/fairseq-0.12.2"
 t2u_dir="/home/junkaiwu/ECE537_Final_Project/text2unit_fairseq"
 save_dir="/nobackup/users/junkaiwu/outputs/t2u/${project}"
 
-ckpts=( 26 40 31 24 28 37 45 )
-beams=( 1 3 5 )
+ckpts=( 26 40 31 )
+beams=( 5 )
 
 for i in ${!ckpts[@]}; do
     ckpt=${ckpts[$i]}
@@ -67,7 +67,7 @@ for i in ${!ckpts[@]}; do
         beam=${beams[$j]}
         srun --gres=gpu:1 --ntasks=1 fairseq-generate ${t2u_dir}/data-bin/${name} \
             --path ${save_dir}/checkpoint${ckpt}.pt \
-            --batch-size 128 --beam ${beam} --max-len-a 20 --max-len-b 5 | tee ${t2u_dir}/data-bin/${name}/results_${ckpt}_${beam}.txt
+            --batch-size 128 --beam ${beam} --max-len-a 20 --max-len-b 5 --score wer | tee ${t2u_dir}/data-bin/${name}/results_${ckpt}_${beam}.txt
     
     done
 done

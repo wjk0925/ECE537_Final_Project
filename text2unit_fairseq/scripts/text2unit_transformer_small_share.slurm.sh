@@ -40,6 +40,9 @@ echo ""
 echo " Run started at:- "
 date
 
+source /nobackup/users/heting/espnet/tools/conda/bin/../etc/profile.d/conda.sh
+conda activate babblenet
+
 # fixed
 arch="transformer_iwslt_de_en"
 lr=5e-4
@@ -61,7 +64,7 @@ done
 
 for i in ${!dropouts[@]}; do
     dropout=${dropouts[$i]}
-    for j in ${!max_tokens[@]}; do
+    for j in ${!max_tokenss[@]}; do
         max_tokens=${max_tokenss[$j]}
 
         project=${arch}-dataset_${dataset}-dropout_${dropout}-max_tokens_${max_tokens}-share
@@ -78,7 +81,7 @@ for i in ${!dropouts[@]}; do
             conda activate babblenet # change it to your conda environment
 
             if [ -f "$stop_training_file" ]; then
-                echo "stop training!"
+            	echo "stop training!"
             else
                 srun --gres=gpu:4 --ntasks=1 fairseq-train \
                     ${t2u_dir}/data-bin/${dataset} \
@@ -87,19 +90,22 @@ for i in ${!dropouts[@]}; do
                     --arch ${arch} --share-decoder-input-output-embed \
                     --optimizer adam --adam-betas '(0.9, 0.98)' \
                     --lr ${lr} --lr-scheduler inverse_sqrt --warmup-updates ${warmup_updates} \
-                    --dropout ${dropout} --attention_dropout ${attention_dropout} --weight-decay 0.0001 \
+                    --dropout ${dropout} --weight-decay 0.0001 \
                     --criterion label_smoothed_cross_entropy --label-smoothing 0.1 \
-                    --max-tokens ${max_tokens} --max_epoch ${max_epoch} --validate-interval 99999 \
+                    --max-tokens ${max_tokens} --max-epoch ${max_epoch} --validate-interval 99999 \
                     --wandb-project ${project}
+		
+		sleep 10
 
                 for (( epoch=$((max_epoch-validation_interval+1)); epoch<=$max_epoch; epoch++ ))
-                do 
-                    ./eval_t2u.sh --project_dir ${project_dir} --epoch ${epoch} --gen_subset valid --dataset ${dataset} --t2u_dir ${t2u_dir}
+                do
+			echo "evaluating epoch${epoch}"
+                	./eval_t2u.sh --project_dir ${project_dir} --epoch ${epoch} --gen_subset valid --dataset ${dataset} --t2u_dir ${t2u_dir}
                 done
 
                 srun --gres=gpu:1 --ntasks=1 --mem=200G -c 16 python ${t2u_dir}/check_early_stop.py \
                     --patience ${patience} \
-                    --metric_path ${project_dir}/${gen_subset}_uer.txt
+                    --metric_path ${project_dir}/valid_uer.txt
             fi
             
         done
