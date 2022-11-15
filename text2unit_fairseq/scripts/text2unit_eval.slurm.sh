@@ -67,7 +67,11 @@ for i in ${!ckpts[@]}; do
         beam=${beams[$j]}
         srun --gres=gpu:1 --ntasks=1 fairseq-generate ${t2u_dir}/data-bin/${name} \
             --path ${save_dir}/checkpoint${ckpt}.pt \
-            --batch-size 128 --beam ${beam} --max-len-a 20 --max-len-b 5 --score wer | tee ${t2u_dir}/data-bin/${name}/results_${ckpt}_${beam}.txt
+            --batch-size 128 --beam ${beam} --max-len-a 20 --max-len-b 5 --scoring wer | tee ${t2u_dir}/data-bin/${name}/results_${ckpt}_${beam}.txt
+            
+        srun --gres=gpu:1 --ntasks=1 fairseq-generate ${t2u_dir}/data-bin/${name} \
+            --path ${save_dir}/checkpoint${ckpt}.pt \
+            --batch-size 128 --beam ${beam} --max-len-a 20 --max-len-b 5 --scoring wer --fp16 | tee ${t2u_dir}/data-bin/${name}/results_${ckpt}_${beam}_fp16.txt
     
     done
 done
