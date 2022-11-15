@@ -1,7 +1,7 @@
 #!/bin/bash
-#SBATCH -J t2u
-#SBATCH -o t2u_%j.%N.out
-#SBATCH -e t2u_%j.%N.err
+#SBATCH -J t2u_transformer
+#SBATCH -o t2u_transformer_%j.%N.out
+#SBATCH -e t2u_transformer_%j.%N.err
 #SBATCH --mail-user=junkaiwu@mit.edu
 #SBATCH --mail-type=ALL
 #SBATCH --gres=gpu:4
@@ -14,15 +14,6 @@
 #SBATCH --cpus-per-task=16
 #SBATCH --mem=0
 #SBATCH --exclusive
-#SBATCH --exclude=node0013,node0010,node0020,node0039,node0040
-
-## User python environment
-## PYTHON_VIRTUAL_ENVIRONMENT=babblenet
-## CONDA_ROOT=/nobackup/users/junkaiwu/anaconda3
-
-## Activate WMLCE virtual environment
-## source ${CONDA_ROOT}/etc/profile.d/conda.sh
-## conda activate $PYTHON_VIRTUAL_ENVIRONMENT
 
 source /nobackup/users/heting/espnet/tools/conda/bin/../etc/profile.d/conda.sh
 conda activate babblenet # change it to your conda environment
@@ -52,30 +43,32 @@ echo ""
 echo " Run started at:- "
 date
 
-name="ljspeech_hubert200"
-arch="transformer_iwslt_de_en"
-clip-norm=0.0
+# fixed
+arch="transformer_wmt_en_de"
 lr=5e-4
-warmup-updates=4000
-dropout=0.3
-project=${arch}-${name}
-fairseq_root="/home/junkaiwu/fairseq-0.12.2"
+warmup_updates=4000
 t2u_dir="/home/junkaiwu/ECE537_Final_Project/text2unit_fairseq"
+
+# change these
+dataset="ljspeech_hubert200"
+dropouts=( 0.1 0.3 )
+attention_dropouts=( 0.0 0.1 )
+max_tokens=( 4096 8192 )
+
+
+project=${arch}-dataset_${dataset}-dropout_${dropout}-attention_dropout_${attention_dropout}-share
+
 save_dir="${t2u_dir}/outputs/${project}"
 mkdir -p ${save_dir}
 
 srun --gres=gpu:4 --ntasks=1 fairseq-train \
-    ${t2u_dir}/data-bin/${name} \
+    ${t2u_dir}/data-bin/${dataset} \
     --distributed-world-size 4 --fp16 \
     --save-dir ${save_dir} --log-file ${save_dir}/train.log --log-format json \
     --arch ${arch} --share-decoder-input-output-embed \
-    --optimizer adam --adam-betas '(0.9, 0.98)' --clip-norm ${clip_norm}q \
-    --lr 5e-4 --lr-scheduler inverse_sqrt --warmup-updates 4000 \
-    --dropout ${dropout} --weight-decay 0.0001 \
-    --criterion label_smoothed_cross_entropy --label-smoothing 0.1 --skip-invalid-size-inputs-valid-test \
-    --max-tokens 4096 \
-    --eval-bleu \
-    --eval-bleu-args "{\"beam\": 5, \"max_len_a\": 10, \"max_len_b\": 5}" \
-	--keep-last-epochs 1 --keep-best-checkpoints 20 \
-    --patience 30 \
-    --best-checkpoint-metric bleu --maximize-best-checkpoint-metric --wandb-project ${project}
+    --optimizer adam --adam-betas '(0.9, 0.98)' --clip-norm 0.0 \
+    --lr ${lr} --lr-scheduler inverse_sqrt --warmup-updates ${warmup_updates} \
+    --dropout ${dropout} --attention_dropout ${attention_dropout} --weight-decay 0.0001 \
+    --criterion label_smoothed_cross_entropy --label-smoothing 0.1 \
+    --max-tokens ${max_tokens} --max_epoch ${max_epoch} --validate-interval 99999 \
+    --wandb-project ${project}
