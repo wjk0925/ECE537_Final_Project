@@ -59,7 +59,6 @@ waveglow_path="${models_path}/waveglow_256channels_new.pt"
 sigma=0.666
 denoiser_strength=0.1
 
-vocab_size=200
 endding="" 
 split="test"
 
