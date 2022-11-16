@@ -51,13 +51,13 @@ t2u_dir="/home/junkaiwu/ECE537_Final_Project/text2unit_fairseq"
 
 # change these
 dataset="ljspeech_hubert200"
-dropouts=( 0.3 0.1 )
-max_tokenss=( 4096 8192 )
-validation_interval=16
-patience=15
+dropouts=( 0.3 )
+max_tokenss=( 4096 )
+validation_interval=25
+patience=24
 
 max_epochs=()
-for ii in {1..30}
+for ii in {1..20}
 do
    max_epochs[${#max_epochs[@]}]=$((validation_interval*ii))
 done
