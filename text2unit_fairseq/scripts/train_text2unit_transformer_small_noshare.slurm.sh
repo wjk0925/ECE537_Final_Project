@@ -67,7 +67,7 @@ for i in ${!dropouts[@]}; do
     for j in ${!max_tokenss[@]}; do
         max_tokens=${max_tokenss[$j]}
 
-        project=${arch}-dataset_${dataset}-dropout_${dropout}-max_tokens_${max_tokens}-share
+        project=${arch}-dataset_${dataset}-dropout_${dropout}-max_tokens_${max_tokens}
 
         project_dir="${t2u_dir}/outputs/${project}"
         mkdir -p ${project_dir}
