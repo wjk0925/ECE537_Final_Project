@@ -11,7 +11,7 @@ def main(args):
     else:
         split = "train"
 
-    w_f = open(f"/home/junkaiwu/ECE537_Final_Project/datasets/LibriTTS/hubert/{split}200.txt", "a")
+    w_f = open(f"/home/junkaiwu/ECE537_Final_Project/datasets/LibriTTS/hubert/{split}.txt", "a")
 
     for audio in glob.glob(f"{args.libritts_dir}/{args.split}/*/*/*.wav"):
         utterance_dict = {}
