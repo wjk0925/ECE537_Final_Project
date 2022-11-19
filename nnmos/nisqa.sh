@@ -1,6 +1,6 @@
 #!/bin/bash
 nisqa_dir="/u/junkaiwu/NISQA"
-data_dirs=( "/scratch/bbmx/junkaiwu/data/LJSpeech_Noisy_1/test" )
+data_dirs=( "/u/junkaiwu/speech-resynthesis/generations/lj_hubert200_004600000" "/u/junkaiwu/speech-resynthesis/generations/lj_hubert100_00500000_released" )
 . parse_options.sh || exit 1;
 
 for i in ${!data_dirs[@]}; do

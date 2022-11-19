@@ -51,8 +51,8 @@ def main():
     out_dir = Path(args.outdir)
 
     pad_data_ = partial(pad_data, out_dir=out_dir, trim=args.trim, pad=args.pad)
-    with Pool(10) as p:
-        rets = list(tqdm(p.imap(pad_data_, files), total=len(files)))
+    for f in tqdm(files):
+        pad_data_(p=f)
 
 
 if __name__ == '__main__':
