@@ -8,7 +8,7 @@
 #SBATCH --gpus-per-node=4
 #SBATCH --nodes=1
 #SBATCH --ntasks-per-node=1
-#SBATCH --time=24:00:00
+#SBATCH --time=8:00:00
 #SBATCH --wait-all-nodes=1
 #SBATCH --qos=sched_level_2
 #SBATCH --cpus-per-task=16
@@ -50,7 +50,7 @@ warmup_updates=4000
 t2u_dir="/home/junkaiwu/ECE537_Final_Project/text2unit_fairseq"
 
 # change these
-dataset="ljspeech_hubert200"
+dataset="ljspeech_hubert100"
 dropouts=( 0.3 )
 max_tokenss=( 4096 )
 validation_interval=25
