@@ -50,7 +50,9 @@ wav2vec_path="/home/junkaiwu/workspace/ulm_eval/models/asr/wav2vec_big_960h.pt"
 lm_path="/home/junkaiwu/workspace/ulm_eval/models/asr/4-gram.bin"
 lexicon_path="/home/junkaiwu/workspace/ulm_eval/models/asr/lexicon_ltr.lst"
 
-roots=( "/nobackup/users/junkaiwu/data/LJSpeech-1.1/test" )
+roots=( "/nobackup/users/junkaiwu/outputs/hubert_hifigan_unit2speech/test100_reconstruct_500000released" "/nobackup/users/junkaiwu/outputs/hubert_hifigan_unit2speech/test200_reconstruct_480000" "/nobackup/users/junkaiwu/outputs/hubert_hifigan_unit2speech/test200_reconstruct_500000" "/nobackup/users/junkaiwu/outputs/hubert_tacotron_unit2speech/test100_reconstruct/16k" "/nobackup/users/junkaiwu/outputs/hubert_tacotron_unit2speech/test200_reconstruct/16k")
+
+nnmos_dir="/home/junkaiwu/ECE537_Final_Project/nnmos"
 
 for i in ${!roots[@]}; do
     root=${roots[$i]}
@@ -69,6 +71,8 @@ for i in ${!roots[@]}; do
         --gen-subset=test --results-path ${results_dir} \
         --w2l-decoder kenlm --lm-model ${lm_path} \
         --lexicon ${lexicon_path} --word-score -1 \
-        --sil-weight 0 --lm-weight 2 --criterion ctc --labels ltr --max-tokens 600000 --remove-bpe letter | tee ${manifest_dir}/data-bin/tee_results.txt
+        --sil-weight 0 --lm-weight 2 --criterion ctc --labels ltr --max-tokens 600000 --remove-bpe letter
+
+    srun --ntasks=1 --exclusive --gres=gpu:1 --mem=200G -c 16 ${nnmos_dir}/nisqa.sh --nisqa_dir "/home/junkaiwu/NISQA"
 
 done
