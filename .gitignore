@@ -19,3 +19,4 @@ Untitled.ipynb
 *.pt
 **/outputs
 **/.DS_Store
+**/models
