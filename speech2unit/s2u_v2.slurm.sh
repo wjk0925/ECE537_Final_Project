@@ -15,7 +15,7 @@
 #SBATCH --mem=0
 
 ## User python environment
-PYTHON_VIRTUAL_ENVIRONMENT=babblenet2
+PYTHON_VIRTUAL_ENVIRONMENT=fairseq3
 CONDA_ROOT=/nobackup/users/junkaiwu/anaconda3
 
 ## Activate WMLCE virtual environment
@@ -47,13 +47,6 @@ echo ""
 echo " Run started at:- "
 date
 
-CUR_DIR="/nobackup/users/junkaiwu/diffwave/speech2unit"
-
-TYPE="hubert"
-ext=".wav"
-LAYER=6
-CKPT_PATH="/nobackup/users/junkaiwu/diffwave/speech2unit/models/hubert_base_ls960.pt"
-
 vocab_sizes=( 100 200 )
 data_dirs=( "/nobackup/users/junkaiwu/data/LibriTTS/LibriTTS/train-clean-100-wavs16khz" "/nobackup/users/junkaiwu/data/LibriTTS/LibriTTS/train-clean-100-wavs16khz-val" "/nobackup/users/junkaiwu/data/LibriTTS/LibriTTS/train-clean-100-wavs16khz-test" ) 
 
@@ -65,7 +58,7 @@ for i in ${!vocab_sizes[@]}; do
 
         data_dir=${data_dirs[$j]}
 
-        ./s2u.sh --data_dir ${data_dir} --TYPE hubert --vocab_size ${vocab_size} --ext .wav --LAYER 6 --CKPT_PATH /nobackup/users/junkaiwu/diffwave/speech2unit/models/hubert_base_ls960.pt
+        ./s2u.sh --data_dir ${data_dir} --TYPE hubert --vocab_size ${vocab_size} --ext .wav --LAYER 6
     
     done
 done
