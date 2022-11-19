@@ -5,7 +5,7 @@ from argparse import ArgumentParser
 
 if __name__ == '__main__':
     parser = ArgumentParser()
-    parser.add_argument("--num_epochs", type=int)
+    parser.add_argument("--num_ckpts", type=int)
     parser.add_argument("--metric_path", required=True)
     args = parser.parse_args()
 
@@ -16,9 +16,9 @@ if __name__ == '__main__':
 
     metrics = [float(metrics_dict[epoch]) for epoch in metrics_dict]
 
-    best_epochs = np.argsort(metrics)[:args.num_epochs] + 1
+    best_ckpts = np.argsort(metrics)[:args.num_ckpts] + 1
 
-    for i, e in enumerate(best_epochs):
+    for i, e in enumerate(best_ckpts):
         project_dir = dirname(args.metric_path)
         link_path = f"{project_dir}/checkpoint_best_{i+1}.pt"
         os.system(f"ln -s {project_dir}/checkpoint{e}.pt {link_path}")
