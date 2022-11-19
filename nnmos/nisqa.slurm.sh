@@ -49,7 +49,7 @@ echo " Run started at:- "
 date
 
 data_dirs=( "/nobackup/users/junkaiwu/outputs/hubert_hifigan_unit2speech/test100_reconstruct_500000released" "/nobackup/users/junkaiwu/outputs/hubert_hifigan_unit2speech/test200_reconstruct_480000" "/nobackup/users/junkaiwu/outputs/hubert_hifigan_unit2speech/test200_reconstruct_500000" "/nobackup/users/junkaiwu/outputs/hubert_tacotron_unit2speech/test100_reconstruct/16k" "/nobackup/users/junkaiwu/outputs/hubert_tacotron_unit2speech/test200_reconstruct/16k")
-nisqa_dir="/u/junkaiwu/NISQA"
+nisqa_dir="/home/junkaiwu/NISQA"
 
 for i in ${!data_dirs[@]}; do
     data_dir=${data_dirs[$i]}
