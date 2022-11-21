@@ -64,7 +64,7 @@ for i in ${!projects[@]}; do
             beam=${beams[$k]}
 
             srun --gres=gpu:1 --ntasks=1 --mem=200G -c 16 fairseq-generate ${t2u_dir}/data-bin/${dataset} \
-                --path ${project_dir}/checkpoint_best_{ckpt}.pt --gen-subset test --batch-size 128 --beam ${beam} \
+                --path ${project_dir}/checkpoint_best_${ckpt}.pt --gen-subset test --batch-size 128 --beam ${beam} \
                 --max-len-a 20 --max-len-b 5 --scoring wer --fp16 | tee ${project_dir}/units_best_ckpt_${ckpt}_test_beam${beam}.txt
         done
     done
