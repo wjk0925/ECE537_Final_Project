@@ -50,9 +50,10 @@ wav2vec_path="/home/junkaiwu/workspace/ulm_eval/models/asr/wav2vec_big_960h.pt"
 lm_path="/home/junkaiwu/workspace/ulm_eval/models/asr/4-gram.bin"
 lexicon_path="/home/junkaiwu/workspace/ulm_eval/models/asr/lexicon_ltr.lst"
 
-roots=( "/nobackup/users/junkaiwu/outputs/hubert_hifigan_unit2speech/test100_reconstruct_500000released" "/nobackup/users/junkaiwu/outputs/hubert_hifigan_unit2speech/test200_reconstruct_480000" "/nobackup/users/junkaiwu/outputs/hubert_hifigan_unit2speech/test200_reconstruct_500000" "/nobackup/users/junkaiwu/outputs/hubert_tacotron_unit2speech/test100_reconstruct/16k" "/nobackup/users/junkaiwu/outputs/hubert_tacotron_unit2speech/test200_reconstruct/16k")
+roots=( "/nobackup/users/junkaiwu/data/LibriTTS/LibriTTS/train-clean-100-wavs16khz-test" "/home/junkaiwu/ECE537_Final_Project/datasets/LibriTTS_train-clean-100/hubert/outputs/test100_tacotron_reconstruction/16k" "/home/junkaiwu/ECE537_Final_Project/datasets/LibriTTS_train-clean-100/hubert/outputs/test200_tacotron_reconstruction/16k" "/home/junkaiwu/ECE537_Final_Project/datasets/LibriTTS_train-clean-100/hubert/outputs/test100_hifigan_reconstruction" "/home/junkaiwu/ECE537_Final_Project/datasets/LibriTTS_train-clean-100/hubert/outputs/test200_hifigan_reconstruction" )
 
 nnmos_dir="/home/junkaiwu/ECE537_Final_Project/nnmos"
+transcription_path="/home/junkaiwu/ECE537_Final_Project/datasets/LibriTTS_train-clean-100/libritts.json"
 
 for i in ${!roots[@]}; do
     root=${roots[$i]}
@@ -63,7 +64,7 @@ for i in ${!roots[@]}; do
     mkdir -p ${manifest_dir}
     cp ${dict_path} ${manifest_dir}
 
-    srun --ntasks=1 --exclusive --gres=gpu:1 --mem=200G -c 16 python generate_manifest.py --root ${root} --transcription_path /home/junkaiwu/ECE537_Final_Project/datasets/LJSpeech/ljspeech.json --dict_path dict.ltr.txt
+    srun --ntasks=1 --exclusive --gres=gpu:1 --mem=200G -c 16 python generate_manifest.py --root ${root} --transcription_path ${transcription_path} --dict_path dict.ltr.txt
 
     srun --ntasks=1 --exclusive --gres=gpu:1 --mem=200G -c 16 python ${FAIRSEQ_ROOT}/examples/speech_recognition/infer.py  \
         ${manifest_dir} \
