@@ -45,11 +45,13 @@ date
 
 t2u_dir="/home/junkaiwu/ECE537_Final_Project/text2unit_fairseq"
 projects=( "transformer_iwslt_de_en-dataset_ljspeech_hubert200-dropout_0.3-max_tokens_4096-share" "transformer_iwslt_de_en-dataset_ljspeech_hubert100-dropout_0.3-max_tokens_4096-share" )
+datasets=( "ljspeech_hubert200" "ljspeech_hubert100" )
 num_ckpts=5
 beams=( 1 3 5 7 )
 
 for i in ${!projects[@]}; do
     project=${projects[$i]}
+    dataset=${datasets[$i]}
     project_dir="${t2u_dir}/outputs/${project}"
     #### Get the ckpts to evaluate from valid_uer.txt
     srun --gres=gpu:1 --ntasks=1 --mem=200G -c 16 python ${t2u_dir}/best_ckpts.py \
