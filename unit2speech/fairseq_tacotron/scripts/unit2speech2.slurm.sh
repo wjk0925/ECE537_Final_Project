@@ -62,10 +62,15 @@ t2u_dir="/home/junkaiwu/ECE537_Final_Project/text2unit_fairseq"
 
 quantized_unit_paths=( "/home/junkaiwu/ECE537_Final_Project/datasets/LibriTTS_train-clean-100/hubert/test100.txt" "/home/junkaiwu/ECE537_Final_Project/datasets/LibriTTS_train-clean-100/hubert/test200.txt" )
 out_dirs=( "/home/junkaiwu/ECE537_Final_Project/datasets/LibriTTS_train-clean-100/hubert/outputs/test100_tacotron_reconstruction" "/home/junkaiwu/ECE537_Final_Project/datasets/LibriTTS_train-clean-100/hubert/outputs/test200_tacotron_reconstruction" )
+vocab_sizes=( 100 200 )
 
 for i in ${!quantized_unit_paths[@]}; do
     quantized_unit_path=${quantized_unit_paths[$i]}
     out_dir=${out_dirs[$i]}
+    vocab_size=${vocab_sizes[$i]}
+
+    tts_model_path="${models_path}/${feature_type}${vocab_size}.pt"
+    code_dict_path="${models_path}/code_dict_${feature_type}${vocab_size}"
 
     srun --ntasks=1 --exclusive --gres=gpu:1 --mem=200G -c 16 python ${fairseq_root}/examples/textless_nlp/gslm/unit2speech/synthesize_audio_from_units.py \
     --tts_model_path ${tts_model_path} \
