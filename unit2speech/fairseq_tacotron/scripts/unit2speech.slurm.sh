@@ -80,7 +80,10 @@ for i in ${!projects[@]}; do
             quantized_unit_path="${project_dir}/units_best_ckpt_${ckpt}_test_beam${beam}_u2s.txt"
             out_dir="${project_dir}/units_best_ckpt_${ckpt}_test_beam${beam}_u2s"
 
-            srun --ntasks=1 --exclusive --gres=gpu:1 --mem=200G -c 16 python ${fairseq_root}/examples/textless_nlp/gslm/unit2speech/synthesize_audio_from_units.py \
+            if [ -d "$out_dir" ]; then
+                echo "already generated"
+            else
+                srun --ntasks=1 --exclusive --gres=gpu:1 --mem=200G -c 16 python ${fairseq_root}/examples/textless_nlp/gslm/unit2speech/synthesize_audio_from_units.py \
                 --tts_model_path ${tts_model_path} \
                 --quantized_unit_path ${quantized_unit_path} \
                 --feature_type ${feature_type} \
@@ -91,7 +94,8 @@ for i in ${!projects[@]}; do
                 --sigma ${sigma} \
                 --denoiser_strength ${denoiser_strength}
 
-            python ${tacotron_dir}/to16k.py --audio_dir ${out_dir}
+                python ${tacotron_dir}/to16k.py --audio_dir ${out_dir}
+            fi
 
         done
     done
