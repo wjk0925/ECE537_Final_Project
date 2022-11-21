@@ -61,8 +61,11 @@ denoiser_strength=0.1
 t2u_dir="/home/junkaiwu/ECE537_Final_Project/text2unit_fairseq"
 
 quantized_unit_paths=( "/home/junkaiwu/ECE537_Final_Project/datasets/LibriTTS_train-clean-100/hubert/test100.txt" "/home/junkaiwu/ECE537_Final_Project/datasets/LibriTTS_train-clean-100/hubert/test200.txt" )
-    
-    out_dir=
+out_dirs=( "/home/junkaiwu/ECE537_Final_Project/datasets/LibriTTS_train-clean-100/hubert/outputs/test100_tacotron_reconstruction" "/home/junkaiwu/ECE537_Final_Project/datasets/LibriTTS_train-clean-100/hubert/outputs/test200_tacotron_reconstruction" )
+
+for i in ${!quantized_unit_paths[@]}; do
+    quantized_unit_path=${quantized_unit_paths[$i]}
+    out_dir=${out_dirs[$i]}
 
     srun --ntasks=1 --exclusive --gres=gpu:1 --mem=200G -c 16 python ${fairseq_root}/examples/textless_nlp/gslm/unit2speech/synthesize_audio_from_units.py \
     --tts_model_path ${tts_model_path} \
@@ -76,5 +79,7 @@ quantized_unit_paths=( "/home/junkaiwu/ECE537_Final_Project/datasets/LibriTTS_tr
     --denoiser_strength ${denoiser_strength}
 
     python ${tacotron_dir}/to16k.py --audio_dir ${out_dir}
+
+done
 
 
