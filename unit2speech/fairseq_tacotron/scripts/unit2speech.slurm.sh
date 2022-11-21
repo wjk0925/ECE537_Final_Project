@@ -8,7 +8,7 @@
 #SBATCH --gpus-per-node=1
 #SBATCH --nodes=1
 #SBATCH --ntasks-per-node=1
-#SBATCH --time=2:00:00
+#SBATCH --time=24:00:00
 #SBATCH --qos=sched_level_2
 #SBATCH --cpus-per-task=16
 #SBATCH --exclude=node0019
@@ -53,38 +53,47 @@ export PYTHONPATH=${fairseq_root}:${fairseq_root}/examples/textless_nlp/gslm/uni
 
 feature_type="hubert"
 models_path="/nobackup/users/junkaiwu/models/fairseq_tacotron_unti2speech"
-out_root="/nobackup/users/junkaiwu/outputs/hubert_tacotron_unit2speech"
 waveglow_path="${models_path}/waveglow_256channels_new.pt"
 
 sigma=0.666
 denoiser_strength=0.1
 
-endding="" 
-split="test"
+t2u_dir="/home/junkaiwu/ECE537_Final_Project/text2unit_fairseq"
+projects=( "transformer_iwslt_de_en-dataset_ljspeech_hubert200-dropout_0.3-max_tokens_4096-share" "transformer_iwslt_de_en-dataset_ljspeech_hubert100-dropout_0.3-max_tokens_4096-share" )
+vocab_sizes=( 200 100 )
+num_ckpts=5
+beams=( 1 3 5 7 )
 
-vocab_sizes=( 100 200 )
-
-for i in ${!vocab_sizes[@]}; do
-
+for i in ${!projects[@]}; do
+    project=${projects[$i]}
+    project_dir="${t2u_dir}/outputs/${project}"
     vocab_size=${vocab_sizes[$i]}
 
     tts_model_path="${models_path}/${feature_type}${vocab_size}.pt"
     code_dict_path="${models_path}/code_dict_${feature_type}${vocab_size}"
-    quantized_unit_path="/home/junkaiwu/ECE537_Final_Project/datasets/LJSpeech/hubert/${split}${vocab_size}${endding}.txt"
-    out_dir="${out_root}/${split}${vocab_size}${endding}"
 
-    srun --ntasks=1 --exclusive --gres=gpu:1 --mem=200G -c 16 python ${fairseq_root}/examples/textless_nlp/gslm/unit2speech/synthesize_audio_from_units.py \
-        --tts_model_path ${tts_model_path} \
-        --quantized_unit_path ${quantized_unit_path} \
-        --feature_type ${feature_type} \
-        --out_audio_dir ${out_dir} \
-        --waveglow_path  ${waveglow_path} \
-        --code_dict_path ${code_dict_path} \
-        --max_decoder_steps 2000 \
-        --sigma ${sigma} \
-        --denoiser_strength ${denoiser_strength}
+    for (( ckpt=1; ckpt<=$num_ckpts; ckpt++ ))
+    do
+        for k in ${!beams[@]}; do
+            beam=${beams[$k]}
 
-    python ${tacotron_dir}/to16k.py --audio_dir ${out_dir}
+            quantized_unit_path="${project_dir}/units_best_ckpt_${ckpt}_test_beam${beam}_u2s.txt"
+            out_dir="${project_dir}/units_best_ckpt_${ckpt}_test_beam${beam}_u2s"
 
+            srun --ntasks=1 --exclusive --gres=gpu:1 --mem=200G -c 16 python ${fairseq_root}/examples/textless_nlp/gslm/unit2speech/synthesize_audio_from_units.py \
+                --tts_model_path ${tts_model_path} \
+                --quantized_unit_path ${quantized_unit_path} \
+                --feature_type ${feature_type} \
+                --out_audio_dir ${out_dir} \
+                --waveglow_path  ${waveglow_path} \
+                --code_dict_path ${code_dict_path} \
+                --max_decoder_steps 2000 \
+                --sigma ${sigma} \
+                --denoiser_strength ${denoiser_strength}
+
+            python ${tacotron_dir}/to16k.py --audio_dir ${out_dir}
+
+        done
+    done
 done
 
