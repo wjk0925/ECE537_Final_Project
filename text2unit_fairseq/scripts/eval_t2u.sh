@@ -2,7 +2,7 @@
 project_dir=
 epoch=
 gen_subset=
-beam=5
+beam=3
 dataset="ljspeech_hubert200"
 t2u_dir="/home/junkaiwu/ECE537_Final_Project/text2unit_fairseq"
 

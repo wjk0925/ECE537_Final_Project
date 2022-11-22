@@ -50,7 +50,7 @@ warmup_updates=4000
 t2u_dir="/home/junkaiwu/ECE537_Final_Project/text2unit_fairseq"
 
 # change these
-dataset="ljspeech_hubert100"
+dataset="libritts_train-clean-100_hubert200"
 dropouts=( 0.3 )
 max_tokenss=( 4096 )
 validation_interval=25
