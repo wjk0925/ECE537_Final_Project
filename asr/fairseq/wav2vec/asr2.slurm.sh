@@ -66,7 +66,7 @@ for i in ${!projects[@]}; do
         for k in ${!beams[@]}; do
             beam=${beams[$k]}
 
-            root="${project_dir}/units_best_ckpt_${ckpt}_test_beam${beam}_u2s"
+            root="${project_dir}/units_best_ckpt_${ckpt}_test_beam${beam}_u2s/16k"
 
             manifest_dir="${root}/manifest"
             results_dir="${root}/asr_outputs"
