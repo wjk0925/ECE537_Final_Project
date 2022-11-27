@@ -244,8 +244,8 @@ def main(args):
             
             wandb.log({"val_ter": val_err_rate})
 
-            torch.save(encoder.state_dict(), f"/nobackup/users/junkaiwu/outputs/text2unit_transformer/{exp_name}/encoder_{epoch}.pt")
-            torch.save(decoder.state_dict(), f"/nobackup/users/junkaiwu/outputs/text2unit_transformer/{exp_name}/decoder_{epoch}.pt")
+            torch.save(encoder.state_dict(), f"{args.ckpt_dir}/{exp_name}/encoder_{epoch}.pt")
+            torch.save(decoder.state_dict(), f"{args.ckpt_dir}/{exp_name}/decoder_{epoch}.pt")
     
     
 
@@ -291,7 +291,7 @@ if __name__ == '__main__':
     parser.add_argument('--eps', type=float, default=1e-09)
     
     # ckpt & wandb
-    parser.add_argument('--ckpt_dir', default="/scratch/bbmx/junkaiwu/text2unit_transformer")
+    parser.add_argument('--ckpt_dir', default="/nobackup/users/junkaiwu/outputs/text2unit_transformer")
     parser.add_argument('--exp_name', default=None)
     parser.add_argument('--wandb_entity', default="wujunkai")
     
