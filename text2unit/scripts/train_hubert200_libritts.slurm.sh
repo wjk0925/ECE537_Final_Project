@@ -15,7 +15,7 @@
 #SBATCH --mem=0
 
 ## User python environment
-PYTHON_VIRTUAL_ENVIRONMENT=diffusion
+PYTHON_VIRTUAL_ENVIRONMENT=fairseq3
 CONDA_ROOT=/nobackup/users/junkaiwu/anaconda3
 
 ## Activate WMLCE virtual environment
