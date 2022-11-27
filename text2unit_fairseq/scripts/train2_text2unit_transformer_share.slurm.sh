@@ -44,13 +44,13 @@ source /nobackup/users/heting/espnet/tools/conda/bin/../etc/profile.d/conda.sh
 conda activate babblenet
 
 # fixed
-arch="libritts_train-clean-100_hubert200"
+arch="transformer_wmt_en_de"
 lr=1e-4
 warmup_updates=4000
 t2u_dir="/home/junkaiwu/ECE537_Final_Project/text2unit_fairseq"
 
 # change these
-dataset="ljspeech_hubert200"
+dataset="libritts_train-clean-100_hubert200"
 dropouts=( 0.3 0.1 )
 max_tokenss=( 4096 8192 )
 validation_interval=5
