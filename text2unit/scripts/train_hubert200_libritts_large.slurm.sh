@@ -63,7 +63,7 @@ text2unit_dir="/home/junkaiwu/ECE537_Final_Project/text2unit"
 train_txt_path="/home/junkaiwu/ECE537_Final_Project/datasets/LibriTTS_train-clean-100/hubert/train200.txt"
 val_txt_path="/home/junkaiwu/ECE537_Final_Project/datasets/LibriTTS_train-clean-100/hubert/val200.txt"
 trg_vocab_size=203
-exp_name="hubert200_v2_libritts"
+exp_name="hubert200_v2_libritts_large64"
 
 srun --gres=gpu:1 --ntasks=1  python ${text2unit_dir}/train_v2.py \
     --embedding_dim ${embedding_dim}  \
