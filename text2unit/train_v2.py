@@ -244,8 +244,8 @@ def main(args):
             
             wandb.log({"val_ter": val_err_rate})
 
-            torch.save(encoder.state_dict(), f"/scratch/bbmx/junkaiwu/text2unit_transformer/{exp_name}/encoder_{epoch}.pt")
-            torch.save(decoder.state_dict(), f"/scratch/bbmx/junkaiwu/text2unit_transformer/{exp_name}/decoder_{epoch}.pt")
+            torch.save(encoder.state_dict(), f"/nobackup/users/junkaiwu/outputs/text2unit_transformer/{exp_name}/encoder_{epoch}.pt")
+            torch.save(decoder.state_dict(), f"/nobackup/users/junkaiwu/outputs/text2unit_transformer/{exp_name}/decoder_{epoch}.pt")
     
     
 
