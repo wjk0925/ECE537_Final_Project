@@ -94,8 +94,8 @@ def main(args):
     wandb.init(project="537", name=exp_name, entity=args.wandb_entity)
     wandb.config = args
     
-    from torchmetrics import MatchErrorRate
-    metric = MatchErrorRate()
+    from torchmetrics import WordErrorRate
+    metric = WordErrorRate()
 
     train_dataloader = from_path_v2(args.train_txt_path, args.train_batch_size, split="train", max_in_len=args.max_len_src, max_out_len=args.max_len_trg, num_workers=args.num_workers, is_distributed=False)
     val_dataloader = from_path_v2(args.val_txt_path, args.val_batch_size, split="val", max_in_len=args.max_len_src, max_out_len=args.max_len_trg, num_workers=args.num_workers, is_distributed=False) # not used for now
