@@ -50,10 +50,10 @@ wav2vec_path="/home/junkaiwu/workspace/ulm_eval/models/asr/wav2vec_big_960h.pt"
 lm_path="/home/junkaiwu/workspace/ulm_eval/models/asr/4-gram.bin"
 lexicon_path="/home/junkaiwu/workspace/ulm_eval/models/asr/lexicon_ltr.lst"
 
-roots=( "/nobackup/users/junkaiwu/data/LibriTTS/LibriTTS/train-clean-100-wavs16khz-test" "/home/junkaiwu/ECE537_Final_Project/datasets/LibriTTS_train-clean-100/hubert/outputs/test100_tacotron_reconstruction/16k" "/home/junkaiwu/ECE537_Final_Project/datasets/LibriTTS_train-clean-100/hubert/outputs/test200_tacotron_reconstruction/16k" "/home/junkaiwu/ECE537_Final_Project/datasets/LibriTTS_train-clean-100/hubert/outputs/test100_hifigan_reconstruction" "/home/junkaiwu/ECE537_Final_Project/datasets/LibriTTS_train-clean-100/hubert/outputs/test200_hifigan_reconstruction" )
+roots=( "/home/junkaiwu/ECE537_Final_Project/kan-bayashi/ljspeech_conformer_fastspeech2" "/home/junkaiwu/ECE537_Final_Project/kan-bayashi/ljspeech_fastspeech2" "/home/junkaiwu/ECE537_Final_Project/kan-bayashi/ljspeech_joint_finetune_conformer_fastspeech2_hifigan" "/home/junkaiwu/ECE537_Final_Project/kan-bayashi/ljspeech_tacotron2" "/home/junkaiwu/ECE537_Final_Project/kan-bayashi/ljspeech_vits" )
 
 nnmos_dir="/home/junkaiwu/ECE537_Final_Project/nnmos"
-transcription_path="/home/junkaiwu/ECE537_Final_Project/datasets/LibriTTS_train-clean-100/libritts.json"
+transcription_path="/home/junkaiwu/ECE537_Final_Project/datasets/LJSpeech/ljspeech.json"
 
 for i in ${!roots[@]}; do
     root=${roots[$i]}
@@ -73,7 +73,5 @@ for i in ${!roots[@]}; do
         --w2l-decoder kenlm --lm-model ${lm_path} \
         --lexicon ${lexicon_path} --word-score -1 \
         --sil-weight 0 --lm-weight 2 --criterion ctc --labels ltr --max-tokens 600000 --remove-bpe letter
-
-    srun --ntasks=1 --exclusive --gres=gpu:1 --mem=200G -c 16 ${nnmos_dir}/nisqa.sh --nisqa_dir "/home/junkaiwu/NISQA"
 
 done

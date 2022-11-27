@@ -51,9 +51,9 @@ lm_path="/home/junkaiwu/workspace/ulm_eval/models/asr/4-gram.bin"
 lexicon_path="/home/junkaiwu/workspace/ulm_eval/models/asr/lexicon_ltr.lst"
 
 t2u_dir="/home/junkaiwu/ECE537_Final_Project/text2unit_fairseq"
-projects=( "transformer_iwslt_de_en-dataset_ljspeech_hubert200-dropout_0.3-max_tokens_4096-share" "transformer_iwslt_de_en-dataset_ljspeech_hubert100-dropout_0.3-max_tokens_4096-share" )
-num_ckpts=5
-beams=( 1 3 5 7 )
+projects=( "transformer_iwslt_de_en-dataset_ljspeech_hubert100-dropout_0.3-max_tokens_4096-share" )
+num_ckpts=1
+beams=( 7 )
 
 transcription_path="/home/junkaiwu/ECE537_Final_Project/datasets/LJSpeech/ljspeech.json"
 
@@ -66,7 +66,7 @@ for i in ${!projects[@]}; do
         for k in ${!beams[@]}; do
             beam=${beams[$k]}
 
-            root="${project_dir}/units_best_ckpt_${ckpt}_test_beam${beam}_u2s/16k"
+            root="${project_dir}/units_best_ckpt_${ckpt}_test_beam${beam}_u2s_hifigan"
 
             manifest_dir="${root}/manifest"
             results_dir="${root}/asr_outputs"
