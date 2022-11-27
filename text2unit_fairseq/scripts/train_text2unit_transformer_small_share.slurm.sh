@@ -53,11 +53,11 @@ t2u_dir="/home/junkaiwu/ECE537_Final_Project/text2unit_fairseq"
 dataset="libritts_train-clean-100_hubert200"
 dropouts=( 0.3 )
 max_tokenss=( 4096 )
-validation_interval=25
-patience=24
+validation_interval=5
+patience=4
 
 max_epochs=()
-for ii in {1..20}
+for ii in {1..10}
 do
    max_epochs[${#max_epochs[@]}]=$((validation_interval*ii))
 done

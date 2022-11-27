@@ -44,7 +44,7 @@ source /nobackup/users/heting/espnet/tools/conda/bin/../etc/profile.d/conda.sh
 conda activate babblenet
 
 # fixed
-arch="transformer_wmt_en_de"
+arch="libritts_train-clean-100_hubert200"
 lr=1e-4
 warmup_updates=4000
 t2u_dir="/home/junkaiwu/ECE537_Final_Project/text2unit_fairseq"
