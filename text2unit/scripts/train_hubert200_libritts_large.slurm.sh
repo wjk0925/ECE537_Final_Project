@@ -47,11 +47,12 @@ echo ""
 echo " Run started at:- "
 date
 
-embedding_dim=512
-num_heads=8
+dim_feedforward=4096
+embedding_dim=1024
+num_heads=16
 num_layers=6
 
-train_batch_size=128
+train_batch_size=64
 factor=1
 warmup_steps=4000
 
@@ -66,6 +67,7 @@ exp_name="hubert200_v2_libritts"
 
 srun --gres=gpu:1 --ntasks=1  python ${text2unit_dir}/train_v2.py \
     --embedding_dim ${embedding_dim}  \
+    --dim_feedforward ${dim_feedforward} \
     --num_workers 16 \
     --num_heads ${num_heads} \
     --num_layers ${num_layers} \

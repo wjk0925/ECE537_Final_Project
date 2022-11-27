@@ -196,7 +196,7 @@ def main(args):
         val_preds = []
         val_targets = []
         
-        if (epoch % 5) == 0:
+        if (epoch % 2) == 0:
             encoder.eval()
             decoder.eval()
             
