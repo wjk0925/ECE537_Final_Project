@@ -57,7 +57,7 @@ warmup_steps=4000
 
 grad_clip=1
 
-text2unit_dir="/home/junkaiwu/ECE537_Project/text2unit"
+text2unit_dir="/home/junkaiwu/ECE537_Final_Project/text2unit"
 
 train_txt_path="/home/junkaiwu/ECE537_Final_Project/datasets/LibriTTS_train-clean-100/hubert/train200.txt"
 val_txt_path="/home/junkaiwu/ECE537_Final_Project/datasets/LibriTTS_train-clean-100/hubert/val200.txt"
