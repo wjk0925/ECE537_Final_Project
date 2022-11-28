@@ -1,7 +1,7 @@
 #!/bin/bash
-#SBATCH -J train_text2unit_hubert200_v2_libritts
-#SBATCH -o train_text2unit_hubert200_v2_libritts_%j.%N.out
-#SBATCH -e train_text2unit_hubert200_v2_libritts_%j.%N.err
+#SBATCH -J eval_text2unit_hubert200_v2_libritts
+#SBATCH -o eval_text2unit_hubert200_v2_libritts_%j.%N.out
+#SBATCH -e eval_text2unit_hubert200_v2_libritts_%j.%N.err
 #SBATCH --mail-user=junkaiwu@mit.edu
 #SBATCH --mail-type=ALL
 #SBATCH --gres=gpu:1
@@ -47,7 +47,7 @@ echo ""
 echo " Run started at:- "
 date
 
-text2unit_dir="/home/junkaiwu/ECE537_Project/text2unit"
+text2unit_dir="/home/junkaiwu/ECE537_Final_Project/text2unit"
 vocab_size=200
 exp_dir="/nobackup/users/junkaiwu/outputs/text2unit_transformer/hubert${vocab_size}_v2_libritts"
 test_txt_path="/home/junkaiwu/ECE537_Final_Project/datasets/LibriTTS_train-clean-100/hubert/test200.txt"
