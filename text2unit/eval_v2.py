@@ -91,8 +91,11 @@ if __name__ == '__main__':
     print("start evaluation")
     print(len(test_dataloader))
 
-
     for i, data in enumerate(tqdm(test_dataloader)):
+        print("hello")
+        pass
+
+    for i, data in enumerate(test_dataloader):
         print("hello")
         src = data["text"]
         trg = data["unit"]
@@ -100,10 +103,8 @@ if __name__ == '__main__':
         trg = trg.to(device).transpose(0,1) # [max_trg_length, batch_size]
 
         curr_output, curr_predictions = decode_transformer_model(encoder, decoder, src, 512, args.vocab_size+3, device)
-
         curr_output = curr_output.transpose(0,1)
-
-
+        
         for b_i in range(curr_output.shape[1]):
             pred_str = ""
             target_str = ""
@@ -130,7 +131,6 @@ if __name__ == '__main__':
 
             test_preds.append(pred_str)
             test_targets.append(target_str)
-
 
     assert len(test_preds) == len(test_targets)
 
