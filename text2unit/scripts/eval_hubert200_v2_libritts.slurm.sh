@@ -11,7 +11,7 @@
 #SBATCH --time=24:00:00
 #SBATCH --qos=sched_level_2
 #SBATCH --cpus-per-task=16
-#SBATCH --exclude=node0027
+#SBATCH --exclude=node0027,node0035
 #SBATCH --mem=0
 
 ## User python environment

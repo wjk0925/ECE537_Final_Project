@@ -13,7 +13,6 @@ Untitled.ipynb
 *.wav
 **/__pycache__
 **/*targets*.km
-**/*pred*.km
 **/mt_test
 **/nodelist.$
 *.pt
