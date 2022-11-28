@@ -82,11 +82,14 @@ if __name__ == '__main__':
     # encoder.train()
     # decoder.train()
 
-    from torchmetrics import MatchErrorRate
-    metric = MatchErrorRate()
+    from torchmetrics import WordErrorRate
+    metric = WordErrorRate()
 
     test_preds = []
     test_targets = []
+
+    print("start evaluation")
+    print(len(test_dataloader))
 
     for i, data in enumerate(tqdm(test_dataloader)):
         src = data["text"]
