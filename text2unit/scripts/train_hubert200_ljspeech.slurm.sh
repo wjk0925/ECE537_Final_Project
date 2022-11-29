@@ -1,7 +1,7 @@
 #!/bin/bash
-#SBATCH -J train_text2unit_hubert200_v2_libritts
-#SBATCH -o train_text2unit_hubert200_v2_libritts_%j.%N.out
-#SBATCH -e train_text2unit_hubert200_v2_libritts_%j.%N.err
+#SBATCH -J train_text2unit_hubert200_v2_ljspeech
+#SBATCH -o train_text2unit_hubert200_v2_ljspeech_%j.%N.out
+#SBATCH -e train_text2unit_hubert200_v2_ljspeech_%j.%N.err
 #SBATCH --mail-user=junkaiwu@mit.edu
 #SBATCH --mail-type=ALL
 #SBATCH --gres=gpu:1
@@ -51,18 +51,18 @@ embedding_dim=512
 num_heads=8
 num_layers=6
 
-train_batch_size=32
+train_batch_size=64
 factor=1
-warmup_steps=8000
+warmup_steps=4000
 
 grad_clip=1
 
 text2unit_dir="/home/junkaiwu/ECE537_Final_Project/text2unit"
 
-train_txt_path="/home/junkaiwu/ECE537_Final_Project/datasets/LibriTTS_train-clean-100/hubert/train200.txt"
-val_txt_path="/home/junkaiwu/ECE537_Final_Project/datasets/LibriTTS_train-clean-100/hubert/val200.txt"
+train_txt_path="/home/junkaiwu/ECE537_Final_Project/datasets/LJSpeech/hubert/train200.txt"
+val_txt_path="/home/junkaiwu/ECE537_Final_Project/datasets/LJSpeech/hubert/val200.txt"
 trg_vocab_size=203
-exp_name="hubert200_libritts_emb${embedding_dim}_heads${num_heads}_layers${num_layers}_batch${train_batch_size}_warm${warmup_steps}"
+exp_name="hubert200_ljspeech_emb${embedding_dim}_heads${num_heads}_layers${num_layers}_batch${train_batch_size}_warm${warmup_steps}"
 
 srun --gres=gpu:1 --ntasks=1  python ${text2unit_dir}/train_v2.py \
     --embedding_dim ${embedding_dim}  \
