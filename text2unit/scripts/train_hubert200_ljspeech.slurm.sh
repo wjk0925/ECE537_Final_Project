@@ -51,9 +51,9 @@ embedding_dim=512
 num_heads=8
 num_layers=6
 
-train_batch_size=64
+train_batch_size=32
 factor=1
-warmup_steps=4000
+warmup_steps=8000
 
 grad_clip=1
 

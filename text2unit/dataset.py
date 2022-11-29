@@ -37,8 +37,11 @@ class Text2UnitDataset(torch.utils.data.Dataset):
                 self.data_dict[idx] = utterance_dict
 
     def __len__(self):
-        
-        return len(self.data_dict)
+
+        if self.split == "val":
+            return len(self.data_dict) // 2
+        else:
+            return len(self.data_dict)
         
     def __getitem__(self, idx):
         text = np.array(text_to_sequence(self.data_dict[idx]["transcription"]))
@@ -112,7 +115,7 @@ def from_path(txt_path, batch_size, split="train", num_workers=16, is_distribute
         sampler=DistributedSampler(dataset) if is_distributed else None,
         drop_last=True)
 
-def from_path_v2(txt_path, batch_size, split="train", max_in_len=200, min_in_len=15, max_out_len=600, num_workers=16, is_distributed=False):
+def from_path_v2(txt_path, batch_size, split="train", max_in_len=200, min_in_len=15, max_out_len=512, num_workers=16, is_distributed=False):
     dataset = Text2UnitDataset(txt_path, "hubert", split=split, max_in_len=max_in_len, min_in_len=min_in_len, max_out_len=max_out_len)
     
     # max_in_len = np.max(dataset.in_lens)
