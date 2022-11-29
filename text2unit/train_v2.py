@@ -196,7 +196,7 @@ def main(args):
         val_preds = []
         val_targets = []
         
-        if (epoch % 2) == 0:
+        if (epoch % 5) == 0:
             encoder.eval()
             decoder.eval()
             
@@ -273,7 +273,7 @@ if __name__ == '__main__':
     parser.add_argument('--input_dropout_rate', type=float, default=0.1)
     parser.add_argument('--layer_dropout_rate', type=float, default=0.1)
     parser.add_argument('--max_len_src', type=int, default=200, help='only used for training')
-    parser.add_argument('--max_len_trg', type=int, default=512, help="only used for training")
+    parser.add_argument('--max_len_trg', type=int, default=600, help="only used for training")
     parser.add_argument('--embedding_factor', type=float, default=1, help="described in transformer paper")
     
     # training
@@ -291,7 +291,7 @@ if __name__ == '__main__':
     parser.add_argument('--eps', type=float, default=1e-09)
     
     # ckpt & wandb
-    parser.add_argument('--ckpt_dir', default="/nobackup/users/junkaiwu/outputs/text2unit_transformer")
+    parser.add_argument('--ckpt_dir', default="/nobackup/users/junkaiwu/ECE537_Final_Project/text2unit/t2u_outputs")
     parser.add_argument('--exp_name', default=None)
     parser.add_argument('--wandb_entity', default="wujunkai")
     

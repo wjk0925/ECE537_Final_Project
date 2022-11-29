@@ -8,7 +8,7 @@ from utils.text import text_to_sequence
 
 # paired text and content units
 class Text2UnitDataset(torch.utils.data.Dataset):
-    def __init__(self, txt_path, feature_type, split="train", max_in_len=256, min_in_len=20, max_out_len=700):
+    def __init__(self, txt_path, feature_type, split="train", max_in_len=200, min_in_len=15, max_out_len=600):
         super().__init__()
         assert feature_type in ["hubert"]
         self.split = split
@@ -21,10 +21,10 @@ class Text2UnitDataset(torch.utils.data.Dataset):
         with open(txt_path, "r") as f:
             for i, line in enumerate(f):
                 utterance_dict = eval(line.strip("\n"))
-                text_len = len(utterance_dict["transcription"])
+                text_len = len(text_to_sequence(utterance_dict["transcription"]))
                 unit_len = len(utterance_dict[feature_type].split(" "))
                 
-                if text_len < (min_in_len - 1) or text_len > (max_in_len - 1):
+                if text_len < min_in_len or text_len > max_in_len:
                     continue
                     
                 if unit_len > (max_out_len - 2):
@@ -37,9 +37,6 @@ class Text2UnitDataset(torch.utils.data.Dataset):
                 self.data_dict[idx] = utterance_dict
 
     def __len__(self):
-
-        if self.split == "val":
-            return len(self.data_dict) // 2
         
         return len(self.data_dict)
         
@@ -75,7 +72,7 @@ class Collator:
         }
     
 class Collator_v2:
-    def __init__(self, max_in_len=256):
+    def __init__(self, max_in_len=200):
         self.mode = "seq2seq" # some random thing, not used
         self.max_in_len = max_in_len
 
@@ -115,7 +112,7 @@ def from_path(txt_path, batch_size, split="train", num_workers=16, is_distribute
         sampler=DistributedSampler(dataset) if is_distributed else None,
         drop_last=True)
 
-def from_path_v2(txt_path, batch_size, split="train", max_in_len=256, min_in_len=20, max_out_len=700, num_workers=16, is_distributed=False):
+def from_path_v2(txt_path, batch_size, split="train", max_in_len=200, min_in_len=15, max_out_len=600, num_workers=16, is_distributed=False):
     dataset = Text2UnitDataset(txt_path, "hubert", split=split, max_in_len=max_in_len, min_in_len=min_in_len, max_out_len=max_out_len)
     
     # max_in_len = np.max(dataset.in_lens)
