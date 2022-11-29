@@ -47,13 +47,15 @@ echo ""
 echo " Run started at:- "
 date
 
-embedding_dim=512
+dim_feedforward=4096
+embedding_dim=1024
 num_heads=8
 num_layers=6
 
-train_batch_size=64
+train_batch_size=32
+val_batch_size=8
 factor=1
-warmup_steps=4000
+warmup_steps=8000
 
 grad_clip=1
 
@@ -62,14 +64,16 @@ text2unit_dir="/home/junkaiwu/ECE537_Final_Project/text2unit"
 train_txt_path="/home/junkaiwu/ECE537_Final_Project/datasets/LibriTTS_train-clean-100/hubert/train200.txt"
 val_txt_path="/home/junkaiwu/ECE537_Final_Project/datasets/LibriTTS_train-clean-100/hubert/val200.txt"
 trg_vocab_size=203
-exp_name="hubert200_libritts_emb${embedding_dim}_heads${num_heads}_layers${num_layers}_batch${train_batch_size}_warm${warmup_steps}"
+exp_name="hubert200_libritts_large_batch${train_batch_size}_warm${warmup_steps}"
 
 srun --gres=gpu:1 --ntasks=1  python ${text2unit_dir}/train_v2.py \
+    --dim_feedforward ${dim_feedforward} \
     --embedding_dim ${embedding_dim}  \
     --num_workers 16 \
     --num_heads ${num_heads} \
     --num_layers ${num_layers} \
     --train_batch_size ${train_batch_size} \
+    --val_batch_size ${val_batch_size} \
     --factor ${factor} \
     --warmup_steps ${warmup_steps} \
     --grad_clip ${grad_clip} \
