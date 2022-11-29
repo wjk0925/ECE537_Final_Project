@@ -273,7 +273,7 @@ if __name__ == '__main__':
     parser.add_argument('--input_dropout_rate', type=float, default=0.1)
     parser.add_argument('--layer_dropout_rate', type=float, default=0.1)
     parser.add_argument('--max_len_src', type=int, default=200, help='only used for training')
-    parser.add_argument('--max_len_trg', type=int, default=600, help="only used for training")
+    parser.add_argument('--max_len_trg', type=int, default=512, help="only used for training")
     parser.add_argument('--embedding_factor', type=float, default=1, help="described in transformer paper")
     
     # training
