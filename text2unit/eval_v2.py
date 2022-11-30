@@ -28,6 +28,7 @@ if __name__ == '__main__':
     parser.add_argument('--num_workers', type=int, default=16)
     parser.add_argument('--batch_size', type=int, default=64)
     parser.add_argument('--epoch', type=int, default=295)
+    parser.add_argument('--output_name', default=None)
     
     
     args = parser.parse_args()
@@ -138,7 +139,10 @@ if __name__ == '__main__':
 
     print(f"Test Error Rate is {test_err_rate}")
 
-    p_f = open(f"{exp_dir}/{args.epoch}_preds.km", "w")
+    if args.output_name is None:
+        p_f = open(f"{exp_dir}/{args.epoch}_preds.km", "w")
+    else:
+        p_f = open(args.output_name, "w")
     #t_f = open(f"{exp_dir}/{args.epoch}_targets.km", "w")
 
     for i in range(len(test_preds)):
