@@ -99,7 +99,7 @@ for icn in ${!layerdrops[@]}; do
                             --optimizer adam --adam-betas '(0.9, 0.98)' --clip-norm ${clip_norm} \
                             --lr ${lr} --lr-scheduler inverse_sqrt --warmup-updates ${warmup_updates} \
                             --dropout ${dropout} --weight-decay 0.0001 \
-                            --encoder_layerdrop ${layerdropout} --decoder_layerdrop ${layerdropout} \
+                            --encoder-layerdrop ${layerdropout} --decoder-layerdrop ${layerdropout} \
                             --criterion label_smoothed_cross_entropy --label-smoothing 0.1 \
                             --max-tokens ${max_tokens} --max-epoch ${max_epoch} --validate-interval 99999 \
                             --wandb-project ${project}
