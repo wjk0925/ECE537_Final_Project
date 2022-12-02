@@ -102,7 +102,7 @@ for icn in ${!layerdrops[@]}; do
                             --encoder-layerdrop ${layerdrop} --decoder-layerdrop ${layerdrop} \
                             --criterion label_smoothed_cross_entropy --label-smoothing 0.1 \
                             --max-tokens ${max_tokens} --max-epoch ${max_epoch} --validate-interval 99999 \
-                            --wandb-project ${project}
+                            --wandb-project ${project} --ddp-backend no_c10d
                         
                         sleep 10
 
