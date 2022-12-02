@@ -11,12 +11,12 @@ Untitled.ipynb
 *.out
 *.err
 *.wav
+*.tar
 **/__pycache__
 **/*targets*.km
 **/mt_test
 **/nodelist.$
 *.pt
-**/outputs
 **/.DS_Store
 **/models
 *.zip
