@@ -48,12 +48,12 @@ echo " Run started at:- "
 date
 
 
-N_CLUSTERS_list=( 500 1000 )
+N_CLUSTERS_list=( 500 )
 TYPE="hubert"
 CKPT_PATH="/home/junkaiwu/ECE537_Final_Project/speech2unit/models/hubert_base_ls960.pt"
 LAYER=6
 MANIFEST="/home/junkaiwu/workspace/ulm/examples/ulm/manifest/LibriSpeech100-wavenet/train.tsv"
-KM_MODEL_PATH="/home/junkaiwu/ECE537_Final_Project/speech2unit/models/${TYPE}_km${vocab_size}.bin"
+KM_MODEL_PATH="/home/junkaiwu/ECE537_Final_Project/speech2unit/models/${TYPE}_km500.bin"
 
 fairseq_root="/home/junkaiwu/fairseq-0.12.2"
 export PYTHONPATH=${fairseq_root}
