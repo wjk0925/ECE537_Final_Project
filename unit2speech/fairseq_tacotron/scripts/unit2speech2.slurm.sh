@@ -60,8 +60,8 @@ denoiser_strength=0.1
 
 t2u_dir="/home/junkaiwu/ECE537_Final_Project/text2unit_fairseq"
 
-quantized_unit_paths=( "/home/junkaiwu/ECE537_Final_Project/text2unit/t2u_outputs/hubert200_v2_libritts/95_preds.txt" )
-out_dirs=( "/home/junkaiwu/ECE537_Final_Project/text2unit/t2u_outputs/hubert200_v2_libritts/95_preds_tacotron" )
+quantized_unit_paths=( "/home/junkaiwu/ECE537_Final_Project/text2unit/t2u_outputs/hubert200_ljspeech_emb512_heads8_layers6_batch32_warm8000/ljspeech_265.txt" )
+out_dirs=( "/home/junkaiwu/ECE537_Final_Project/text2unit/t2u_outputs/hubert200_ljspeech_emb512_heads8_layers6_batch32_warm8000/ljspeech_265_tacotron" )
 vocab_sizes=( 200 )
 
 for i in ${!quantized_unit_paths[@]}; do
