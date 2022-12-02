@@ -40,7 +40,7 @@ if __name__ == '__main__':
     exp_dir = args.exp_dir
     test_txt_path = args.test_txt_path
     
-    test_dataloader = from_path_v2(test_txt_path, args.batch_size, split="test", max_in_len=200, max_out_len=512, num_workers=args.num_workers, is_distributed=False)
+    test_dataloader = from_path_v2(test_txt_path, args.batch_size, split="test", max_in_len=200, min_in_len=10, max_out_len=512, num_workers=args.num_workers, is_distributed=False)
     
     
     device = torch.device('cuda') # only single gpu
@@ -148,6 +148,8 @@ if __name__ == '__main__':
     for i in range(len(test_preds)):
         p_f.write(str(i) + "|" + test_preds[i] + "\n")
         #t_f.write(str(i) + "|" +  test_targets[i] + "\n")
+
+    p_f.write(f"Test Error Rate is {test_err_rate}\n")
 
     p_f.close()
     #t_f.close()
