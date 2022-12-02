@@ -92,12 +92,8 @@ if __name__ == '__main__':
     print("start evaluation")
     print(len(test_dataloader))
 
-    for i, data in enumerate(tqdm(test_dataloader)):
-        print("hello")
-        pass
 
-    for i, data in enumerate(test_dataloader):
-        print("hello")
+    for i, data in enumerate(tqdm(test_dataloader)):
         src = data["text"]
         trg = data["unit"]
         src = src.to(device).transpose(0,1) # [max_src_length, batch_size]
