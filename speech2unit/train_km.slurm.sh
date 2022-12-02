@@ -15,7 +15,7 @@
 #SBATCH --mem=0
 
 ## User python environment
-PYTHON_VIRTUAL_ENVIRONMENT=babblenet2
+PYTHON_VIRTUAL_ENVIRONMENT=fairseq3
 CONDA_ROOT=/nobackup/users/junkaiwu/anaconda3
 
 ## Activate WMLCE virtual environment
@@ -48,12 +48,12 @@ echo " Run started at:- "
 date
 
 
-N_CLUSTERS_list=( 200 500 1000 )
+N_CLUSTERS_list=( 500 1000 )
 TYPE="hubert"
-CKPT_PATH="/nobackup/users/junkaiwu/diffwave/speech2unit/models/hubert_base_ls960.pt"
+CKPT_PATH="/home/junkaiwu/ECE537_Final_Project/speech2unit/models/hubert_base_ls960.pt"
 LAYER=6
 MANIFEST="/home/junkaiwu/workspace/ulm/examples/ulm/manifest/LibriSpeech100-wavenet/train.tsv"
-KM_MODEL_PATH="./models/${TYPE}_km${vocab_size}_2.bin"
+KM_MODEL_PATH="/home/junkaiwu/ECE537_Final_Project/speech2unit/models/${TYPE}_km${vocab_size}.bin"
 
 for i in ${!N_CLUSTERS_list[@]}; do
 
