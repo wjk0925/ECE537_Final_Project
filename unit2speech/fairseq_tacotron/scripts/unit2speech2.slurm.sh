@@ -60,9 +60,9 @@ denoiser_strength=0.1
 
 t2u_dir="/home/junkaiwu/ECE537_Final_Project/text2unit_fairseq"
 
-quantized_unit_paths=( "/home/junkaiwu/ECE537_Final_Project/text2unit/t2u_outputs/hubert200_ljspeech_emb512_heads8_layers6_batch32_warm8000/ljspeech_265.txt" )
-out_dirs=( "/home/junkaiwu/ECE537_Final_Project/text2unit/t2u_outputs/hubert200_ljspeech_emb512_heads8_layers6_batch32_warm8000/ljspeech_265_tacotron" )
-vocab_sizes=( 200 )
+quantized_unit_paths=( "/home/junkaiwu/ECE537_Final_Project/text2unit/t2u_outputs/hubert200_ljspeech_emb512_heads8_layers6_batch32_warm8000/ljspeech_265.txt" "/home/junkaiwu/ECE537_Final_Project/text2unit/t2u_outputs/hubert200_ljspeech_emb512_heads8_layers6_batch64_warm4000/ljspeech_290.txt" "../text2unit_fairseq/outputs/transformer_iwslt_de_en-dataset_ljspeech_hubert200-dropout_0.3-max_tokens_4096-share/units_best_ckpt_1_test_beam1_u2s.txt" )
+out_dirs=( "/home/junkaiwu/ECE537_Final_Project/text2unit/t2u_outputs/hubert200_ljspeech_emb512_heads8_layers6_batch32_warm8000/ljspeech_265_tacotron" "/home/junkaiwu/ECE537_Final_Project/text2unit/t2u_outputs/hubert200_ljspeech_emb512_heads8_layers6_batch64_warm4000/ljspeech_290_tacotron" "../text2unit_fairseq/outputs/transformer_iwslt_de_en-dataset_ljspeech_hubert200-dropout_0.3-max_tokens_4096-share/units_best_ckpt_1_test_beam1_u2s_tacotron" )
+vocab_sizes=( 200 200 200 )
 
 for i in ${!quantized_unit_paths[@]}; do
     quantized_unit_path=${quantized_unit_paths[$i]}
