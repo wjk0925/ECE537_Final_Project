@@ -50,7 +50,7 @@ warmup_updates=4000
 t2u_dir="/home/junkaiwu/ECE537_Final_Project/text2unit_fairseq"
 
 # change these
-dataset="libritts_train-clean-100_hubert200"
+dataset="libritts_train-clean-100_hubert100"
 dropouts=( 0.1 0.2 0.3 )
 layerdrops=( 0.1 0.2 0.3 0.0 )
 max_tokenss=( 4096 )
