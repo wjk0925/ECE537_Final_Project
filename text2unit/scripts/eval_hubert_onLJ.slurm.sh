@@ -64,7 +64,8 @@ for i in ${!epochs[@]}; do
         --num_workers 16 \
         --batch_size 60 \
         --epoch ${epoch} \
-        --output_name ${output_name}
+        --output_name ${output_name} \
+        --split ${split}
     
 done
 
