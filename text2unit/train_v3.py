@@ -6,6 +6,7 @@ from utils.text import symbols
 from tqdm import tqdm, trange
 
 import torch
+import torch.nn.functional as F
 
 import numpy as np
 
@@ -28,7 +29,7 @@ def cal_acc(predictions, trg, return_arr=False):
         return torch.mean(acc)
     
 
-def decode_transformer_model(encoder, decoder, src, max_decode_len, trg_vocab_size, device):
+def decode_transformer_model(encoder, decoder, src, max_decode_len, trg_vocab_size, device, sampling="greedy", k=3, temp=1.0):
     """
     Args:
         encoder: Your RnnEncoder object
@@ -70,7 +71,18 @@ def decode_transformer_model(encoder, decoder, src, max_decode_len, trg_vocab_si
             output = output[-1]
             curr_predictions[:,t,:] = output
             output[:, 0] = -np.inf
-            predictions = torch.argmax(output, dim=1)
+            if sampling == "greedy":
+                predictions = torch.argmax(output, dim=1)
+            elif sampling == "topk":
+                output_ = F.softmax(output / temp, dim=1)
+                output_sort, output_argsort = output_.sort(dim=1)[0], output_.sort(dim=1)[1]
+                output_argsort_k = output_argsort[:, -k:]
+                output_sort_k = output_sort[:, -k:]
+                indices = output_sort_k.multinomial(num_samples=1).squeeze(dim=1)
+                predictions = torch.stack([output_argsort_k[i][indices[i]] for i in range(indices.shape[0])])
+            else:
+                raise ValueError("sampling not supported")
+
             curr_output[:, t] = predictions
             
             ended = ended + (predictions.to(torch.device("cpu")) == 2)
@@ -117,7 +129,7 @@ def main(args):
                                  num_heads=args.num_heads,
                                  num_layers=args.num_layers,
                                  dim_feedforward=args.dim_feedforward,
-                                 max_len_trg=args.max_len_trg,
+                                 max_len_trg=int(1.2*args.max_len_trg),
                                  dropout_rate=args.input_dropout_rate,
                                  embedding_factor=args.embedding_factor)
     encoder = encoder.to(device)
@@ -196,17 +208,18 @@ def main(args):
         val_preds = []
         val_targets = []
         
+        # greedy
         if (epoch % 5) == 0:
             encoder.eval()
             decoder.eval()
             
-            for i, data in enumerate(tqdm(val_dataloader)):
+            for data in tqdm(val_dataloader):
                 src = data["text"]
                 trg = data["unit"]
                 src = src.to(device).transpose(0,1) # [max_src_length, batch_size]
                 trg = trg.to(device).transpose(0,1) # [max_trg_length, batch_size]
 
-                curr_output, curr_predictions = decode_transformer_model(encoder, decoder, src, args.max_len_trg, args.trg_vocab_size, device)
+                curr_output, curr_predictions = decode_transformer_model(encoder, decoder, src, args.max_len_trg, int(1.2*args.trg_vocab_size), device)
 
                 curr_output = curr_output.transpose(0,1)
 
@@ -244,6 +257,15 @@ def main(args):
             
             wandb.log({"val_ter": val_err_rate})
 
+            p_f = open(f"{args.ckpt_dir}/{exp_name}/val_{epoch}.km", "w")
+
+            for i in range(len(val_preds)):
+                p_f.write(str(i) + "|" + val_preds[i] + "\n")
+
+            p_f.write(f"Test Error Rate is {val_err_rate}\n")
+
+            p_f.close()
+
             torch.save(encoder.state_dict(), f"{args.ckpt_dir}/{exp_name}/encoder_{epoch}.pt")
             torch.save(decoder.state_dict(), f"{args.ckpt_dir}/{exp_name}/decoder_{epoch}.pt")
     
@@ -279,7 +301,7 @@ if __name__ == '__main__':
     # training
     parser.add_argument('--epochs', type=int, default=500)
     parser.add_argument('--train_batch_size', type=int, default=64)
-    parser.add_argument('--val_batch_size', type=int, default=16)
+    parser.add_argument('--val_batch_size', type=int, default=20)
     parser.add_argument('--num_workers', type=int, default=16)
     parser.add_argument('--grad_clip', type=float, default=1)
     parser.add_argument('--label_smoothing', type=float, default=0.1)

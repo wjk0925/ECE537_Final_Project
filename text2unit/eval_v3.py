@@ -13,7 +13,7 @@ from argparse import ArgumentParser
 
 import os
 
-from train import cal_acc, decode_transformer_model
+from train_v3 import cal_acc, decode_transformer_model
 
 from argparse import ArgumentParser
 
@@ -29,6 +29,11 @@ if __name__ == '__main__':
     parser.add_argument('--batch_size', type=int, default=64)
     parser.add_argument('--epoch', type=int, default=295)
     parser.add_argument('--output_name', default=None)
+
+    parser.add_argument('--sampling', default="greedy")
+    parser.add_argument('--k', type=int, default=3)
+    parser.add_argument('--temp', type=float, default=1.0)
+
     
     
     args = parser.parse_args()
@@ -99,7 +104,7 @@ if __name__ == '__main__':
         src = src.to(device).transpose(0,1) # [max_src_length, batch_size]
         trg = trg.to(device).transpose(0,1) # [max_trg_length, batch_size]
 
-        curr_output, curr_predictions = decode_transformer_model(encoder, decoder, src, 512, args.vocab_size+3, device)
+        curr_output, curr_predictions = decode_transformer_model(encoder, decoder, src, 512, args.vocab_size+3, device, sampling=args.sampling, k=args.k, temp=args.temp)
         curr_output = curr_output.transpose(0,1)
         
         for b_i in range(curr_output.shape[1]):
