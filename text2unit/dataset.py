@@ -14,9 +14,9 @@ class Text2UnitDataset(torch.utils.data.Dataset):
         self.split = split
         self.feature_type = feature_type
 
-        self.data_dict = {}
-        self.in_lens = []
-        self.out_lens = []
+        data_dict = []
+        in_lens = []
+        out_lens = []
 
         with open(txt_path, "r") as f:
             for i, line in enumerate(f):
@@ -30,18 +30,31 @@ class Text2UnitDataset(torch.utils.data.Dataset):
                 if unit_len > (max_out_len - 2):
                     continue
 
-                idx = len(self.data_dict)
+                in_lens.append(text_len)
+                out_lens.append(unit_len)
+                data_dict.append(utterance_dict)
 
-                self.in_lens.append(text_len)
-                self.out_lens.append(unit_len)
-                self.data_dict[idx] = utterance_dict
+        in_lens = np.array(in_lens)
+        out_lens = np.array(out_lens)
+        data_dict = np.array(data_dict)
+
+        if split == "val":
+            in_lens = in_lens[:len(data_dict)//2]
+            out_lens = out_lens[:len(data_dict)//2]
+            data_dict = data_dict[:len(data_dict)//2]
+        
+        if split != "train":
+            order = np.argsort(-out_lens)
+            in_lens = in_lens[order]
+            out_lens = out_lens[order]
+            data_dict = data_dict[order]
+
+        self.in_lens = in_lens
+        self.out_lens = out_lens
+        self.data_dict = data_dict
 
     def __len__(self):
-
-        if self.split == "val":
-            return len(self.data_dict) // 2
-        else:
-            return len(self.data_dict)
+        return len(self.data_dict)
         
     def __getitem__(self, idx):
         text = np.array(text_to_sequence(self.data_dict[idx]["transcription"]))
