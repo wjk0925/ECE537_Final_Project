@@ -8,11 +8,11 @@
 #SBATCH --gpus-per-node=1
 #SBATCH --nodes=1
 #SBATCH --ntasks-per-node=1
-#SBATCH --time=24:00:00
+#SBATCH --time=1:00:00
 #SBATCH --qos=sched_level_2
 #SBATCH --cpus-per-task=20
 #SBATCH --exclude=node0019
-#SBATCH --mem=0
+#SBATCH --mem=1T
 
 ## User python environment
 PYTHON_VIRTUAL_ENVIRONMENT=fairseq3
@@ -53,11 +53,11 @@ exp_dir="/home/junkaiwu/ECE537_Final_Project/text2unit/t2u_outputs/hubert200_ljs
 split="val"
 epochs=( 290 )
 
-for i in ${!epochs [@]}; do
+for i in ${!epochs[@]}; do
     epoch=${epochs[$i]}
     output_name=${exp_dir}/ljspeech_${split}${epoch}.km
 
-    srun --gres=gpu:1 --ntasks=1 python ${text2unit_dir}/eval_v2.py \
+    srun --gres=gpu:1 --ntasks=1 --exclusive --mem=1T -c 16 python ${text2unit_dir}/eval_v2.py \
         --vocab_size ${vocab_size} \
         --exp_dir ${exp_dir} \
         --test_txt_path /home/junkaiwu/ECE537_Final_Project/datasets/LJSpeech/hubert/${split}${vocab_size}.txt \
