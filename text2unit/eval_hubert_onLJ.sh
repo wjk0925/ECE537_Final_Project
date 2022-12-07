@@ -15,10 +15,11 @@ do
             --vocab_size ${vocab_size} \
             --exp_dir ${exp_dir} \
             --test_txt_path /home/junkaiwu/ECE537_Final_Project/datasets/LJSpeech/hubert/${split}${vocab_size}.txt \
-            --num_workers 16 \
+            --num_workers 8 \
             --batch_size 20 \
             --epoch ${epoch} \
-            --output_name ${output_name}
+            --output_name ${output_name} \
+	    --split ${split}
     fi
 done
 

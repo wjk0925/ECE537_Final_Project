@@ -29,6 +29,7 @@ if __name__ == '__main__':
     parser.add_argument('--batch_size', type=int, default=64)
     parser.add_argument('--epoch', type=int, default=295)
     parser.add_argument('--output_name', default=None)
+    parser.add_argument('--split', default="test")
     
     
     args = parser.parse_args()
