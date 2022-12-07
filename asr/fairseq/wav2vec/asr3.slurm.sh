@@ -58,7 +58,7 @@ vocab_size=200
 exp_dir="/home/junkaiwu/ECE537_Final_Project/text2unit/t2u_outputs/hubert200_ljspeech_emb512_heads8_layers6_batch64_warm4000"
 split="val"
 
-for (( epoch=0; epoch<=295; epoch+=5 ))
+for (( epoch=20; epoch<=295; epoch+=5 ))
 do
     quantized_unit_path=${exp_dir}/ljspeech_${split}${epoch}.txt
     root=${exp_dir}/ljspeech_${split}${epoch}_hifigan
