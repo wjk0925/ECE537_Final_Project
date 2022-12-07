@@ -97,6 +97,7 @@ def main(args):
                     if processed_text[-1] != " ":
                         processed_text += " "
 
+            assert len(processed_text) > 0, print(audio_name, text)
             if processed_text[-1] == " ":
                 processed_text = processed_text[:-1]
                     
