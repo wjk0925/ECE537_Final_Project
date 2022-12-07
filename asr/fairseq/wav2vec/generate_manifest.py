@@ -79,16 +79,27 @@ def main(args):
             processed_text = ""
             for c in text:
                 if c == " ":
-                    processed_text += c
+                    if processed_text[-1] != " ":
+                        processed_text += c
                 elif c in vocab:
                     processed_text += c
                 elif c.lower() in vocab:
                     processed_text += c.lower()
                 elif c.upper() in vocab:
                     processed_text += c.upper()
+                elif c in "âà":
+                    processed_text += "a"
+                elif c in "êéè":
+                    processed_text += "e"
+                elif c == "ü":
+                    processed_text += "u"
                 else:
-                    continue
+                    if processed_text[-1] != " ":
+                        processed_text += " "
 
+            if processed_text[-1] == " ":
+                processed_text = processed_text[:-1]
+                    
             char = processed_text.replace(" ", "|")
             char = (" ").join(char)
 
