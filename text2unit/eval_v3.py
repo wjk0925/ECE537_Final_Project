@@ -29,6 +29,7 @@ if __name__ == '__main__':
     parser.add_argument('--batch_size', type=int, default=64)
     parser.add_argument('--epoch', type=int, default=295)
     parser.add_argument('--output_name', default=None)
+    parser.add_argument('--split', default="test")
 
     parser.add_argument('--sampling', default="greedy")
     parser.add_argument('--k', type=int, default=3)
@@ -45,7 +46,7 @@ if __name__ == '__main__':
     exp_dir = args.exp_dir
     test_txt_path = args.test_txt_path
     
-    test_dataloader = from_path_v2(test_txt_path, args.batch_size, split="test", max_in_len=200, min_in_len=10, max_out_len=512, num_workers=args.num_workers, is_distributed=False)
+    test_dataloader = from_path_v2(test_txt_path, args.batch_size, split=args.split, max_in_len=200, min_in_len=10, max_out_len=512, num_workers=args.num_workers, is_distributed=False)
     
     
     device = torch.device('cuda') # only single gpu

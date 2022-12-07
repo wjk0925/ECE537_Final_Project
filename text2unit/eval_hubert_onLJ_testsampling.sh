@@ -3,7 +3,7 @@ text2unit_dir="/home/junkaiwu/ECE537_Final_Project/text2unit"
 vocab_size=200
 exp_dir="/home/junkaiwu/ECE537_Final_Project/text2unit/t2u_outputs/hubert200_ljspeech_emb512_heads8_layers6_batch64_warm4000"
 split="val"
-epoch = 290
+epoch=290
 
 output_name=${exp_dir}/ljspeech_${split}${epoch}_top1.km
 
@@ -18,13 +18,14 @@ else
         --batch_size 20 \
         --epoch ${epoch} \
         --output_name ${output_name} \
+	--split ${split} \
         --sampling topk \
         --k 1 \
         --temp 1
 fi
 
-ks = ( 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 )
-temps = ( 10 10 10 10 1.0 1.0 1.0 1.0 0.1 0.1 0.1 0.1 0.01 0.01 0.01 0.01 )
+ks=( 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 )
+temps=( 10 10 10 10 1.0 1.0 1.0 1.0 0.1 0.1 0.1 0.1 0.01 0.01 0.01 0.01 )
 
 
 
@@ -44,12 +45,13 @@ for i in ${!ks[@]}; do
             --batch_size 20 \
             --epoch ${epoch} \
             --output_name ${output_name} \
+	    --split ${split} \
             --sampling topk \
             --k ${k} \
             --temp ${temp}
     fi
 
-
+done
 
 
 
