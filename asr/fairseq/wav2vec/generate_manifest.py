@@ -97,11 +97,11 @@ def main(args):
                     if processed_text[-1] != " ":
                         processed_text += " "
 
-            try:
-                if processed_text[-1] == " ":
-                    processed_text = processed_text[:-1]
-            except:
-                print(audio_name, text)
+            print(audio_name, text)
+            print(processed_text)
+
+            if processed_text[-1] == " ":
+                processed_text = processed_text[:-1]
                     
             char = processed_text.replace(" ", "|")
             char = (" ").join(char)
