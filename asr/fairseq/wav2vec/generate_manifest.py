@@ -79,8 +79,11 @@ def main(args):
             processed_text = ""
             for c in text:
                 if c == " ":
-                    if processed_text[-1] != " ":
-                        processed_text += c
+                    try:
+                        if processed_text[-1] != " ":
+                            processed_text += c
+                    except:
+                        pass
                 elif c in vocab:
                     processed_text += c
                 elif c.lower() in vocab:
@@ -94,11 +97,11 @@ def main(args):
                 elif c == "ü":
                     processed_text += "u"
                 else:
-                    if processed_text[-1] != " ":
-                        processed_text += " "
-
-            print(audio_name, text)
-            print(processed_text)
+                    try:
+                        if processed_text[-1] != " ":
+                            processed_text += " "
+                    except:
+                        pass
 
             if processed_text[-1] == " ":
                 processed_text = processed_text[:-1]
