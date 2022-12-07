@@ -16,7 +16,7 @@ do
             --exp_dir ${exp_dir} \
             --test_txt_path /home/junkaiwu/ECE537_Final_Project/datasets/LJSpeech/hubert/${split}${vocab_size}.txt \
             --num_workers 16 \
-            --batch_size 60 \
+            --batch_size 20 \
             --epoch ${epoch} \
             --output_name ${output_name}
     fi
