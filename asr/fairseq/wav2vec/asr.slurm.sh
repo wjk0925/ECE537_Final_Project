@@ -50,7 +50,7 @@ wav2vec_path="/home/junkaiwu/workspace/ulm_eval/models/asr/wav2vec_big_960h.pt"
 lm_path="/home/junkaiwu/workspace/ulm_eval/models/asr/4-gram.bin"
 lexicon_path="/home/junkaiwu/workspace/ulm_eval/models/asr/lexicon_ltr.lst"
 
-roots=( "/home/junkaiwu/ECE537_Final_Project/text2unit/t2u_outputs/hubert200_ljspeech_emb512_heads8_layers6_batch32_warm8000/ljspeech_265_hifigan" "/home/junkaiwu/ECE537_Final_Project/text2unit/t2u_outputs/hubert200_ljspeech_emb512_heads8_layers6_batch64_warm4000/ljspeech_290_hifigan" "/home/junkaiwu/ECE537_Final_Project/text2unit_fairseq/outputs/transformer_iwslt_de_en-dataset_ljspeech_hubert200-dropout_0.3-max_tokens_4096-share/units_best_ckpt_1_test_beam1_u2s_hifigan" )
+roots=( "/nobackup/users/junkaiwu/outputs/hubert_hifigan_unit2speech/test200_reconstruct_500000" "/home/junkaiwu/ECE537_Final_Project/datasets/LJSpeech/hubert/outputs/500" "/home/junkaiwu/ECE537_Final_Project/datasets/LJSpeech/hubert/outputs/1000" )
 
 nnmos_dir="/home/junkaiwu/ECE537_Final_Project/nnmos"
 # transcription_path="/home/junkaiwu/ECE537_Final_Project/datasets/LibriTTS_train-clean-100/libritts.json"
