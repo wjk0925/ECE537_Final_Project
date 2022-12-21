@@ -50,7 +50,7 @@ wav2vec_path="/home/junkaiwu/workspace/ulm_eval/models/asr/wav2vec_big_960h.pt"
 lm_path="/home/junkaiwu/workspace/ulm_eval/models/asr/4-gram.bin"
 lexicon_path="/home/junkaiwu/workspace/ulm_eval/models/asr/lexicon_ltr.lst"
 
-roots=( "/nobackup/users/junkaiwu/outputs/hubert_hifigan_unit2speech/test200_reconstruct_500000" "/home/junkaiwu/ECE537_Final_Project/datasets/LJSpeech/hubert/outputs/500" "/home/junkaiwu/ECE537_Final_Project/datasets/LJSpeech/hubert/outputs/1000" )
+roots=( "/nobackup/users/junkaiwu/data/LJSpeech-1.1/test" "/home/junkaiwu/ECE537_Final_Project/datasets/LJSpeech/hubert/outputs/500_00170000" "/home/junkaiwu/ECE537_Final_Project/datasets/LJSpeech/hubert/outputs/1000_00170000" )
 
 nnmos_dir="/home/junkaiwu/ECE537_Final_Project/nnmos"
 # transcription_path="/home/junkaiwu/ECE537_Final_Project/datasets/LibriTTS_train-clean-100/libritts.json"
