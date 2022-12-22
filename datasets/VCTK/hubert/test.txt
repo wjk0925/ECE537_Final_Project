@@ -1,0 +1,2000 @@
+{'audio': 'p268_232_mic2', 'transcription': 'Years ago it was really quite simple.'}
+{'audio': 'p257_047_mic2', 'transcription': 'The whole of southern Africa is in the grip of Aids.'}
+{'audio': 'p278_048_mic2', 'transcription': 'Do I have a favourite?'}
+{'audio': 'p326_148_mic2', 'transcription': "It's a difficult one to comment on."}
+{'audio': 'p304_266_mic2', 'transcription': 'The look on his face was something special.'}
+{'audio': 'p226_255_mic2', 'transcription': 'That was a bonus, but it was not the main objective.'}
+{'audio': 'p262_249_mic2', 'transcription': 'It is a policy which has the full support of the minister.'}
+{'audio': 'p230_217_mic2', 'transcription': 'My life is in the ballet.'}
+{'audio': 'p302_144_mic2', 'transcription': 'You were the kidnappers.'}
+{'audio': 'p270_378_mic2', 'transcription': 'She said they would appeal.'}
+{'audio': 'p231_020_mic2', 'transcription': 'Many complicated ideas about the rainbow have been formed. '}
+{'audio': 'p281_198_mic2', 'transcription': 'It decided to blame the media.'}
+{'audio': 'p255_176_mic2', 'transcription': 'You had to go and see him.'}
+{'audio': 'p307_290_mic2', 'transcription': 'Everything has been destroyed.'}
+{'audio': 'p294_093_mic2', 'transcription': "But now it's back to golf."}
+{'audio': 'p254_188_mic2', 'transcription': "It's a commission, and it's for work, a year's work."}
+{'audio': 'p269_256_mic2', 'transcription': 'It is nearly there.'}
+{'audio': 'p335_360_mic2', 'transcription': 'There is no openness.'}
+{'audio': 'p282_145_mic2', 'transcription': 'I was awful.'}
+{'audio': 'p361_252_mic2', 'transcription': 'Colour is another problem.'}
+{'audio': 'p307_406_mic2', 'transcription': 'Jackson may well be right.'}
+{'audio': 'p335_232_mic2', 'transcription': 'It sounds a bit of an own goal.'}
+{'audio': 'p314_397_mic2', 'transcription': 'It is a comforting fantasy - but it remains a fantasy.'}
+{'audio': 'p304_333_mic2', 'transcription': 'We must recognise that this outfit is unique.'}
+{'audio': 'p308_186_mic2', 'transcription': "They've two children."}
+{'audio': 'p341_129_mic2', 'transcription': 'It ended as it began, in confusion.'}
+{'audio': 'p351_086_mic2', 'transcription': 'Friday night was a pretty good night.'}
+{'audio': 'p284_202_mic2', 'transcription': 'I am delighted for Simon.'}
+{'audio': 'p283_329_mic2', 'transcription': 'So what happens next?'}
+{'audio': 'p295_319_mic2', 'transcription': "There's a good chance of seeing something."}
+{'audio': 'p264_494_mic2', 'transcription': 'That means a ban on French products.'}
+{'audio': 'p340_101_mic2', 'transcription': "It's just not funny!"}
+{'audio': 'p271_219_mic2', 'transcription': 'The workers do not want to read about their futures in newspapers.'}
+{'audio': 'p312_178_mic2', 'transcription': 'It was very, very dejected.'}
+{'audio': 'p310_104_mic2', 'transcription': "He wouldn't allow that to happen."}
+{'audio': 'p334_195_mic2', 'transcription': 'We may make a short-term appointment.'}
+{'audio': 'p336_077_mic2', 'transcription': "We couldn't afford it."}
+{'audio': 'p336_259_mic2', 'transcription': "I'm happy that we have agreed."}
+{'audio': 'p249_219_mic2', 'transcription': 'There was an e-mail.'}
+{'audio': 'p247_444_mic2', 'transcription': 'The Allies intend to maintain the average.'}
+{'audio': 'p229_377_mic2', 'transcription': 'Talks are progressing.'}
+{'audio': 'p294_202_mic2', 'transcription': 'It will determine whether an offence has occurred.'}
+{'audio': 'p239_055_mic2', 'transcription': 'He is too weak to move.'}
+{'audio': 'p330_096_mic2', 'transcription': 'What do we do for an encore?'}
+{'audio': 'p360_236_mic2', 'transcription': 'In fact, it is deeply unpleasant.'}
+{'audio': 'p276_426_mic2', 'transcription': 'They made such decisions in London.'}
+{'audio': 'p254_204_mic2', 'transcription': 'This gives a financial incentive to switch.'}
+{'audio': 'p255_138_mic2', 'transcription': "It's a question of fashion."}
+{'audio': 'p300_004_mic2', 'transcription': 'We also need a small plastic snake and a big toy frog for the kids.'}
+{'audio': 'p236_139_mic2', 'transcription': 'That view has not altered.'}
+{'audio': 'p231_209_mic2', 'transcription': 'We are a new department.'}
+{'audio': 'p292_144_mic2', 'transcription': "We've had an enjoyable adventure."}
+{'audio': 'p297_132_mic2', 'transcription': "But that's not the idea behind this article."}
+{'audio': 'p306_237_mic2', 'transcription': 'This is a huge boost for my confidence.'}
+{'audio': 'p360_276_mic2', 'transcription': 'They might well be right.'}
+{'audio': 'p336_028_mic2', 'transcription': 'This is a very interesting move.'}
+{'audio': 'p229_241_mic2', 'transcription': 'We were a load of rubbish.'}
+{'audio': 'p293_193_mic2', 'transcription': 'This is simply unjust.'}
+{'audio': 'p376_280_mic2', 'transcription': 'It was then into overtime.'}
+{'audio': 'p238_435_mic2', 'transcription': 'I also had a lot of injuries, which did not help me.'}
+{'audio': 'p227_109_mic2', 'transcription': 'You can spend money on housing.'}
+{'audio': 'p278_065_mic2', 'transcription': 'The judge was really nice.'}
+{'audio': 'p246_274_mic2', 'transcription': 'The decision was announced at its annual conference in Dunfermline.'}
+{'audio': 'p347_089_mic2', 'transcription': 'Theatre is not a museum.'}
+{'audio': 'p341_138_mic2', 'transcription': 'There were no casualties.'}
+{'audio': 'p294_125_mic2', 'transcription': 'We have very real concerns about it.'}
+{'audio': 'p363_226_mic2', 'transcription': 'That in itself is a joke.'}
+{'audio': 'p317_215_mic2', 'transcription': 'They do the work, you know.'}
+{'audio': 'p273_156_mic2', 'transcription': 'I always felt they played for me.'}
+{'audio': 'p298_312_mic2', 'transcription': 'We have the location, which is assured.'}
+{'audio': 'p226_197_mic2', 'transcription': 'There was no option.'}
+{'audio': 'p345_363_mic2', 'transcription': 'It is a road of death.'}
+{'audio': 'p240_022_mic2', 'transcription': 'The actual primary rainbow observed is said to be the effect of super-imposition of a number of bows. '}
+{'audio': 'p261_413_mic2', 'transcription': "I tried to be cautious, but it's hard in that role."}
+{'audio': 'p266_159_mic2', 'transcription': 'This year, this month, will be special for Torrance.'}
+{'audio': 'p272_285_mic2', 'transcription': 'The songs are just so good.'}
+{'audio': 'p293_237_mic2', 'transcription': 'That was my own personal decision.'}
+{'audio': 'p269_028_mic2', 'transcription': 'In both cases, I suffered a fiasco.'}
+{'audio': 'p363_329_mic2', 'transcription': "They haven't got a hope."}
+{'audio': 'p351_055_mic2', 'transcription': 'There was mystery back then.'}
+{'audio': 'p273_382_mic2', 'transcription': 'It benefits the whole family.'}
+{'audio': 'p264_135_mic2', 'transcription': 'Domestic orders have also fallen since January.'}
+{'audio': 'p268_312_mic2', 'transcription': 'Everyone can have their opinion.'}
+{'audio': 'p336_145_mic2', 'transcription': 'He has been banned from the Salmon Inn.'}
+{'audio': 'p311_133_mic2', 'transcription': 'The way ahead is not easy.'}
+{'audio': 'p335_185_mic2', 'transcription': 'He had come of age.'}
+{'audio': 'p253_133_mic2', 'transcription': 'It plans to return to this field.'}
+{'audio': 'p263_078_mic2', 'transcription': 'So, did she meet him?'}
+{'audio': 'p341_137_mic2', 'transcription': 'At this stage, we think the air campaign is enough.'}
+{'audio': 'p284_363_mic2', 'transcription': 'The pair are very much in love.'}
+{'audio': 'p251_355_mic2', 'transcription': "I'm very lucky."}
+{'audio': 'p234_330_mic2', 'transcription': 'It depends on the internal discussions in the Ministry of Defence.'}
+{'audio': 'p341_405_mic2', 'transcription': 'You have to have some hope and faith.'}
+{'audio': 'p279_262_mic2', 'transcription': 'The warning is timely.'}
+{'audio': 'p318_410_mic2', 'transcription': 'I knew people on that committee.'}
+{'audio': 'p317_358_mic2', 'transcription': 'They should be swept away.'}
+{'audio': 'p257_308_mic2', 'transcription': 'The home team had an amazing start.'}
+{'audio': 'p339_169_mic2', 'transcription': 'I am confident of the outcome this week.'}
+{'audio': 'p273_008_mic2', 'transcription': 'These take the shape of a long round arch, and its path high above, and its two ends apparently beyond the horizon. '}
+{'audio': 'p231_062_mic2', 'transcription': 'Do I have a favourite?'}
+{'audio': 'p294_009_mic2', 'transcription': 'There is , according to legend, a boiling pot of gold at one end.'}
+{'audio': 'p362_069_mic2', 'transcription': "It's more relaxing this way."}
+{'audio': 'p284_065_mic2', 'transcription': 'Over time, with patience and precision, the terrorists will be pursued.'}
+{'audio': 'p275_287_mic2', 'transcription': 'Police were on the scene within minutes, but the killer had fled.'}
+{'audio': 'p307_047_mic2', 'transcription': 'Lara is very, very much a girl.'}
+{'audio': 'p257_109_mic2', 'transcription': 'I did not think about the Ryder Cup.'}
+{'audio': 'p231_034_mic2', 'transcription': 'That means an extra two years.'}
+{'audio': 'p339_318_mic2', 'transcription': 'Referees in Scotland are very weak.'}
+{'audio': 'p304_149_mic2', 'transcription': 'So what makes it so special?'}
+{'audio': 'p302_314_mic2', 'transcription': "Tonight's matches European Championship."}
+{'audio': 'p288_393_mic2', 'transcription': 'It is not normal practice.'}
+{'audio': 'p295_233_mic2', 'transcription': 'Her body was found on Monday morning.'}
+{'audio': 'p239_236_mic2', 'transcription': 'My Dad is a hero.'}
+{'audio': 'p259_363_mic2', 'transcription': 'Urgent action is needed to tackle this crisis.'}
+{'audio': 'p248_122_mic2', 'transcription': 'Strathclyde Police are expected to make an announcement next month.'}
+{'audio': 'p262_098_mic2', 'transcription': 'However, the intensive care unit at the Southern General Hospital was full.'}
+{'audio': 'p277_020_mic2', 'transcription': 'Many complicated ideas about the rainbow have been formed. '}
+{'audio': 'p273_328_mic2', 'transcription': 'Urgent action is needed to tackle this crisis.'}
+{'audio': 'p261_166_mic2', 'transcription': 'The region is open for business.'}
+{'audio': 'p304_079_mic2', 'transcription': 'Could it be?'}
+{'audio': 'p310_297_mic2', 'transcription': 'We are being hijacked.'}
+{'audio': 'p287_219_mic2', 'transcription': 'He remains a main board director of Royal.'}
+{'audio': 'p243_159_mic2', 'transcription': 'As our national coach, Brown is done for.'}
+{'audio': 'p282_049_mic2', 'transcription': 'On fuel, the Chancellor has a number of options.'}
+{'audio': 'p236_020_mic2', 'transcription': 'Many complicated ideas about the rainbow have been formed. '}
+{'audio': 'p264_477_mic2', 'transcription': 'The child has denied murder.'}
+{'audio': 'p278_009_mic2', 'transcription': 'There is , according to legend, a boiling pot of gold at one end. '}
+{'audio': 'p347_132_mic2', 'transcription': 'All the people thought that we would die.'}
+{'audio': 'p238_340_mic2', 'transcription': 'Today we must not repeat that mistake.'}
+{'audio': 'p248_261_mic2', 'transcription': 'An appeal against the sentence was dismissed the following year.'}
+{'audio': 'p351_137_mic2', 'transcription': 'A career as a doctor is on hold.'}
+{'audio': 'p317_160_mic2', 'transcription': 'How can you not react?'}
+{'audio': 'p343_115_mic2', 'transcription': 'I had no intention of misleading anyone.'}
+{'audio': 'p294_052_mic2', 'transcription': 'The course record was in his name.'}
+{'audio': 'p274_405_mic2', 'transcription': 'The members have voted against it.'}
+{'audio': 'p228_154_mic2', 'transcription': 'I am just trying to do my job.'}
+{'audio': 'p272_193_mic2', 'transcription': 'Tommy is not a problem.'}
+{'audio': 'p318_232_mic2', 'transcription': 'It is a technique.'}
+{'audio': 'p341_098_mic2', 'transcription': 'It is a great honour and a privilege.'}
+{'audio': 'p282_301_mic2', 'transcription': 'Alex Smith has been a massive influence on my career as well.'}
+{'audio': 'p254_115_mic2', 'transcription': 'It is normal.'}
+{'audio': 'p340_004_mic2', 'transcription': 'We also need a small plastic snake and a big toy frog for the kids.'}
+{'audio': 'p299_248_mic2', 'transcription': 'It was a tactical change.'}
+{'audio': 'p285_120_mic2', 'transcription': 'There were no grounds for his action.'}
+{'audio': 'p310_079_mic2', 'transcription': 'He would be with his peers.'}
+{'audio': 'p300_139_mic2', 'transcription': 'From then on, Scott has never looked back.'}
+{'audio': 'p279_197_mic2', 'transcription': 'It was typical.'}
+{'audio': 'p260_312_mic2', 'transcription': 'The letters are going out today.'}
+{'audio': 'p234_118_mic2', 'transcription': 'When we looked at the company.'}
+{'audio': 'p271_204_mic2', 'transcription': 'We believe a third party was involved.'}
+{'audio': 'p259_472_mic2', 'transcription': 'Then came the farewell to Europe.'}
+{'audio': 'p244_009_mic2', 'transcription': 'There is , according to legend, a boiling pot of gold at one end. '}
+{'audio': 'p301_239_mic2', 'transcription': 'These guys will not lie down.'}
+{'audio': 'p334_179_mic2', 'transcription': 'He was just like a godfather to it.'}
+{'audio': 'p293_192_mic2', 'transcription': 'But he is something special, is he not?'}
+{'audio': 'p257_083_mic2', 'transcription': 'He seems to be pleased with the picture.'}
+{'audio': 'p228_084_mic2', 'transcription': 'He liked to give the impression of being a hard man.'}
+{'audio': 'p238_207_mic2', 'transcription': 'There was a fine line to tread.'}
+{'audio': 'p245_050_mic2', 'transcription': 'Who can say?'}
+{'audio': 'p288_078_mic2', 'transcription': 'This is the way things should be handled.'}
+{'audio': 'p281_168_mic2', 'transcription': 'Next year it plans to open an office in Tokyo.'}
+{'audio': 'p231_143_mic2', 'transcription': 'Anyone can do the sums.'}
+{'audio': 'p258_084_mic2', 'transcription': 'They are different types.'}
+{'audio': 'p293_282_mic2', 'transcription': 'We very much regret that it has occurred.'}
+{'audio': 'p303_215_mic2', 'transcription': "WHAT's in a name in this, the age of the Internet?"}
+{'audio': 'p282_300_mic2', 'transcription': 'This is a war over our home.'}
+{'audio': 'p347_186_mic2', 'transcription': 'I learned a lot from that.'}
+{'audio': 'p273_050_mic2', 'transcription': 'How are you, sir?'}
+{'audio': 'p263_426_mic2', 'transcription': 'A police spokeswoman said last night that the case was closed.'}
+{'audio': 'p257_136_mic2', 'transcription': 'They made such decisions in London.'}
+{'audio': 'p286_390_mic2', 'transcription': 'Rugby has an extended run.'}
+{'audio': 'p308_399_mic2', 'transcription': 'It remains in public ownership.'}
+{'audio': 'p285_327_mic2', 'transcription': 'The party is up for it.'}
+{'audio': 'p252_333_mic2', 'transcription': "But it won't help British farmers."}
+{'audio': 'p234_152_mic2', 'transcription': 'But it is different in different regions.'}
+{'audio': 'p314_048_mic2', 'transcription': 'It will include the Black Watch, the Royal Highland regiment.'}
+{'audio': 'p237_020_mic2', 'transcription': 'Many complicated ideas about the rainbow have been formed. '}
+{'audio': 'p229_338_mic2', 'transcription': 'It has moved on in the last week.'}
+{'audio': 'p248_099_mic2', 'transcription': "That's all right then."}
+{'audio': 'p278_357_mic2', 'transcription': 'This might seem like an outrageous assertion.'}
+{'audio': 'p339_221_mic2', 'transcription': 'You cannot do that in a lobby.'}
+{'audio': 'p266_352_mic2', 'transcription': 'Edinburgh, in fact, was not included in the survey.'}
+{'audio': 'p229_232_mic2', 'transcription': 'Saturday is gone.'}
+{'audio': 'p254_017_mic2', 'transcription': 'Others have tried to explain the phenomenon physically. '}
+{'audio': 'p288_410_mic2', 'transcription': 'Edinburgh, in fact, was not included in the survey.'}
+{'audio': 'p314_270_mic2', 'transcription': "I'm not talking about his career."}
+{'audio': 'p345_309_mic2', 'transcription': 'A counter reaction was.'}
+{'audio': 'p279_107_mic2', 'transcription': 'Before the game we went for a pint.'}
+{'audio': 'p310_058_mic2', 'transcription': 'Moray Council could not be contacted last night.'}
+{'audio': 'p311_372_mic2', 'transcription': 'They really want to do it.'}
+{'audio': 'p270_164_mic2', 'transcription': 'The woman was his wife.'}
+{'audio': 'p302_183_mic2', 'transcription': 'Smith has not let him down.'}
+{'audio': 'p241_188_mic2', 'transcription': 'I wish I could say something.'}
+{'audio': 'p281_291_mic2', 'transcription': 'He was also married with two children.'}
+{'audio': 'p317_170_mic2', 'transcription': 'It is no place for a poet.'}
+{'audio': 'p326_070_mic2', 'transcription': 'Messages have to be reinforced.'}
+{'audio': 'p266_233_mic2', 'transcription': 'Of further privacy, he had no need.'}
+{'audio': 'p287_033_mic2', 'transcription': 'I thought it was an accident.'}
+{'audio': 'p273_055_mic2', 'transcription': "Let's hope that it does."}
+{'audio': 'p308_081_mic2', 'transcription': 'A spokesman for Lothian and Borders Police said.'}
+{'audio': 'p307_141_mic2', 'transcription': 'Volvo is grateful to its staff in Irvine.'}
+{'audio': 'p306_199_mic2', 'transcription': 'I like footballers who play well.'}
+{'audio': 'p232_113_mic2', 'transcription': "It's not fair."}
+{'audio': 'p345_133_mic2', 'transcription': "I don't know where that one came from."}
+{'audio': 'p259_446_mic2', 'transcription': 'If he saw somebody in trouble, he would try to help.'}
+{'audio': 'p233_355_mic2', 'transcription': 'It is clear that we must learn the lessons from this outbreak.'}
+{'audio': 'p250_364_mic2', 'transcription': 'Three years ago he would have been.'}
+{'audio': 'p302_066_mic2', 'transcription': 'A young Briton had a lucky escape.'}
+{'audio': 'p231_048_mic2', 'transcription': 'There was no safety net.'}
+{'audio': 'p243_231_mic2', 'transcription': 'I felt we played some excellent football in the first half.'}
+{'audio': 'p340_071_mic2', 'transcription': 'They do not deliver.'}
+{'audio': 'p248_272_mic2', 'transcription': "He's been here on numerous occasions."}
+{'audio': 'p330_025_mic2', 'transcription': 'Like anyone else, he has to take his time.'}
+{'audio': 'p268_403_mic2', 'transcription': "We're looking for unity in the council."}
+{'audio': 'p313_030_mic2', 'transcription': 'We have to put this behind us.'}
+{'audio': 'p225_359_mic2', 'transcription': 'But we welcome this document.'}
+{'audio': 'p363_150_mic2', 'transcription': "I didn't really expect to be called up."}
+{'audio': 'p362_106_mic2', 'transcription': 'So is that it, then?'}
+{'audio': 'p299_250_mic2', 'transcription': 'When people talk about the Beach Boys and Brian Wilson.'}
+{'audio': 'p253_148_mic2', 'transcription': 'It is not just about pay.'}
+{'audio': 'p341_118_mic2', 'transcription': 'Whoever said that cannot have seen it.'}
+{'audio': 'p279_013_mic2', 'transcription': 'Some have accepted it as a miracle without physical explanation. '}
+{'audio': 'p340_115_mic2', 'transcription': 'I have never been in anything like that.'}
+{'audio': 'p260_153_mic2', 'transcription': 'We are on a four-year mission.'}
+{'audio': 'p308_252_mic2', 'transcription': 'We could have got three medals.'}
+{'audio': 'p345_155_mic2', 'transcription': 'It may have been a cry for help.'}
+{'audio': 'p227_086_mic2', 'transcription': 'This is a complex and detailed report.'}
+{'audio': 'p236_438_mic2', 'transcription': 'I chose to make a film.'}
+{'audio': 'p257_384_mic2', 'transcription': 'I never won a penny throughout my career.'}
+{'audio': 'p311_045_mic2', 'transcription': 'People acted too quickly.'}
+{'audio': 'p287_008_mic2', 'transcription': 'These take the shape of a long round arch, with its path high above, and its two ends apparently beyond the horizon. '}
+{'audio': 'p298_207_mic2', 'transcription': 'The line-up is a tasty one.'}
+{'audio': 'p256_070_mic2', 'transcription': 'They are real.'}
+{'audio': 'p363_071_mic2', 'transcription': 'This is a judgment issue.'}
+{'audio': 'p300_174_mic2', 'transcription': 'It was a bit like having children.'}
+{'audio': 'p239_199_mic2', 'transcription': 'Tiger is not the norm.'}
+{'audio': 'p376_305_mic2', 'transcription': 'The time for change is now.'}
+{'audio': 'p334_387_mic2', 'transcription': 'At present it is fairly uncommon, but its incidence is increasing.'}
+{'audio': 'p239_231_mic2', 'transcription': 'Then we will face the Danish champions.'}
+{'audio': 'p364_248_mic2', 'transcription': 'It was something special.'}
+{'audio': 'p281_279_mic2', 'transcription': 'We are aiming for early March.'}
+{'audio': 'p262_031_mic2', 'transcription': 'I expected these kind of questions.'}
+{'audio': 'p272_217_mic2', 'transcription': 'But she was.'}
+{'audio': 'p361_411_mic2', 'transcription': "I found that we couldn't."}
+{'audio': 'p265_351_mic2', 'transcription': 'He was the architect.'}
+{'audio': 'p293_314_mic2', 'transcription': 'It is also claimed that he was murdered.'}
+{'audio': 'p340_325_mic2', 'transcription': 'There was nothing sinister in that.'}
+{'audio': 'p234_026_mic2', 'transcription': 'But we will have to wait.'}
+{'audio': 'p275_011_mic2', 'transcription': 'When a man looks for something beyond his reach, his friends say he is looking for the pot of gold at the end of the rainbow. '}
+{'audio': 'p240_219_mic2', 'transcription': 'For the refugees, the return will not come a moment too soon.'}
+{'audio': 'p227_344_mic2', 'transcription': 'Public opinion was split on the proposal.'}
+{'audio': 'p247_104_mic2', 'transcription': 'Clark was desperate to return to the House of Commons.'}
+{'audio': 'p267_331_mic2', 'transcription': 'It will decide today whether he should be struck off the register.'}
+{'audio': 'p281_285_mic2', 'transcription': 'And they were being paid?'}
+{'audio': 'p239_387_mic2', 'transcription': 'She asked for the appointment with me.'}
+{'audio': 'p284_236_mic2', 'transcription': 'I was at the British Olympic Medical Centre, on Friday.'}
+{'audio': 'p248_119_mic2', 'transcription': 'Until the weekend he was minister for social justice.'}
+{'audio': 'p341_189_mic2', 'transcription': "I've already done that."}
+{'audio': 'p311_058_mic2', 'transcription': 'I just went a bit too far.'}
+{'audio': 'p271_401_mic2', 'transcription': 'I never won a penny throughout my career.'}
+{'audio': 'p299_137_mic2', 'transcription': 'They can be time consuming.'}
+{'audio': 'p255_068_mic2', 'transcription': 'There could be a way back.'}
+{'audio': 'p361_208_mic2', 'transcription': 'The pace is telling.'}
+{'audio': 'p256_219_mic2', 'transcription': "We've got the bronze."}
+{'audio': 'p277_071_mic2', 'transcription': 'Over time, with patience and precision, the terrorists will be pursued.'}
+{'audio': 'p246_074_mic2', 'transcription': 'Today she has been released.'}
+{'audio': 'p240_225_mic2', 'transcription': 'But it will be sorted out this week.'}
+{'audio': 'p293_210_mic2', 'transcription': 'The investment programme will deliver these improvements.'}
+{'audio': 'p333_372_mic2', 'transcription': "I'll go out and be aggressive."}
+{'audio': 'p334_367_mic2', 'transcription': 'This was a chilling echo.'}
+{'audio': 'p336_059_mic2', 'transcription': 'They enjoy playing the game.'}
+{'audio': 'p312_112_mic2', 'transcription': 'I believe he could have turned it around.'}
+{'audio': 'p238_086_mic2', 'transcription': 'We should all be grateful.'}
+{'audio': 'p255_278_mic2', 'transcription': 'It depends on the internal discussions in the Ministry of Defence.'}
+{'audio': 'p310_380_mic2', 'transcription': 'I joined a group.'}
+{'audio': 'p284_167_mic2', 'transcription': 'Does that put pressure on us?'}
+{'audio': 'p275_244_mic2', 'transcription': 'I WAS certainly wrong with my prediction of the result.'}
+{'audio': 'p340_358_mic2', 'transcription': 'The time was right.'}
+{'audio': 'p259_119_mic2', 'transcription': 'We have the mental strength.'}
+{'audio': 'p252_253_mic2', 'transcription': 'It is based on population rather than need.'}
+{'audio': 'p313_064_mic2', 'transcription': 'I learned a lot from that.'}
+{'audio': 'p261_395_mic2', 'transcription': 'You have to rely on each other.'}
+{'audio': 'p362_302_mic2', 'transcription': 'But we all have to look at ourselves.'}
+{'audio': 'p279_313_mic2', 'transcription': 'Special measures were needed.'}
+{'audio': 'p249_141_mic2', 'transcription': "It's a question of fashion."}
+{'audio': 'p303_300_mic2', 'transcription': 'Last night the bombardment was terrible.'}
+{'audio': 'p249_183_mic2', 'transcription': 'But I felt it was important to introduce the element of tradition.'}
+{'audio': 'p316_165_mic2', 'transcription': "It's got to be in the head."}
+{'audio': 'p376_040_mic2', 'transcription': 'However, you never know.'}
+{'audio': 'p282_192_mic2', 'transcription': 'We speak about the performance.'}
+{'audio': 'p272_256_mic2', 'transcription': 'This is a question of Islam.'}
+{'audio': 'p240_054_mic2', 'transcription': 'He is too weak to move.'}
+{'audio': 'p334_017_mic2', 'transcription': 'Others have tried to explain the phenomenon physically.'}
+{'audio': 'p269_381_mic2', 'transcription': 'It is a large number.'}
+{'audio': 'p299_390_mic2', 'transcription': 'And the funny thing is, they usually do.'}
+{'audio': 'p232_039_mic2', 'transcription': 'I was scared.'}
+{'audio': 'p279_145_mic2', 'transcription': 'That could mean the difference between life and death in action.'}
+{'audio': 'p231_278_mic2', 'transcription': 'The joint bid is still on course.'}
+{'audio': 'p282_063_mic2', 'transcription': 'It happened so quickly.'}
+{'audio': 'p250_187_mic2', 'transcription': 'This championship is different from the other majors.'}
+{'audio': 'p260_333_mic2', 'transcription': 'It is a job creation scheme.'}
+{'audio': 'p246_132_mic2', 'transcription': 'We are currently consulting with a wide range of interested parties.'}
+{'audio': 'p281_204_mic2', 'transcription': 'There was no way back for United after that.'}
+{'audio': 'p281_027_mic2', 'transcription': 'In both cases, I suffered a fiasco.'}
+{'audio': 'p269_165_mic2', 'transcription': 'It is an attitude of mind.'}
+{'audio': 'p341_242_mic2', 'transcription': 'I think he has undergone a sea change.'}
+{'audio': 'p269_276_mic2', 'transcription': 'But, in fact, the reverse is true.'}
+{'audio': 'p317_275_mic2', 'transcription': 'I am totally surprised.'}
+{'audio': 'p276_163_mic2', 'transcription': "That's what happened against Ayr."}
+{'audio': 'p330_139_mic2', 'transcription': "It's like a garage."}
+{'audio': 'p269_110_mic2', 'transcription': "I can't even get into the A team."}
+{'audio': 'p237_123_mic2', 'transcription': 'An announcement on his replacement is expected within three weeks.'}
+{'audio': 'p272_233_mic2', 'transcription': 'A thousand years ago the church was a powerful force in Europe.'}
+{'audio': 'p269_317_mic2', 'transcription': "It's just not funny!"}
+{'audio': 'p233_117_mic2', 'transcription': 'Holyrood is just a part of the jigsaw.'}
+{'audio': 'p317_237_mic2', 'transcription': 'My life is a mess.'}
+{'audio': 'p226_108_mic2', 'transcription': 'That time is not now, however.'}
+{'audio': 'p240_115_mic2', 'transcription': "I'm delighted about that."}
+{'audio': 'p304_095_mic2', 'transcription': 'I am about protecting the state pension.'}
+{'audio': 'p234_168_mic2', 'transcription': 'It is not about the money, it is about everything.'}
+{'audio': 'p317_184_mic2', 'transcription': 'The police were called in.'}
+{'audio': 'p286_414_mic2', 'transcription': "It's just a training thing."}
+{'audio': 'p241_066_mic2', 'transcription': 'Try to save us.'}
+{'audio': 'p308_386_mic2', 'transcription': 'Liberal Democrat leader makes a hash of it.'}
+{'audio': 'p314_100_mic2', 'transcription': 'His team management was protective.'}
+{'audio': 'p364_070_mic2', 'transcription': "They've got more time."}
+{'audio': 'p308_193_mic2', 'transcription': 'Scottish fishermen condemned the decision.'}
+{'audio': 'p268_099_mic2', 'transcription': 'Had I heard?'}
+{'audio': 'p286_043_mic2', 'transcription': 'He will need that machine.'}
+{'audio': 'p308_292_mic2', 'transcription': 'Among them was Gary Robertson from Dundee.'}
+{'audio': 'p238_079_mic2', 'transcription': 'But the organisers refused to worry.'}
+{'audio': 'p339_347_mic2', 'transcription': "I don't want to go anywhere."}
+{'audio': 'p306_036_mic2', 'transcription': 'He said he now intends to fly today.'}
+{'audio': 'p285_162_mic2', 'transcription': 'The First Minister is scheduled to be elected by the Parliament tomorrow.'}
+{'audio': 'p376_181_mic2', 'transcription': 'It is a lot of fun.'}
+{'audio': 'p261_045_mic2', 'transcription': 'He will need that machine.'}
+{'audio': 'p297_163_mic2', 'transcription': 'We meet again in Berlin.'}
+{'audio': 'p293_155_mic2', 'transcription': 'However, his remarks were heavily qualified.'}
+{'audio': 'p316_298_mic2', 'transcription': "I think it's difficult for Bonnie."}
+{'audio': 'p305_349_mic2', 'transcription': 'I hope my successor will do the same.'}
+{'audio': 'p262_304_mic2', 'transcription': 'What has altered?'}
+{'audio': 'p264_370_mic2', 'transcription': 'Neither had any other career.'}
+{'audio': 'p251_325_mic2', 'transcription': 'The letters are going out today.'}
+{'audio': 'p286_080_mic2', 'transcription': 'England were ahead until two minutes into injury time.'}
+{'audio': 'p245_256_mic2', 'transcription': 'I was happily surprised.'}
+{'audio': 'p335_214_mic2', 'transcription': 'That is not an easy thing.'}
+{'audio': 'p374_384_mic2', 'transcription': 'Two others were also seriously injured.'}
+{'audio': 'p343_253_mic2', 'transcription': 'There were too many mistakes.'}
+{'audio': 'p243_309_mic2', 'transcription': 'It happened on average once a week this year.'}
+{'audio': 'p255_199_mic2', 'transcription': 'However, this idea is never developed.'}
+{'audio': 'p233_156_mic2', 'transcription': 'It opens the door to the Champions League.'}
+{'audio': 'p250_230_mic2', 'transcription': 'My daughter is an adult.'}
+{'audio': 'p260_275_mic2', 'transcription': 'If not, he should go home.'}
+{'audio': 'p298_321_mic2', 'transcription': "It's been very exciting, very challenging, and a privilege."}
+{'audio': 'p236_390_mic2', 'transcription': 'She is in their hands.'}
+{'audio': 'p299_155_mic2', 'transcription': 'Nor does it have a stock of medicines.'}
+{'audio': 'p229_046_mic2', 'transcription': 'But it took a lot of bottle.'}
+{'audio': 's5_350_mic2', 'transcription': 'My views on the decision are well known.'}
+{'audio': 'p239_412_mic2', 'transcription': 'This would discourage investment and job creation.'}
+{'audio': 'p237_253_mic2', 'transcription': 'We were extremely poor.'}
+{'audio': 'p270_223_mic2', 'transcription': 'Is it in the right place?'}
+{'audio': 'p305_031_mic2', 'transcription': "I'm happy to contribute to that."}
+{'audio': 'p310_035_mic2', 'transcription': 'Scotland has lost a great religious leader.'}
+{'audio': 'p271_089_mic2', 'transcription': 'They lived for their children.'}
+{'audio': 'p252_287_mic2', 'transcription': 'They were seriously after him.'}
+{'audio': 'p335_331_mic2', 'transcription': "There's a tremendous amount of adventure."}
+{'audio': 'p257_063_mic2', 'transcription': 'Have a look at our accounts.'}
+{'audio': 'p238_424_mic2', 'transcription': 'Got to get my sunglasses.'}
+{'audio': 'p295_159_mic2', 'transcription': 'I feel alive and good today.'}
+{'audio': 'p294_405_mic2', 'transcription': "It's a tragedy for the area."}
+{'audio': 'p227_368_mic2', 'transcription': 'A crucial moment has arrived.'}
+{'audio': 'p307_051_mic2', 'transcription': 'It was, however, the wrong side.'}
+{'audio': 'p247_238_mic2', 'transcription': 'A small number of new jobs will also be created.'}
+{'audio': 'p231_021_mic2', 'transcription': 'The difference in the rainbow depends considerably upon the size of the drops, and the width of the colored band increases as the size of the drops increases. '}
+{'audio': 'p374_115_mic2', 'transcription': 'They have just got to believe in themselves.'}
+{'audio': 'p297_219_mic2', 'transcription': "I'm looking at ways to do that now."}
+{'audio': 'p304_312_mic2', 'transcription': 'The working families tax credit is far better.'}
+{'audio': 'p281_292_mic2', 'transcription': 'The target is to break even by Christmas.'}
+{'audio': 'p295_394_mic2', 'transcription': 'It was visibly on fire.'}
+{'audio': 'p297_157_mic2', 'transcription': 'Fatherhood is important to Tony Blair.'}
+{'audio': 'p335_187_mic2', 'transcription': 'We do things in an appropriate way.'}
+{'audio': 'p316_232_mic2', 'transcription': "I'm very surprised and obviously delighted."}
+{'audio': 'p341_124_mic2', 'transcription': "I hadn't seen them in eight years."}
+{'audio': 'p292_235_mic2', 'transcription': 'This was never a support group.'}
+{'audio': 'p292_290_mic2', 'transcription': 'He already had had complaints.'}
+{'audio': 'p232_194_mic2', 'transcription': 'But a final decision will not be taken until after the elections.'}
+{'audio': 'p233_171_mic2', 'transcription': 'Councillors are expected to take a decision within the next few weeks.'}
+{'audio': 'p285_172_mic2', 'transcription': 'One season, they might do well.'}
+{'audio': 'p317_070_mic2', 'transcription': 'And what does it cost, and who is paying?'}
+{'audio': 'p251_129_mic2', 'transcription': 'It was the same at Twickenham.'}
+{'audio': 'p277_445_mic2', 'transcription': 'The children are fine.'}
+{'audio': 'p230_061_mic2', 'transcription': 'But the challenge is in the US.'}
+{'audio': 'p236_391_mic2', 'transcription': 'The following day I used the story.'}
+{'audio': 'p263_142_mic2', 'transcription': 'Does the name matter?'}
+{'audio': 'p347_278_mic2', 'transcription': 'Raymond was always on the outside.'}
+{'audio': 'p335_224_mic2', 'transcription': 'We have great sympathy with Danny.'}
+{'audio': 'p288_365_mic2', 'transcription': 'It should be an enjoyable and challenging period of their lives.'}
+{'audio': 'p255_183_mic2', 'transcription': 'However, the figures were disputed by the Scottish Prison Service.'}
+{'audio': 'p351_085_mic2', 'transcription': 'He promised a final decision within a fortnight.'}
+{'audio': 'p233_001_mic2', 'transcription': 'Please call Stella.  '}
+{'audio': 'p253_142_mic2', 'transcription': 'He realises his mistake.'}
+{'audio': 'p247_331_mic2', 'transcription': 'This is a moment to seize.'}
+{'audio': 'p364_115_mic2', 'transcription': "We don't know what is happening to them."}
+{'audio': 'p282_330_mic2', 'transcription': "I've got no secret."}
+{'audio': 'p343_071_mic2', 'transcription': 'We played too deeply.'}
+{'audio': 'p285_388_mic2', 'transcription': 'Stewart will travel with some confidence.'}
+{'audio': 'p343_101_mic2', 'transcription': 'We can only go up.'}
+{'audio': 'p294_166_mic2', 'transcription': "There's been a mistake."}
+{'audio': 'p233_150_mic2', 'transcription': 'He felt that everything that was said about asylum seekers was negative.'}
+{'audio': 'p255_169_mic2', 'transcription': 'However, the French government has a major dilemma on its hands.'}
+{'audio': 'p334_307_mic2', 'transcription': "If they don't, they can expect their funding to be cut."}
+{'audio': 'p250_469_mic2', 'transcription': 'The move is considered a major breakthrough.'}
+{'audio': 'p286_243_mic2', 'transcription': 'I have spoken to the skipper.'}
+{'audio': 'p251_035_mic2', 'transcription': 'They did not replace it with a conviction for culpable homicide.'}
+{'audio': 'p276_020_mic2', 'transcription': 'Many complicated ideas about the rainbow have been formed. '}
+{'audio': 'p286_183_mic2', 'transcription': "I've been in two finals, and I've got a medal."}
+{'audio': 'p266_355_mic2', 'transcription': 'You must have a government and a good civil service.'}
+{'audio': 'p286_431_mic2', 'transcription': "It's going to be epic."}
+{'audio': 'p243_220_mic2', 'transcription': 'I was independent but I am not now.'}
+{'audio': 'p261_349_mic2', 'transcription': 'The Premier League has been a huge success.'}
+{'audio': 'p330_055_mic2', 'transcription': 'Scotland had great assets.'}
+{'audio': 'p278_082_mic2', 'transcription': 'He said a change in legislation was long overdue.'}
+{'audio': 'p269_204_mic2', 'transcription': 'The album was widely expected to be a commercial disaster.'}
+{'audio': 'p313_361_mic2', 'transcription': 'Well, you can have a tree.'}
+{'audio': 'p294_182_mic2', 'transcription': 'A decision is expected in September.'}
+{'audio': 'p318_389_mic2', 'transcription': 'That time is not far away.'}
+{'audio': 'p340_409_mic2', 'transcription': 'It will not be easy.'}
+{'audio': 'p286_186_mic2', 'transcription': 'Playing in Europe is the benchmark.'}
+{'audio': 'p347_163_mic2', 'transcription': 'We offered something different.'}
+{'audio': 'p335_155_mic2', 'transcription': 'I think, at last, the company will find itself again.'}
+{'audio': 'p362_172_mic2', 'transcription': 'That is for certain.'}
+{'audio': 'p303_138_mic2', 'transcription': 'It could have been a hammering by now.'}
+{'audio': 'p364_140_mic2', 'transcription': 'It won the match.'}
+{'audio': 'p293_070_mic2', 'transcription': 'I was shaking on the blocks.'}
+{'audio': 'p312_353_mic2', 'transcription': "Of course it's a bunch of trouble."}
+{'audio': 'p333_317_mic2', 'transcription': 'I would welcome a proper, public discussion on this issue.'}
+{'audio': 'p254_367_mic2', 'transcription': 'They received a reply from their own managers.'}
+{'audio': 'p271_015_mic2', 'transcription': 'The Greeks used to imagine that it was a sign from the gods to foretell war or heavy rain. '}
+{'audio': 'p274_391_mic2', 'transcription': 'It runs until the beginning of June.'}
+{'audio': 'p283_274_mic2', 'transcription': 'That takes a lot of courage.'}
+{'audio': 'p364_264_mic2', 'transcription': 'Do you mean today?'}
+{'audio': 'p263_188_mic2', 'transcription': "It's too early to say whether a public inquiry would be appropriate."}
+{'audio': 'p302_238_mic2', 'transcription': 'His silence on the issue is interesting.'}
+{'audio': 's5_054_mic2', 'transcription': 'However, a year ago things looked so different.'}
+{'audio': 'p288_009_mic2', 'transcription': 'There is , according to legend, a boiling pot of gold at one end. '}
+{'audio': 'p262_093_mic2', 'transcription': 'I wish I had put on a brighter tie.'}
+{'audio': 'p326_254_mic2', 'transcription': 'My family, health and golf is always a balancing act.'}
+{'audio': 'p301_271_mic2', 'transcription': 'Bombing is the easy option.'}
+{'audio': 'p311_272_mic2', 'transcription': 'They still have the dirty work to do.'}
+{'audio': 'p347_312_mic2', 'transcription': 'I, like an idiot, agreed.'}
+{'audio': 'p278_062_mic2', 'transcription': 'Only water is currently allowed.'}
+{'audio': 'p270_011_mic2', 'transcription': 'When a man looks for something beyond his reach, his friends say he is looking for the pot of gold at the end of the rainbow. '}
+{'audio': 'p231_386_mic2', 'transcription': 'The Internet is no substitute for customer service.'}
+{'audio': 'p243_346_mic2', 'transcription': 'It was a bit like having children.'}
+{'audio': 'p306_143_mic2', 'transcription': "He's been the key to everything."}
+{'audio': 'p279_202_mic2', 'transcription': 'The guidelines are expected to be finalised before next spring.'}
+{'audio': 'p330_090_mic2', 'transcription': 'Everything has the potential to be serious.'}
+{'audio': 'p276_417_mic2', 'transcription': 'Venus rejects the very suggestion.'}
+{'audio': 'p247_281_mic2', 'transcription': 'They are interior designers and architects.'}
+{'audio': 'p266_145_mic2', 'transcription': 'I was awful.'}
+{'audio': 'p301_053_mic2', 'transcription': 'It also calls for licensing of collection centres.'}
+{'audio': 'p246_094_mic2', 'transcription': 'I saw the whole thing.'}
+{'audio': 'p306_009_mic2', 'transcription': 'There is , according to legend, a boiling pot of gold at one end.'}
+{'audio': 'p294_219_mic2', 'transcription': 'Then they killed another three.'}
+{'audio': 'p244_026_mic2', 'transcription': 'It may be good for the soul.'}
+{'audio': 'p236_217_mic2', 'transcription': 'John Daly has a burning ambition.'}
+{'audio': 'p241_118_mic2', 'transcription': 'There will be a beginning, a middle, and an end.'}
+{'audio': 'p261_449_mic2', 'transcription': 'He deserves a second chance.'}
+{'audio': 'p317_165_mic2', 'transcription': 'There was an e-mail.'}
+{'audio': 'p230_222_mic2', 'transcription': 'Does the name matter?'}
+{'audio': 'p238_377_mic2', 'transcription': 'The most important thing in theatre is to listen.'}
+{'audio': 'p229_044_mic2', 'transcription': 'I was scared.'}
+{'audio': 'p313_241_mic2', 'transcription': 'World leaders expressed their sympathy.'}
+{'audio': 'p263_205_mic2', 'transcription': 'And they were being paid?'}
+{'audio': 'p293_025_mic2', 'transcription': "It's not, of course, a concert hall."}
+{'audio': 'p285_182_mic2', 'transcription': 'And she is a successful actor with three decades of experience.'}
+{'audio': 'p363_290_mic2', 'transcription': 'The best team won.'}
+{'audio': 'p228_023_mic2', 'transcription': 'If the red of the second bow falls upon the green of the first, the result is to give a bow with an abnormally wide yellow band, since red and green light when mixed form yellow.'}
+{'audio': 'p247_245_mic2', 'transcription': 'Those overseas offices were great.'}
+{'audio': 'p293_065_mic2', 'transcription': 'Let us hope so.'}
+{'audio': 'p275_305_mic2', 'transcription': 'The plot is minimal.'}
+{'audio': 'p240_075_mic2', 'transcription': 'The girls are so lucky to be alive.'}
+{'audio': 'p326_218_mic2', 'transcription': 'They finished second and third.'}
+{'audio': 'p252_095_mic2', 'transcription': 'It looks that way.'}
+{'audio': 'p231_160_mic2', 'transcription': 'Are you going to win?'}
+{'audio': 'p273_052_mic2', 'transcription': 'Do I have a favourite?'}
+{'audio': 'p254_032_mic2', 'transcription': 'So if we can take anything from tonight, it will be fantastic.'}
+{'audio': 'p345_284_mic2', 'transcription': 'His body was found in May.'}
+{'audio': 'p334_051_mic2', 'transcription': 'Later we discovered it was a hoax.'}
+{'audio': 'p300_396_mic2', 'transcription': 'For all his successes, he is accustomed to waiting for fulfilment.'}
+{'audio': 'p334_157_mic2', 'transcription': 'This commitment should be built upon.'}
+{'audio': 'p308_065_mic2', 'transcription': 'It is just part of modern day life.'}
+{'audio': 'p247_021_mic2', 'transcription': 'The difference in the rainbow depends considerably upon the size of the drops, and the width of the colored band increases as the size of the drops increases. '}
+{'audio': 'p269_003_mic2', 'transcription': 'Six spoons of fresh snow peas, five thick slabs of blue cheese, and maybe a snack for her brother Bob.  '}
+{'audio': 'p361_193_mic2', 'transcription': 'That is clearly not happening fast enough.'}
+{'audio': 'p227_358_mic2', 'transcription': 'Of course, we want to go home.'}
+{'audio': 'p286_262_mic2', 'transcription': 'Kingfisher can afford to wait.'}
+{'audio': 'p241_119_mic2', 'transcription': 'Strathclyde Police are expected to make an announcement next month.'}
+{'audio': 'p234_086_mic2', 'transcription': 'How are you, sir?'}
+{'audio': 'p292_146_mic2', 'transcription': 'I suggest a new plan.'}
+{'audio': 'p240_059_mic2', 'transcription': 'For the meantime, though, the signs are good.'}
+{'audio': 'p245_352_mic2', 'transcription': 'The parents are not alone in their concerns about the proposals.'}
+{'audio': 'p247_190_mic2', 'transcription': 'The Royal Highland was no exception.'}
+{'audio': 'p301_001_mic2', 'transcription': 'Please call Stella.'}
+{'audio': 'p259_097_mic2', 'transcription': 'Ferguson must take the blame.'}
+{'audio': 'p232_104_mic2', 'transcription': 'There will be no repeat of that performance, that I can guarantee.'}
+{'audio': 'p362_337_mic2', 'transcription': 'It was quite an ordeal for them.'}
+{'audio': 'p316_197_mic2', 'transcription': 'It is not just the agencies.'}
+{'audio': 'p226_166_mic2', 'transcription': 'However, the French government has a major dilemma on its hands.'}
+{'audio': 'p281_333_mic2', 'transcription': 'To beat the European champion is quite nice.'}
+{'audio': 'p247_171_mic2', 'transcription': 'The point is raised again that evening at the Assembly Rooms.'}
+{'audio': 'p297_291_mic2', 'transcription': "That's a trend which will be encouraged."}
+{'audio': 'p288_007_mic2', 'transcription': 'The rainbow is a division of white light into many beautiful colors. '}
+{'audio': 'p241_002_mic2', 'transcription': 'Ask her to bring these things with her from the store.  '}
+{'audio': 'p232_328_mic2', 'transcription': 'They also recovered a picture of Osama bin Laden.'}
+{'audio': 'p268_238_mic2', 'transcription': 'Does that put pressure on us?'}
+{'audio': 'p297_267_mic2', 'transcription': 'When he came to see me on Monday.'}
+{'audio': 'p314_256_mic2', 'transcription': 'It needs to be sorted out by Easter.'}
+{'audio': 'p283_152_mic2', 'transcription': "I'm so grateful for that."}
+{'audio': 'p247_131_mic2', 'transcription': 'They keep the atmosphere in mind.'}
+{'audio': 'p339_042_mic2', 'transcription': 'It was electric, amazing.'}
+{'audio': 'p230_059_mic2', 'transcription': 'He becomes the new Minister for Sport and Culture.'}
+{'audio': 'p330_356_mic2', 'transcription': 'The guys have really enjoyed it.'}
+{'audio': 'p243_007_mic2', 'transcription': 'The rainbow is a division of white light into many beautiful colors. '}
+{'audio': 'p277_263_mic2', 'transcription': "We're in shock."}
+{'audio': 'p268_188_mic2', 'transcription': 'They keep the atmosphere in mind.'}
+{'audio': 'p230_156_mic2', 'transcription': 'You have to ask whether they have really thought through these issues.'}
+{'audio': 'p306_251_mic2', 'transcription': 'I am totally horrified by the sentence.'}
+{'audio': 'p285_176_mic2', 'transcription': 'My players are special.'}
+{'audio': 'p304_238_mic2', 'transcription': 'But they will need to play to score.'}
+{'audio': 'p376_144_mic2', 'transcription': 'We had never seen him before.'}
+{'audio': 'p361_206_mic2', 'transcription': 'We will be working on that this week, all right.'}
+{'audio': 'p227_329_mic2', 'transcription': 'He would help me with the form.'}
+{'audio': 'p298_239_mic2', 'transcription': 'I think in three dimensions.'}
+{'audio': 'p238_221_mic2', 'transcription': 'The study is expected to last until the middle of the year.'}
+{'audio': 'p282_233_mic2', 'transcription': 'Of course I was tempted.'}
+{'audio': 'p259_369_mic2', 'transcription': 'They promised to fight the plans.'}
+{'audio': 'p307_391_mic2', 'transcription': 'I had no qualms about it.'}
+{'audio': 'p287_062_mic2', 'transcription': 'It has been an amazing day.'}
+{'audio': 'p236_124_mic2', 'transcription': 'The abuse of elderly people was appalling.'}
+{'audio': 'p345_230_mic2', 'transcription': 'They are very frightened.'}
+{'audio': 'p345_369_mic2', 'transcription': 'He will take it in his stride.'}
+{'audio': 'p268_239_mic2', 'transcription': 'Did it work?'}
+{'audio': 'p360_021_mic2', 'transcription': 'The difference in the rainbow depends considerably upon the size of the drops, and the width of the colored band increases as the size of the drops increases.'}
+{'audio': 'p250_019_mic2', 'transcription': 'Since then physicists have found that it is not reflection, but refraction by the raindrops which causes the rainbows. '}
+{'audio': 'p268_104_mic2', 'transcription': 'He will be kept informed.'}
+{'audio': 'p305_263_mic2', 'transcription': 'We can only go up.'}
+{'audio': 'p294_327_mic2', 'transcription': 'Is that what people we want?'}
+{'audio': 'p341_094_mic2', 'transcription': 'We are losing this war.'}
+{'audio': 'p288_234_mic2', 'transcription': 'And a film maker was born.'}
+{'audio': 'p252_061_mic2', 'transcription': 'The fifth was found later.'}
+{'audio': 'p256_246_mic2', 'transcription': 'Some families have even requested to leave the city.'}
+{'audio': 'p313_186_mic2', 'transcription': 'Sponsors include the Sunday Herald.'}
+{'audio': 's5_250_mic2', 'transcription': 'Its primary business channel is the internet.'}
+{'audio': 'p345_272_mic2', 'transcription': 'This action could have been avoided.'}
+{'audio': 'p330_404_mic2', 'transcription': 'She had travelled to Spain to give evidence.'}
+{'audio': 'p264_030_mic2', 'transcription': 'Do not give your details to anyone.'}
+{'audio': 'p334_389_mic2', 'transcription': 'Would you take them?'}
+{'audio': 'p268_221_mic2', 'transcription': 'My players have no idea about football.'}
+{'audio': 'p245_161_mic2', 'transcription': 'I have the first six months of next season to prove myself.'}
+{'audio': 'p333_138_mic2', 'transcription': 'It is never an easy game.'}
+{'audio': 'p266_002_mic2', 'transcription': 'Ask her to bring these things with her from the store.  '}
+{'audio': 'p256_146_mic2', 'transcription': 'It is not just about pay.'}
+{'audio': 'p244_203_mic2', 'transcription': 'At the top level, the salaries are far too high.'}
+{'audio': 'p247_034_mic2', 'transcription': 'The company did not declare a dividend.'}
+{'audio': 'p313_201_mic2', 'transcription': "I'm just looking to take my chances."}
+{'audio': 'p239_206_mic2', 'transcription': 'My wife and family are the support system.'}
+{'audio': 'p310_048_mic2', 'transcription': "We're talking about creating an attractive neighbourhood."}
+{'audio': 'p227_090_mic2', 'transcription': 'It is open season on the Old Firm.'}
+{'audio': 'p248_337_mic2', 'transcription': 'Like his acting, it was an accident.'}
+{'audio': 'p245_251_mic2', 'transcription': 'He was my big brother, my father, my grandfather.'}
+{'audio': 'p265_311_mic2', 'transcription': 'The party is up for it.'}
+{'audio': 'p288_221_mic2', 'transcription': 'We played them off the pitch.'}
+{'audio': 'p271_263_mic2', 'transcription': 'This is the first step.'}
+{'audio': 'p277_212_mic2', 'transcription': 'I am very sorry that Alastair Campbell has taken this decision.'}
+{'audio': 'p241_145_mic2', 'transcription': 'I am just trying to do my job.'}
+{'audio': 'p294_187_mic2', 'transcription': 'I want my mum.'}
+{'audio': 'p313_229_mic2', 'transcription': "It doesn't take much."}
+{'audio': 'p225_274_mic2', 'transcription': 'We have not reached the point of no return.'}
+{'audio': 'p273_209_mic2', 'transcription': "There's a chance they might come down."}
+{'audio': 'p292_304_mic2', 'transcription': 'Our task is to complete the picture.'}
+{'audio': 'p262_141_mic2', 'transcription': "I've got to hold my own hands up for this one."}
+{'audio': 'p274_186_mic2', 'transcription': 'They responded well after the run of defeats.'}
+{'audio': 'p256_214_mic2', 'transcription': 'The FBI could become involved.'}
+{'audio': 'p304_308_mic2', 'transcription': 'We are the gateway to justice.'}
+{'audio': 'p274_202_mic2', 'transcription': 'The early physical reports were clear.'}
+{'audio': 'p275_181_mic2', 'transcription': 'In spite of recent advances, the language is still under threat.'}
+{'audio': 'p307_350_mic2', 'transcription': 'And Michael was just great.'}
+{'audio': 's5_218_mic2', 'transcription': 'But not every story is a success story.'}
+{'audio': 'p272_091_mic2', 'transcription': 'Someone who cares'}
+{'audio': 'p288_404_mic2', 'transcription': 'I would welcome a proper, public discussion on this issue.'}
+{'audio': 'p249_327_mic2', 'transcription': 'He was then replaced by Ross.'}
+{'audio': 'p276_232_mic2', 'transcription': 'I never wanted a legal battle.'}
+{'audio': 'p298_001_mic2', 'transcription': 'Please call Stella.'}
+{'audio': 'p340_265_mic2', 'transcription': 'I am very relieved.'}
+{'audio': 'p240_068_mic2', 'transcription': 'I am pleased with the result, as it was a possible upset.'}
+{'audio': 'p301_344_mic2', 'transcription': 'We were lucky to have survived.'}
+{'audio': 'p283_165_mic2', 'transcription': 'Are you going to win?'}
+{'audio': 'p323_249_mic2', 'transcription': 'People want to see me on the screen.'}
+{'audio': 'p330_358_mic2', 'transcription': 'The goal will stay with me forever.'}
+{'audio': 'p282_036_mic2', 'transcription': 'However, they continued in their pursuit of victory.'}
+{'audio': 'p260_146_mic2', 'transcription': 'The petition was formally presented at Downing Street yesterday.'}
+{'audio': 'p245_080_mic2', 'transcription': 'The album was widely expected to be a commercial disaster.'}
+{'audio': 'p261_431_mic2', 'transcription': "That's the way it works."}
+{'audio': 'p241_163_mic2', 'transcription': 'Local managers are already involved in talks with potential investors.'}
+{'audio': 'p264_217_mic2', 'transcription': 'Now we have fresh hope.'}
+{'audio': 'p226_110_mic2', 'transcription': 'Before the game we went for a pint.'}
+{'audio': 'p246_358_mic2', 'transcription': 'Their time has gone.'}
+{'audio': 'p270_405_mic2', 'transcription': 'Ferguson must take the blame.'}
+{'audio': 'p258_205_mic2', 'transcription': 'We have an election in eight days.'}
+{'audio': 'p334_181_mic2', 'transcription': 'I disagree entirely with the decision.'}
+{'audio': 'p228_144_mic2', 'transcription': 'She hopes to study in Britain one day.'}
+{'audio': 'p303_204_mic2', 'transcription': "Sometimes you get them, sometimes you don't."}
+{'audio': 'p262_053_mic2', 'transcription': "It's very odd."}
+{'audio': 'p264_136_mic2', 'transcription': "However, it's possible that Dick can have influence some Dutch players to go there."}
+{'audio': 's5_331_mic2', 'transcription': 'Is our children learning?'}
+{'audio': 'p230_207_mic2', 'transcription': 'We see the rapid reaction force as the way ahead.'}
+{'audio': 'p300_166_mic2', 'transcription': 'Running costs are not subsidised by public money.'}
+{'audio': 'p238_112_mic2', 'transcription': 'Harrowing is easy, after all.'}
+{'audio': 'p261_177_mic2', 'transcription': 'The jury is still out.'}
+{'audio': 'p258_262_mic2', 'transcription': 'They must play for each other.'}
+{'audio': 'p363_210_mic2', 'transcription': 'I wanted to have a go.'}
+{'audio': 'p250_176_mic2', 'transcription': 'This action reflects a slump in bookings.'}
+{'audio': 'p293_262_mic2', 'transcription': 'The Commons is too outdated.'}
+{'audio': 'p301_151_mic2', 'transcription': "I haven't just gone in, done a three-hour rehearsal, and gone."}
+{'audio': 'p276_237_mic2', 'transcription': 'She died at her home.'}
+{'audio': 'p258_383_mic2', 'transcription': 'Something is wrong.'}
+{'audio': 's5_315_mic2', 'transcription': 'Perhaps she met her husband too early, she says.'}
+{'audio': 'p334_032_mic2', 'transcription': "It can't just be a cynical marketing exercise."}
+{'audio': 'p262_191_mic2', 'transcription': 'I came home by ambulance.'}
+{'audio': 'p334_214_mic2', 'transcription': 'The approval system will be changed.'}
+{'audio': 'p264_341_mic2', 'transcription': 'This deal is a great boost for the Borders.'}
+{'audio': 'p363_007_mic2', 'transcription': 'The rainbow is a division of white light into many beautiful colors.'}
+{'audio': 'p226_208_mic2', 'transcription': "I don't want to use it."}
+{'audio': 'p286_122_mic2', 'transcription': "I'm pleased to get through the opening match."}
+{'audio': 's5_060_mic2', 'transcription': "I saw the story, but that amount wouldn't even pay my commission."}
+{'audio': 'p243_100_mic2', 'transcription': 'I am delighted to hear this news.'}
+{'audio': 'p230_291_mic2', 'transcription': 'It was never a free kick.'}
+{'audio': 'p303_257_mic2', 'transcription': 'They seem to be backing off from that.'}
+{'audio': 'p249_322_mic2', 'transcription': "That's the law of the land."}
+{'audio': 'p262_057_mic2', 'transcription': 'New York is expected to come to a standstill.'}
+{'audio': 'p330_413_mic2', 'transcription': 'Their welfare is very important to us.'}
+{'audio': 'p308_078_mic2', 'transcription': 'I cannot believe she has been admonished.'}
+{'audio': 'p279_070_mic2', 'transcription': "They're appalled by that."}
+{'audio': 'p323_197_mic2', 'transcription': 'It was a good atmosphere.'}
+{'audio': 'p284_210_mic2', 'transcription': 'The workers do not want to read about their futures in newspapers.'}
+{'audio': 'p262_182_mic2', 'transcription': 'And she is a successful actor with three decades of experience.'}
+{'audio': 'p298_109_mic2', 'transcription': 'We think all other measures are not exhausted.'}
+{'audio': 'p301_342_mic2', 'transcription': "He's a joy to follow."}
+{'audio': 'p360_199_mic2', 'transcription': 'They are protesting, but they know it cannot go on.'}
+{'audio': 'p316_295_mic2', 'transcription': 'They would have to go to the Royal.'}
+{'audio': 'p251_032_mic2', 'transcription': "It's a matter of balance."}
+{'audio': 'p281_063_mic2', 'transcription': 'The standard is extremely high.'}
+{'audio': 'p246_307_mic2', 'transcription': 'The plot is minimal.'}
+{'audio': 'p314_038_mic2', 'transcription': 'If true, it will be the first sign of dissent.'}
+{'audio': 'p272_300_mic2', 'transcription': 'However, he is a coach, and he remains a coach at heart.'}
+{'audio': 'p245_058_mic2', 'transcription': "It's a matter of balance."}
+{'audio': 'p233_066_mic2', 'transcription': 'He has not been dropped.'}
+{'audio': 'p274_156_mic2', 'transcription': 'Donald Dewar was passionate about his politics.'}
+{'audio': 'p286_072_mic2', 'transcription': 'Both sides have been hit by injury.'}
+{'audio': 'p301_065_mic2', 'transcription': 'After this, the exercise was due to begin.'}
+{'audio': 'p326_252_mic2', 'transcription': 'Confidence among the allies began to slip.'}
+{'audio': 'p329_131_mic2', 'transcription': 'Racism is alive and kicking in Scotland.'}
+{'audio': 'p336_413_mic2', 'transcription': "He didn't know it was his audition, but it was."}
+{'audio': 'p244_356_mic2', 'transcription': 'However, it does not tell the full story.'}
+{'audio': 'p279_361_mic2', 'transcription': 'Well, the big day has arrived.'}
+{'audio': 'p268_071_mic2', 'transcription': 'A spokeswoman for the Law Society of Scotland said.'}
+{'audio': 'p287_059_mic2', 'transcription': 'So is that it, then?'}
+{'audio': 'p275_151_mic2', 'transcription': 'He sets the nature of his Parliament in a simple, realistic context.'}
+{'audio': 'p374_275_mic2', 'transcription': "I don't know why you say goodbye."}
+{'audio': 'p258_228_mic2', 'transcription': 'I am very sorry that Alastair Campbell has taken this decision.'}
+{'audio': 'p287_113_mic2', 'transcription': 'There were no grounds for his action.'}
+{'audio': 'p330_333_mic2', 'transcription': 'There was pressure from elsewhere too.'}
+{'audio': 'p276_179_mic2', 'transcription': 'You had better believe it.'}
+{'audio': 'p307_279_mic2', 'transcription': 'There is no substitute.'}
+{'audio': 'p239_238_mic2', 'transcription': 'Further details are expected later.'}
+{'audio': 'p275_376_mic2', 'transcription': 'It was not hard to feel some sympathy for Baxter yesterday.'}
+{'audio': 'p329_327_mic2', 'transcription': 'That will bring about a dramatic improvement.'}
+{'audio': 'p268_368_mic2', 'transcription': 'Weather should not be a factor.'}
+{'audio': 'p287_168_mic2', 'transcription': 'What do we want to do that for?'}
+{'audio': 'p341_107_mic2', 'transcription': 'There was great support all round the route.'}
+{'audio': 'p302_055_mic2', 'transcription': 'The days of empty promises are over.'}
+{'audio': 'p343_318_mic2', 'transcription': 'We told them in August.'}
+{'audio': 'p340_093_mic2', 'transcription': 'The teenager had been missing for six months.'}
+{'audio': 'p281_020_mic2', 'transcription': 'Many complicated ideas about the rainbow have been formed. '}
+{'audio': 'p246_242_mic2', 'transcription': 'I was at the British Olympic Medical Centre, on Friday.'}
+{'audio': 'p237_326_mic2', 'transcription': 'In the old days, it was easy.'}
+{'audio': 'p250_286_mic2', 'transcription': 'What was the matter for concern?'}
+{'audio': 'p275_296_mic2', 'transcription': 'She is really magic.'}
+{'audio': 'p236_498_mic2', 'transcription': 'I was ready for this.'}
+{'audio': 'p238_432_mic2', 'transcription': 'It was like the old days.'}
+{'audio': 'p265_080_mic2', 'transcription': 'The city council is a major property owner in the area.'}
+{'audio': 'p304_268_mic2', 'transcription': 'We then went to see the headmaster.'}
+{'audio': 's5_113_mic2', 'transcription': 'The newspapers, by contrast, had held their value.'}
+{'audio': 'p294_196_mic2', 'transcription': 'I want a career.'}
+{'audio': 'p266_013_mic2', 'transcription': 'Some have accepted it as a miracle without physical explanation. '}
+{'audio': 'p285_108_mic2', 'transcription': 'Is that right?'}
+{'audio': 'p299_175_mic2', 'transcription': 'Promises were not kept.'}
+{'audio': 'p272_331_mic2', 'transcription': 'In the early days, I was obsessed with working in the theatre.'}
+{'audio': 'p333_240_mic2', 'transcription': 'We are all equal.'}
+{'audio': 'p313_022_mic2', 'transcription': 'The actual primary rainbow observed is said to be the effect of a super-imposition of a number of bows.'}
+{'audio': 'p318_247_mic2', 'transcription': 'I wanted to put myself on the line.'}
+{'audio': 'p273_023_mic2', 'transcription': 'If the red of the second bow falls upon the green of the first, the result is to give a bow with an abnormally wide yellow band, since red and green light when mixed form yellow. '}
+{'audio': 'p277_106_mic2', 'transcription': 'Our position remains unchanged.'}
+{'audio': 'p310_025_mic2', 'transcription': 'He was the youngest of the British team.'}
+{'audio': 'p243_301_mic2', 'transcription': 'So what is the campaign about?'}
+{'audio': 'p329_280_mic2', 'transcription': 'A formal decision will be announced within months.'}
+{'audio': 'p228_344_mic2', 'transcription': 'The man was obviously desperate to get away from the police.'}
+{'audio': 'p247_389_mic2', 'transcription': 'Instead, he was informed to join the line of creditors.'}
+{'audio': 'p312_310_mic2', 'transcription': 'I would say so.'}
+{'audio': 'p301_323_mic2', 'transcription': 'Not that Agassi was a believer.'}
+{'audio': 'p260_149_mic2', 'transcription': 'Crucially, though, United were still alive.'}
+{'audio': 'p279_323_mic2', 'transcription': 'They also recovered a picture of Osama bin Laden.'}
+{'audio': 'p281_435_mic2', 'transcription': 'However, the players should have a voice in these matters.'}
+{'audio': 'p294_201_mic2', 'transcription': 'All options are on the table.'}
+{'audio': 'p253_061_mic2', 'transcription': 'It is unique.'}
+{'audio': 'p258_019_mic2', 'transcription': 'Since then physicists have found that it is not reflection, but refraction by the raindrops which causes the rainbows. '}
+{'audio': 'p345_347_mic2', 'transcription': 'I made a big mistake.'}
+{'audio': 'p251_219_mic2', 'transcription': 'We have got to get it right.'}
+{'audio': 'p233_357_mic2', 'transcription': 'Equity declined to comment.'}
+{'audio': 'p256_237_mic2', 'transcription': 'However, he is a coach, and he remains a coach at heart.'}
+{'audio': 'p257_123_mic2', 'transcription': 'You can spend money on housing.'}
+{'audio': 'p299_235_mic2', 'transcription': 'I will not be pressured.'}
+{'audio': 'p281_329_mic2', 'transcription': 'There is no shortage of farmers.'}
+{'audio': 'p231_420_mic2', 'transcription': 'Even if they come out playing a physical game, we can cope.'}
+{'audio': 'p307_269_mic2', 'transcription': 'I am not happy with proposals for widows.'}
+{'audio': 'p364_152_mic2', 'transcription': 'It is an absolute disgrace.'}
+{'audio': 'p283_447_mic2', 'transcription': 'Something has got to give.'}
+{'audio': 'p334_320_mic2', 'transcription': 'His replacement was named yesterday, following inquiries by The Herald.'}
+{'audio': 'p246_013_mic2', 'transcription': 'Some have accepted it as a miracle without physical explanation. '}
+{'audio': 'p240_253_mic2', 'transcription': 'It is a policy which has the full support of the minister.'}
+{'audio': 'p253_359_mic2', 'transcription': 'The death rates are still as high.'}
+{'audio': 'p273_113_mic2', 'transcription': 'Here, again, they were denied a voice.'}
+{'audio': 'p308_154_mic2', 'transcription': 'I know you went back this morning.'}
+{'audio': 'p360_328_mic2', 'transcription': 'He refused to name the survivors.'}
+{'audio': 'p364_099_mic2', 'transcription': 'He liked to talk.'}
+{'audio': 'p239_260_mic2', 'transcription': "I'd been out with my girlfriend and we were attacked."}
+{'audio': 'p334_236_mic2', 'transcription': 'I will have to order its destruction.'}
+{'audio': 'p229_311_mic2', 'transcription': 'You are the glory.'}
+{'audio': 'p330_336_mic2', 'transcription': 'Will he be given time?'}
+{'audio': 'p314_098_mic2', 'transcription': 'I came up through the ranks.'}
+{'audio': 'p251_194_mic2', 'transcription': 'Mr Kennedy is not a candidate for the Scottish Parliament.'}
+{'audio': 'p376_093_mic2', 'transcription': 'That is the worry.'}
+{'audio': 'p233_323_mic2', 'transcription': 'On Thursday, Mr Blair will address the Institute of Public Policy Research.'}
+{'audio': 'p249_103_mic2', 'transcription': 'Until you hit the big games.'}
+{'audio': 'p282_367_mic2', 'transcription': "There wasn't a goal."}
+{'audio': 'p312_321_mic2', 'transcription': "I wouldn't say this is normal."}
+{'audio': 'p270_327_mic2', 'transcription': 'There will be good prospects ahead.'}
+{'audio': 'p333_142_mic2', 'transcription': "However, it's good to turn the page."}
+{'audio': 'p264_012_mic2', 'transcription': 'Throughout the centuries people have explained the rainbow in various ways. '}
+{'audio': 'p231_216_mic2', 'transcription': 'I had decided to quit the show.'}
+{'audio': 'p345_153_mic2', 'transcription': 'But they cannot go on ignoring the truth.'}
+{'audio': 'p261_242_mic2', 'transcription': 'This is a family club.'}
+{'audio': 'p341_014_mic2', 'transcription': 'To the Hebrews it was a token that there would be no more universal floods.'}
+{'audio': 'p299_264_mic2', 'transcription': "So there's a double whammy."}
+{'audio': 'p230_345_mic2', 'transcription': 'The airport was even different.'}
+{'audio': 'p267_402_mic2', 'transcription': 'Is there a waiting list?'}
+{'audio': 'p347_111_mic2', 'transcription': 'We have to reinforce the pressure on Iraq.'}
+{'audio': 'p271_406_mic2', 'transcription': 'In a way he was.'}
+{'audio': 'p270_033_mic2', 'transcription': 'That is the face of fear.'}
+{'audio': 'p234_282_mic2', 'transcription': 'My view has always been the same.'}
+{'audio': 'p255_097_mic2', 'transcription': 'May not have been at fault?'}
+{'audio': 'p244_408_mic2', 'transcription': "I tried to be cautious, but it's hard in that role."}
+{'audio': 'p313_199_mic2', 'transcription': 'So they will settle again.'}
+{'audio': 'p347_198_mic2', 'transcription': 'Our approach will be different.'}
+{'audio': 'p361_197_mic2', 'transcription': 'It has been well worth it.'}
+{'audio': 'p307_369_mic2', 'transcription': 'Moving from Manchester to London was upheaval enough.'}
+{'audio': 'p312_261_mic2', 'transcription': 'It was that bad, that low.'}
+{'audio': 'p286_315_mic2', 'transcription': 'I was there five months ago.'}
+{'audio': 'p288_345_mic2', 'transcription': 'A formal announcement is expected this morning at a news conference.'}
+{'audio': 'p293_056_mic2', 'transcription': 'That is our unfinished business.'}
+{'audio': 'p360_026_mic2', 'transcription': 'My conscience is not clear.'}
+{'audio': 'p361_039_mic2', 'transcription': 'It took two minutes to respond.'}
+{'audio': 'p248_285_mic2', 'transcription': 'It is a vote of confidence in the skills in Scotland.'}
+{'audio': 'p363_187_mic2', 'transcription': 'The prime minister will make the decision.'}
+{'audio': 'p233_008_mic2', 'transcription': 'These take the shape of a long round arch, with its path high above, and its two ends apparently beyond the horizon. '}
+{'audio': 'p301_166_mic2', 'transcription': 'However, who could have predicted this result?'}
+{'audio': 'p259_109_mic2', 'transcription': 'We needed financial backing to get it off the ground.'}
+{'audio': 'p260_303_mic2', 'transcription': 'The most important thing is to get a programme for government.'}
+{'audio': 'p282_150_mic2', 'transcription': 'There was a substantial explosion.'}
+{'audio': 'p363_119_mic2', 'transcription': 'Only the details have to be sorted out.'}
+{'audio': 'p271_236_mic2', 'transcription': 'Dewar is certainly under attack from within his own party.'}
+{'audio': 'p307_182_mic2', 'transcription': 'I see social work as a vocation, a commitment.'}
+{'audio': 'p266_310_mic2', 'transcription': 'The plot is minimal.'}
+{'audio': 'p283_059_mic2', 'transcription': 'How are you, sir?'}
+{'audio': 'p271_175_mic2', 'transcription': 'You had to go and see him.'}
+{'audio': 'p313_351_mic2', 'transcription': 'That might help a bit.'}
+{'audio': 'p286_058_mic2', 'transcription': 'We have not given up hope.'}
+{'audio': 'p247_423_mic2', 'transcription': "That's been all around Europe with me."}
+{'audio': 'p360_338_mic2', 'transcription': 'But this is nonsense.'}
+{'audio': 'p279_311_mic2', 'transcription': 'I did not name it.'}
+{'audio': 'p294_061_mic2', 'transcription': "I think we'll just keep it."}
+{'audio': 'p301_379_mic2', 'transcription': "It's being very carefully looked at."}
+{'audio': 'p244_200_mic2', 'transcription': 'He has defended the system.'}
+{'audio': 'p272_175_mic2', 'transcription': 'As we worked.'}
+{'audio': 'p231_350_mic2', 'transcription': 'Is there a waiting list?'}
+{'audio': 'p268_069_mic2', 'transcription': 'Pulled a huge number of viewers.'}
+{'audio': 'p326_246_mic2', 'transcription': "I've been thinking about it for a year."}
+{'audio': 'p340_340_mic2', 'transcription': "I'll need to discuss it with my family."}
+{'audio': 'p313_345_mic2', 'transcription': 'Staff have been informed.'}
+{'audio': 'p299_338_mic2', 'transcription': 'We will work through the night.'}
+{'audio': 'p318_144_mic2', 'transcription': 'They played it like a cup final.'}
+{'audio': 'p231_041_mic2', 'transcription': 'Iain Duncan Smith is a decent man.'}
+{'audio': 's5_135_mic2', 'transcription': 'Are you going to win?'}
+{'audio': 'p277_084_mic2', 'transcription': 'The guidelines are expected to be finalised before next spring.'}
+{'audio': 'p323_016_mic2', 'transcription': 'The Norsemen considered the rainbow as a bridge over which the gods passed from earth to their home in the sky.'}
+{'audio': 'p294_144_mic2', 'transcription': 'It is a question of life and death.'}
+{'audio': 'p286_002_mic2', 'transcription': 'Ask her to bring these things with her from the store.  '}
+{'audio': 'p247_022_mic2', 'transcription': 'The actual primary rainbow observed is said to be the effect of super-imposition of a number of bows. '}
+{'audio': 'p268_086_mic2', 'transcription': "He's not getting into any games."}
+{'audio': 'p252_140_mic2', 'transcription': 'As our national coach, Brown is done for.'}
+{'audio': 'p234_002_mic2', 'transcription': 'Ask her to bring these things with her from the store.  '}
+{'audio': 'p284_291_mic2', 'transcription': 'He added that public transport improvements must also be maintained.'}
+{'audio': 'p277_176_mic2', 'transcription': 'Tony had arrived.'}
+{'audio': 'p239_247_mic2', 'transcription': "I've learned from my mistakes."}
+{'audio': 'p374_141_mic2', 'transcription': 'Where is the logic in that?'}
+{'audio': 'p248_116_mic2', 'transcription': 'Among them was Gary Robertson from Dundee.'}
+{'audio': 'p226_294_mic2', 'transcription': 'The results are sometimes contentious.'}
+{'audio': 'p316_050_mic2', 'transcription': 'I would love to have him home.'}
+{'audio': 'p260_053_mic2', 'transcription': 'My fitness was very poor.'}
+{'audio': 'p258_379_mic2', 'transcription': 'Not because they want to sing about something.'}
+{'audio': 'p270_434_mic2', 'transcription': 'The British government does not want to know.'}
+{'audio': 's5_145_mic2', 'transcription': 'As our national coach, Brown is done for.'}
+{'audio': 'p284_079_mic2', 'transcription': 'Today she has been released.'}
+{'audio': 'p260_223_mic2', 'transcription': 'My wife and family are the support system.'}
+{'audio': 'p286_380_mic2', 'transcription': "It's as wide as a church in here."}
+{'audio': 'p244_190_mic2', 'transcription': 'However, he urged the trade to keep the faith.'}
+{'audio': 'p333_285_mic2', 'transcription': 'I could feel the blood on my face.'}
+{'audio': 'p257_078_mic2', 'transcription': 'Mr Irvine said Mr Rafferty was now in good spirits.'}
+{'audio': 'p282_213_mic2', 'transcription': 'On a technical level, they were not afraid to play good football.'}
+{'audio': 'p230_269_mic2', 'transcription': "I've had no discussions with the chairman of the board."}
+{'audio': 'p234_255_mic2', 'transcription': 'The world is a good place.'}
+{'audio': 'p287_336_mic2', 'transcription': 'It was an achievement all right.'}
+{'audio': 'p284_151_mic2', 'transcription': 'I was on a roll.'}
+{'audio': 'p233_365_mic2', 'transcription': 'But I managed.'}
+{'audio': 'p374_277_mic2', 'transcription': 'Where do you start?'}
+{'audio': 'p323_114_mic2', 'transcription': 'We were a shambles at the back.'}
+{'audio': 'p228_085_mic2', 'transcription': 'But she might be.'}
+{'audio': 'p361_376_mic2', 'transcription': "Because they didn't want to know."}
+{'audio': 'p256_047_mic2', 'transcription': 'A neighbour said.'}
+{'audio': 'p231_190_mic2', 'transcription': "I'm interested in interesting work."}
+{'audio': 'p276_416_mic2', 'transcription': 'A succession of managers in the opera company resigned.'}
+{'audio': 'p244_241_mic2', 'transcription': 'All will be revealed in due course.'}
+{'audio': 'p250_418_mic2', 'transcription': 'It is a large number.'}
+{'audio': 'p295_215_mic2', 'transcription': 'The distinction is also supported by doctors.'}
+{'audio': 'p283_196_mic2', 'transcription': 'The Hibs manager is no fool.'}
+{'audio': 'p227_190_mic2', 'transcription': 'This is the time to use it.'}
+{'audio': 'p308_057_mic2', 'transcription': "I wouldn't want to miss that chance."}
+{'audio': 'p297_152_mic2', 'transcription': 'I will go out with him any time.'}
+{'audio': 'p363_368_mic2', 'transcription': 'We have a business to run.'}
+{'audio': 'p340_168_mic2', 'transcription': 'They did a very good job.'}
+{'audio': 'p363_386_mic2', 'transcription': 'I loved it - and so did my friend.'}
+{'audio': 'p283_237_mic2', 'transcription': 'We have an election in eight days.'}
+{'audio': 'p340_392_mic2', 'transcription': "I don't believe in God."}
+{'audio': 'p226_137_mic2', 'transcription': 'It will be too hot.'}
+{'audio': 'p284_104_mic2', 'transcription': "That's all right then."}
+{'audio': 'p364_208_mic2', 'transcription': 'I am really, really happy.'}
+{'audio': 'p303_043_mic2', 'transcription': 'This is purely financial.'}
+{'audio': 'p279_375_mic2', 'transcription': 'YOU thought it was a headache.'}
+{'audio': 'p326_075_mic2', 'transcription': "It is difficult when you don't know anyone."}
+{'audio': 'p245_218_mic2', 'transcription': 'My wife and family are the support system.'}
+{'audio': 'p326_007_mic2', 'transcription': 'The rainbow is a division of white light into many beautiful colors.'}
+{'audio': 'p361_082_mic2', 'transcription': 'Workers will now be balloted on the offer.'}
+{'audio': 'p295_347_mic2', 'transcription': 'Four years is a long time.'}
+{'audio': 'p281_422_mic2', 'transcription': 'In time, may prove a worthy successor to Billy Dodds.'}
+{'audio': 'p279_376_mic2', 'transcription': 'Family liaison officers are now working to support the family.'}
+{'audio': 'p255_023_mic2', 'transcription': 'If the red of the second bow falls upon the green of the first, the result is to give a bow with an abnormally wide yellow band, since red and green light when mixed form yellow. '}
+{'audio': 'p279_332_mic2', 'transcription': 'It is so unfair.'}
+{'audio': 'p326_073_mic2', 'transcription': 'The Insider opens tomorrow.'}
+{'audio': 'p271_257_mic2', 'transcription': 'The concerns are the same.'}
+{'audio': 'p247_429_mic2', 'transcription': 'Such an attack is bizarre.'}
+{'audio': 'p284_372_mic2', 'transcription': 'For one veteran, the memories remain vivid.'}
+{'audio': 'p316_310_mic2', 'transcription': 'Time has run out for Saddam Hussein.'}
+{'audio': 'p293_078_mic2', 'transcription': 'I can live with just the one.'}
+{'audio': 'p253_300_mic2', 'transcription': 'This is a war over our home.'}
+{'audio': 'p316_096_mic2', 'transcription': "I've had it for the exams."}
+{'audio': 'p301_223_mic2', 'transcription': 'I go home only once.'}
+{'audio': 'p229_306_mic2', 'transcription': 'This is a war over our home.'}
+{'audio': 's5_165_mic2', 'transcription': 'He said he still planned to go ahead with deep tax cuts.'}
+{'audio': 'p310_013_mic2', 'transcription': 'Some have accepted it as a miracle without any physical explanation.'}
+{'audio': 'p333_179_mic2', 'transcription': 'It is a job creation scheme.'}
+{'audio': 'p301_336_mic2', 'transcription': 'Birthdays are wonderful and terrible things.'}
+{'audio': 'p230_349_mic2', 'transcription': 'Last night, he pledged to clear his name.'}
+{'audio': 'p241_003_mic2', 'transcription': 'Six spoons of fresh snow peas, five thick slabs of blue cheese, and maybe a snack for her brother Bob.  '}
+{'audio': 'p301_155_mic2', 'transcription': 'I was loving that little girl.'}
+{'audio': 'p260_089_mic2', 'transcription': 'They could not ignore the will of parliament, he claimed.'}
+{'audio': 'p240_036_mic2', 'transcription': 'It is marvellous.'}
+{'audio': 'p246_259_mic2', 'transcription': 'However, the force has not yet received a formal complaint.'}
+{'audio': 'p298_071_mic2', 'transcription': 'The cause of the crash was unclear.'}
+{'audio': 'p261_426_mic2', 'transcription': 'It was important to win the singles.'}
+{'audio': 'p240_170_mic2', 'transcription': 'And I was happy for the happiness of my brothers.'}
+{'audio': 'p376_021_mic2', 'transcription': 'The difference in the rainbow depends considerably upon the size of the drops, and the width of the colored band increases as the size of the drops increases.'}
+{'audio': 'p339_386_mic2', 'transcription': 'So far the weather has been very pleasant.'}
+{'audio': 'p347_015_mic2', 'transcription': 'The Greeks used to imagine that it was a sign from the gods to foretell war or heavy rain.'}
+{'audio': 'p286_353_mic2', 'transcription': 'That is a trend which will be encouraged.'}
+{'audio': 'p237_299_mic2', 'transcription': 'She said she could not believe that they had run away.'}
+{'audio': 'p313_247_mic2', 'transcription': 'I wanted to put myself on the line.'}
+{'audio': 'p284_224_mic2', 'transcription': 'The move was also welcomed by the National Union of Journalists.'}
+{'audio': 'p287_317_mic2', 'transcription': 'Violence and threatening behaviour has no place in a school.'}
+{'audio': 'p282_354_mic2', 'transcription': 'He is very concerned about his fitness as a footballer.'}
+{'audio': 'p313_292_mic2', 'transcription': 'Colonel, About this committee that is coming.'}
+{'audio': 'p312_336_mic2', 'transcription': 'He will be advised by me.'}
+{'audio': 'p233_168_mic2', 'transcription': 'Alex has been a huge influence on the club.'}
+{'audio': 'p326_082_mic2', 'transcription': 'No, we had nothing to do with the Jews.'}
+{'audio': 'p345_116_mic2', 'transcription': 'Everyone is deeply shocked by this appaling accident.'}
+{'audio': 'p335_270_mic2', 'transcription': 'It was frightening, intense, and primal theatre.'}
+{'audio': 'p286_090_mic2', 'transcription': 'Theatre is not a museum.'}
+{'audio': 'p266_154_mic2', 'transcription': 'They have not been named.'}
+{'audio': 'p275_058_mic2', 'transcription': 'George Robertson described the plan as an outrageous and disgraceful decision.'}
+{'audio': 'p258_122_mic2', 'transcription': 'It has removed a bit of guilt.'}
+{'audio': 'p287_418_mic2', 'transcription': 'Potions said he would drive.'}
+{'audio': 'p300_337_mic2', 'transcription': 'Instead they were openly attempting to be helpful.'}
+{'audio': 'p234_004_mic2', 'transcription': 'We also need a small plastic snake and a big toy frog for the kids.  '}
+{'audio': 'p312_320_mic2', 'transcription': 'It is not illegal.'}
+{'audio': 'p300_247_mic2', 'transcription': "The performance, for this listener, didn't come off."}
+{'audio': 'p300_124_mic2', 'transcription': "I'm sure this game will be equally successful."}
+{'audio': 'p345_264_mic2', 'transcription': "It doesn't look good."}
+{'audio': 'p268_168_mic2', 'transcription': 'We have reacted well to each other.'}
+{'audio': 'p226_099_mic2', 'transcription': 'He is hungry for success and I am the same.'}
+{'audio': 'p233_345_mic2', 'transcription': 'Eight months later, he was dead.'}
+{'audio': 'p228_033_mic2', 'transcription': 'However, they continued in their pursuit of victory.'}
+{'audio': 'p307_193_mic2', 'transcription': 'He scored one goal and was on fire.'}
+{'audio': 'p244_131_mic2', 'transcription': 'Naturally, it was not difficult to find support for these proposals.'}
+{'audio': 'p250_387_mic2', 'transcription': 'Does it matter?'}
+{'audio': 'p266_382_mic2', 'transcription': 'Of course, we will need to strengthen the squad for Europe.'}
+{'audio': 'p272_340_mic2', 'transcription': 'She said they would appeal.'}
+{'audio': 'p261_466_mic2', 'transcription': 'The Edinburgh audience was able to understand the dialogue.'}
+{'audio': 'p252_030_mic2', 'transcription': 'Schools do not create that.'}
+{'audio': 'p314_367_mic2', 'transcription': 'Filtering through this material a composite finally emerges.'}
+{'audio': 'p276_290_mic2', 'transcription': 'We have a budget in March.'}
+{'audio': 'p288_298_mic2', 'transcription': 'I thought it was my only chance.'}
+{'audio': 'p287_054_mic2', 'transcription': 'In time, the First Minister will grow in stature.'}
+{'audio': 'p250_483_mic2', 'transcription': 'That argument has been won.'}
+{'audio': 'p249_330_mic2', 'transcription': 'Work is under way to create a studio in Inverness.'}
+{'audio': 'p269_141_mic2', 'transcription': 'We are currently consulting with a wide range of interested parties.'}
+{'audio': 'p229_281_mic2', 'transcription': 'People have no choice.'}
+{'audio': 'p243_264_mic2', 'transcription': 'The two companies were not for sale.'}
+{'audio': 'p269_209_mic2', 'transcription': 'But I am a worried man.'}
+{'audio': 'p276_303_mic2', 'transcription': 'Harrowing is easy, after all.'}
+{'audio': 'p261_433_mic2', 'transcription': 'It succeeds in a direct and convincing manner.'}
+{'audio': 'p343_177_mic2', 'transcription': 'Two others were also seriously injured.'}
+{'audio': 'p269_338_mic2', 'transcription': 'I came into this world with nothing.'}
+{'audio': 'p317_144_mic2', 'transcription': 'They never looked like winning it either.'}
+{'audio': 'p278_377_mic2', 'transcription': 'The major championships will always have a special place.'}
+{'audio': 'p336_297_mic2', 'transcription': 'Last night, the extent of the damage was emerging.'}
+{'audio': 'p286_097_mic2', 'transcription': 'Had I heard?'}
+{'audio': 'p264_393_mic2', 'transcription': 'No, because they look good boys.'}
+{'audio': 'p252_173_mic2', 'transcription': 'Sport is good for you.'}
+{'audio': 'p374_266_mic2', 'transcription': 'I am expecting to win.'}
+{'audio': 'p318_324_mic2', 'transcription': 'The referee had a shocking game.'}
+{'audio': 'p263_297_mic2', 'transcription': 'She failed in her action.'}
+{'audio': 'p271_398_mic2', 'transcription': 'Thankfully, no-one on the bus is too badly hurt.'}
+{'audio': 'p259_339_mic2', 'transcription': 'His appeal is instantly understood.'}
+{'audio': 'p360_394_mic2', 'transcription': 'I had to win this race.'}
+{'audio': 'p329_074_mic2', 'transcription': 'They seem to be backing off from that.'}
+{'audio': 'p254_098_mic2', 'transcription': 'Global Scotland will be held at the Glasgow Royal Concert Hall.'}
+{'audio': 'p292_161_mic2', 'transcription': 'It is about the script for me.'}
+{'audio': 'p339_168_mic2', 'transcription': 'I would like to make an impact, of course.'}
+{'audio': 'p340_027_mic2', 'transcription': "We've just decided to do something about it."}
+{'audio': 'p258_214_mic2', 'transcription': "It's not ideal."}
+{'audio': 'p287_095_mic2', 'transcription': 'It would be the end of farming.'}
+{'audio': 'p282_295_mic2', 'transcription': 'A police inquiry began about two weeks before the General Election.'}
+{'audio': 'p262_290_mic2', 'transcription': 'The death toll included five children.'}
+{'audio': 'p306_083_mic2', 'transcription': 'They are not an item.'}
+{'audio': 'p345_238_mic2', 'transcription': 'Lockerbie has been a terrible disaster for everyone.'}
+{'audio': 'p313_138_mic2', 'transcription': 'Receiving this medal is an honour.'}
+{'audio': 'p334_273_mic2', 'transcription': 'Where was their passion, the power and feeling?'}
+{'audio': 'p239_357_mic2', 'transcription': 'So what is the campaign about?'}
+{'audio': 'p330_390_mic2', 'transcription': 'The line-up is a tasty one.'}
+{'audio': 'p311_027_mic2', 'transcription': 'It is the whole package.'}
+{'audio': 'p363_091_mic2', 'transcription': 'We have not given up.'}
+{'audio': 'p278_029_mic2', 'transcription': 'They have now been banned from Celtic Park for life.'}
+{'audio': 'p265_328_mic2', 'transcription': 'She said they would appeal.'}
+{'audio': 'p231_391_mic2', 'transcription': 'The response from them was good.'}
+{'audio': 'p283_401_mic2', 'transcription': 'I could not live with it.'}
+{'audio': 'p248_364_mic2', 'transcription': 'This big issue is whether it can be enforced.'}
+{'audio': 'p283_123_mic2', 'transcription': 'Of course, on Tuesday, United were beaten despite this.'}
+{'audio': 'p273_152_mic2', 'transcription': "It's never great to finish second."}
+{'audio': 'p335_018_mic2', 'transcription': "Aristotle thought that the rainbow was caused by reflection of the sun's rays by the rain."}
+{'audio': 'p333_376_mic2', 'transcription': 'You will not feel a thing.'}
+{'audio': 'p266_222_mic2', 'transcription': 'I will win.'}
+{'audio': 'p363_312_mic2', 'transcription': 'His remit is specific.'}
+{'audio': 'p284_285_mic2', 'transcription': 'The condition of their adoption was that they should be kept together.'}
+{'audio': 'p295_179_mic2', 'transcription': "There's nothing new in that argument."}
+{'audio': 'p317_047_mic2', 'transcription': 'We then went to see the headmaster.'}
+{'audio': 'p305_220_mic2', 'transcription': 'It may be his last for a while, too.'}
+{'audio': 'p304_102_mic2', 'transcription': 'There, you were just a body.'}
+{'audio': 'p226_037_mic2', 'transcription': 'It is a matter of the utmost concern to the Allies.'}
+{'audio': 'p253_330_mic2', 'transcription': "I've got no secret."}
+{'audio': 'p310_423_mic2', 'transcription': 'ALL IS busy but not much is happening.'}
+{'audio': 'p363_138_mic2', 'transcription': 'I will be having talks with the workforce.'}
+{'audio': 'p351_373_mic2', 'transcription': 'The cause is just.'}
+{'audio': 'p323_372_mic2', 'transcription': 'This is totally out of character for Stuart.'}
+{'audio': 'p314_235_mic2', 'transcription': 'Come to that, is any of this really happening?'}
+{'audio': 'p340_385_mic2', 'transcription': 'That is to miss the point.'}
+{'audio': 'p304_021_mic2', 'transcription': 'The difference in the rainbow depends considerably upon the size of the drops, and the width of the colored band increases as the size of the drops increases.'}
+{'audio': 'p301_326_mic2', 'transcription': 'It needs to be sorted out by Easter.'}
+{'audio': 'p313_005_mic2', 'transcription': 'She can scoop these things into three red bags, and we will go meet her Wednesday at the train station.'}
+{'audio': 'p279_155_mic2', 'transcription': 'He then asked if he could have her seat and she refused.'}
+{'audio': 'p376_296_mic2', 'transcription': 'Promises were not kept.'}
+{'audio': 'p313_273_mic2', 'transcription': 'There is no more money.'}
+{'audio': 'p260_103_mic2', 'transcription': 'Meanwhile, the Scottish Consumer Council yesterday offered support for the new Bill.'}
+{'audio': 'p259_344_mic2', 'transcription': "Sunday's game was not a trial."}
+{'audio': 'p310_418_mic2', 'transcription': 'He came close to signing for Rangers, too.'}
+{'audio': 'p262_276_mic2', 'transcription': 'However, he will have his work cut out defending his title.'}
+{'audio': 'p317_069_mic2', 'transcription': 'How do you resurrect a dying town?'}
+{'audio': 'p259_129_mic2', 'transcription': 'Tiger is not the norm.'}
+{'audio': 'p284_227_mic2', 'transcription': 'The role was a knockout, but really difficult.'}
+{'audio': 'p262_325_mic2', 'transcription': 'My body is clearly capable.'}
+{'audio': 'p251_234_mic2', 'transcription': 'I am immensely sad.'}
+{'audio': 'p244_276_mic2', 'transcription': 'The company still had the confidence of its bankers, he said.'}
+{'audio': 'p313_392_mic2', 'transcription': 'We also enjoyed a lot of support.'}
+{'audio': 'p277_395_mic2', 'transcription': 'It was a breathtaking moment.'}
+{'audio': 'p351_237_mic2', 'transcription': 'That is important for the club.'}
+{'audio': 'p261_422_mic2', 'transcription': "We're delighted about the vote."}
+{'audio': 'p269_222_mic2', 'transcription': 'The council has proposed a temporary barrier to protect the monument.'}
+{'audio': 'p269_354_mic2', 'transcription': 'You feel the pride.'}
+{'audio': 'p293_048_mic2', 'transcription': 'Ferguson must take the blame.'}
+{'audio': 'p240_187_mic2', 'transcription': 'It was an odd affair, in many respects.'}
+{'audio': 'p272_004_mic2', 'transcription': 'We also need a small plastic snake and a big toy frog for the kids.  '}
+{'audio': 'p226_180_mic2', 'transcription': 'I have the first six months of next season to prove myself.'}
+{'audio': 'p286_360_mic2', 'transcription': "I'd like to take the plunge."}
+{'audio': 'p273_299_mic2', 'transcription': 'The effect was almost magical.'}
+{'audio': 'p272_166_mic2', 'transcription': 'Councillors are expected to take a decision within the next few weeks.'}
+{'audio': 'p239_125_mic2', 'transcription': 'They lived for their children.'}
+{'audio': 'p263_001_mic2', 'transcription': 'Please call Stella.  '}
+{'audio': 'p294_291_mic2', 'transcription': 'There did not need to be a miracle.'}
+{'audio': 'p300_160_mic2', 'transcription': 'She collapsed and died a day later.'}
+{'audio': 'p300_077_mic2', 'transcription': "You'd think there was a match on today."}
+{'audio': 'p263_228_mic2', 'transcription': 'We can hardly talk about it.'}
+{'audio': 'p275_171_mic2', 'transcription': 'Seven people were later detained by police.'}
+{'audio': 'p269_098_mic2', 'transcription': 'An announcement on his replacement is expected within three weeks.'}
+{'audio': 'p230_119_mic2', 'transcription': 'But this time we can have no excuses.'}
+{'audio': 'p301_076_mic2', 'transcription': 'This is a mental challenge.'}
+{'audio': 'p225_199_mic2', 'transcription': 'And they were being paid?'}
+{'audio': 'p276_235_mic2', 'transcription': 'The partnership was set up during the summer.'}
+{'audio': 'p285_402_mic2', 'transcription': 'The orchestra was already increasing the scope of its ambitions.'}
+{'audio': 'p307_217_mic2', 'transcription': 'They were later discharged from hospital.'}
+{'audio': 'p298_221_mic2', 'transcription': 'We have our supporters and our enemies.'}
+{'audio': 'p284_149_mic2', 'transcription': 'Crucially, though, United were still alive.'}
+{'audio': 'p256_080_mic2', 'transcription': 'It is a terrible place.'}
+{'audio': 'p314_380_mic2', 'transcription': 'Even though the show is seriously exacting, physically demanding.'}
+{'audio': 'p238_176_mic2', 'transcription': 'Hopefully they will just give me the degree.'}
+{'audio': 'p303_219_mic2', 'transcription': 'It has made me feel good.'}
+{'audio': 'p326_095_mic2', 'transcription': 'It is, honestly, difficult to write about this.'}
+{'audio': 'p266_170_mic2', 'transcription': 'By then, however, both men were already in the US.'}
+{'audio': 'p312_419_mic2', 'transcription': 'There was no pressure at all.'}
+{'audio': 'p314_350_mic2', 'transcription': 'This seems like a very good idea.'}
+{'audio': 'p284_293_mic2', 'transcription': "And it's a goodbye from him."}
+{'audio': 'p253_149_mic2', 'transcription': 'It will include the Black Watch, the Royal Highland regiment.'}
+{'audio': 'p300_018_mic2', 'transcription': "Aristotle thought that the rainbow was caused by reflection of the sun's rays by the rain."}
+{'audio': 'p231_231_mic2', 'transcription': 'Paterson can afford to be generous.'}
+{'audio': 'p347_266_mic2', 'transcription': 'We will have to see, but it makes you think.'}
+{'audio': 'p268_256_mic2', 'transcription': "It's never great to finish second."}
+{'audio': 'p314_080_mic2', 'transcription': "I'm not going to answer that right now."}
+{'audio': 'p245_270_mic2', 'transcription': 'People have no choice.'}
+{'audio': 'p339_188_mic2', 'transcription': 'He loved it, and so did they.'}
+{'audio': 'p347_356_mic2', 'transcription': 'Again, this was genuine loyalty being recognised.'}
+{'audio': 'p295_085_mic2', 'transcription': 'However, we have not come to any conclusions.'}
+{'audio': 'p260_185_mic2', 'transcription': 'It is a farce.'}
+{'audio': 'p310_278_mic2', 'transcription': 'Well, when did he ever refuse?'}
+{'audio': 'p310_377_mic2', 'transcription': 'Such actions are rarely popular.'}
+{'audio': 'p323_211_mic2', 'transcription': 'One film a year is, he says, his natural rhythm.'}
+{'audio': 'p257_018_mic2', 'transcription': "Aristotle thought that the rainbow was caused by reflection of the sun's rays by the rain. "}
+{'audio': 'p275_278_mic2', 'transcription': 'There was a final revealing detail about the broadcast.'}
+{'audio': 'p272_123_mic2', 'transcription': 'That was the lesson to be learned from the European Championships.'}
+{'audio': 'p294_375_mic2', 'transcription': 'We need to increase the membership.'}
+{'audio': 'p307_393_mic2', 'transcription': 'McMaster had already seen the first part.'}
+{'audio': 'p307_138_mic2', 'transcription': 'The son has autism and other problems.'}
+{'audio': 'p323_168_mic2', 'transcription': 'I want my country to be a republic, not an empire.'}
+{'audio': 'p306_135_mic2', 'transcription': 'However, details have yet to be worked out.'}
+{'audio': 'p264_127_mic2', 'transcription': 'We have a team to reach the final.'}
+{'audio': 'p253_182_mic2', 'transcription': "It wasn't a penalty, it was outside the area."}
+{'audio': 'p272_294_mic2', 'transcription': 'One was a lawyer.'}
+{'audio': 'p313_187_mic2', 'transcription': 'Her daughter is getting married.'}
+{'audio': 'p312_177_mic2', 'transcription': 'They are going to carry it through.'}
+{'audio': 'p269_040_mic2', 'transcription': 'Two other men, including the taxi driver, were wounded in the attack.'}
+{'audio': 'p274_321_mic2', 'transcription': 'What are they for?'}
+{'audio': 'p287_064_mic2', 'transcription': 'Family liaison officers are now working to support the family.'}
+{'audio': 'p244_040_mic2', 'transcription': 'She was at the top.'}
+{'audio': 'p306_147_mic2', 'transcription': 'We need a new kind of theatre.'}
+{'audio': 'p345_115_mic2', 'transcription': 'Together they will attempt to express the whole.'}
+{'audio': 'p263_411_mic2', 'transcription': "I didn't know that I had a court appearance on Wednesday."}
+{'audio': 'p364_212_mic2', 'transcription': 'I can handle the pace.'}
+{'audio': 'p272_183_mic2', 'transcription': 'Our team is just so young.'}
+{'audio': 'p241_315_mic2', 'transcription': 'The home team had an amazing start.'}
+{'audio': 'p306_113_mic2', 'transcription': 'Look at them after three days of rain.'}
+{'audio': 'p308_044_mic2', 'transcription': 'Subs not used, McCulloch.'}
+{'audio': 'p293_394_mic2', 'transcription': "She's the runner - she makes the decisions."}
+{'audio': 'p364_107_mic2', 'transcription': 'We are not leaving the area.'}
+{'audio': 'p232_138_mic2', 'transcription': 'What will happen then?'}
+{'audio': 'p271_028_mic2', 'transcription': 'I am not interested in the money, it is the principle.'}
+{'audio': 'p361_046_mic2', 'transcription': 'The answer was wrong.'}
+{'audio': 'p257_151_mic2', 'transcription': 'It opens the door to the Champions League.'}
+{'audio': 'p305_372_mic2', 'transcription': 'There is nothing like a fresh start.'}
+{'audio': 's5_174_mic2', 'transcription': 'No, is the answer to your first question.'}
+{'audio': 's5_068_mic2', 'transcription': 'It is too much to take in.'}
+{'audio': 'p300_112_mic2', 'transcription': 'There is great relief at this point.'}
+{'audio': 'p330_080_mic2', 'transcription': 'I will not be in dialogue with her.'}
+{'audio': 'p262_285_mic2', 'transcription': 'He will address the nation this evening.'}
+{'audio': 'p351_396_mic2', 'transcription': 'You read it right.'}
+{'audio': 'p297_140_mic2', 'transcription': 'She took them for a term.'}
+{'audio': 'p363_252_mic2', 'transcription': 'Then one day it happened.'}
+{'audio': 'p262_366_mic2', 'transcription': 'We have to create a climate of trust, which is not easy.'}
+{'audio': 'p314_054_mic2', 'transcription': 'That, though, is the measure of the man.'}
+{'audio': 'p274_302_mic2', 'transcription': 'So the Government will be damaged.'}
+{'audio': 'p270_050_mic2', 'transcription': 'He also presented You Bet!'}
+{'audio': 'p283_219_mic2', 'transcription': 'We always felt we could win.'}
+{'audio': 'p256_255_mic2', 'transcription': 'That was a bonus, but it was not the main objective.'}
+{'audio': 'p231_473_mic2', 'transcription': 'It was clear on Thursday.'}
+{'audio': 'p227_061_mic2', 'transcription': 'There was no mention of an amnesty in the Belfast Agreement.'}
+{'audio': 'p232_387_mic2', 'transcription': 'It was as if it was all happening at a garden party.'}
+{'audio': 'p307_119_mic2', 'transcription': 'It is not great art.'}
+{'audio': 'p339_269_mic2', 'transcription': 'They have to live with the risk.'}
+{'audio': 'p241_167_mic2', 'transcription': 'The post will be unpaid.'}
+{'audio': 'p311_384_mic2', 'transcription': "He didn't really, we just made that up."}
+{'audio': 'p231_068_mic2', 'transcription': 'He becomes the new Minister for Sport and Culture.'}
+{'audio': 'p364_002_mic2', 'transcription': 'Ask her to bring these things with her from the store.'}
+{'audio': 'p304_380_mic2', 'transcription': 'It is not the message alone.'}
+{'audio': 'p298_251_mic2', 'transcription': "We're trying to lessen the stigma."}
+{'audio': 'p312_017_mic2', 'transcription': 'Others have tried to explain the phenomenon physically.'}
+{'audio': 'p247_437_mic2', 'transcription': "We've made a couple of albums."}
+{'audio': 'p261_040_mic2', 'transcription': 'Among them are many criminals.'}
+{'audio': 'p298_023_mic2', 'transcription': 'If the red of the second bow falls upon the green of the first, the result is to give a bow with an abnormally wide yellow band, since red and green light when mixed form yellow.'}
+{'audio': 'p257_096_mic2', 'transcription': 'The peace process will be buried!'}
+{'audio': 'p236_445_mic2', 'transcription': 'Taxes may need to rise.'}
+{'audio': 'p364_098_mic2', 'transcription': 'This is a one-off.'}
+{'audio': 'p236_117_mic2', 'transcription': 'But his attendance is not guaranteed.'}
+{'audio': 'p229_126_mic2', 'transcription': 'Who would be a referee?'}
+{'audio': 'p314_306_mic2', 'transcription': 'This is too much like Scotland.'}
+{'audio': 'p281_407_mic2', 'transcription': 'It was the same expression of joy.'}
+{'audio': 'p314_240_mic2', 'transcription': 'They scored a goal, but we have to keep playing.'}
+{'audio': 'p275_332_mic2', 'transcription': 'Who will do it?'}
+{'audio': 'p232_072_mic2', 'transcription': 'That was the easy election.'}
+{'audio': 'p256_113_mic2', 'transcription': "It's not perfect."}
+{'audio': 'p230_289_mic2', 'transcription': 'In that moment, I was happy.'}
+{'audio': 'p376_209_mic2', 'transcription': 'It was a bonus for me really.'}
+{'audio': 'p294_421_mic2', 'transcription': 'The auction will be held tomorrow.'}
+{'audio': 'p333_291_mic2', 'transcription': 'It is just too long since the war.'}
+{'audio': 'p274_245_mic2', 'transcription': 'Others agreed with this view.'}
+{'audio': 'p314_130_mic2', 'transcription': "It's very tragic and traumatic."}
+{'audio': 'p292_418_mic2', 'transcription': 'It can happen to you, it can happen to anyone.'}
+{'audio': 'p236_073_mic2', 'transcription': 'This view was echoed by the other Scottish analyst.'}
+{'audio': 'p333_289_mic2', 'transcription': "It's going to be quite a challenge."}
+{'audio': 'p313_298_mic2', 'transcription': 'We did discuss the Lockerbie issue.'}
+{'audio': 'p326_326_mic2', 'transcription': "It's a logical consequence of the Formula."}
+{'audio': 'p288_292_mic2', 'transcription': 'Who can predict?'}
+{'audio': 'p236_152_mic2', 'transcription': 'It would seem a natural progression.'}
+{'audio': 'p313_304_mic2', 'transcription': "I'm not a fan of books."}
+{'audio': 'p272_125_mic2', 'transcription': 'Who would have?'}
+{'audio': 'p326_363_mic2', 'transcription': 'There were no immediate reports of injuries.'}
+{'audio': 'p236_041_mic2', 'transcription': 'I needed a change, a new challenge.'}
+{'audio': 'p248_156_mic2', 'transcription': 'That includes the equipment?'}
+{'audio': 'p333_162_mic2', 'transcription': "That's been our position all along."}
+{'audio': 'p265_327_mic2', 'transcription': 'Tell us about it.'}
+{'audio': 'p253_113_mic2', 'transcription': 'He leaves a wife, a son and a daughter.'}
+{'audio': 'p283_423_mic2', 'transcription': 'I was pleased with my own game.'}
+{'audio': 'p266_221_mic2', 'transcription': 'Clearly, the stakes are high.'}
+{'audio': 'p376_041_mic2', 'transcription': "Who did it doesn't really matter."}
+{'audio': 'p237_176_mic2', 'transcription': 'Does that put pressure on us?'}
+{'audio': 'p251_364_mic2', 'transcription': 'A spokeswoman for Edinburgh City Council confirmed its support for the company.'}
+{'audio': 'p286_073_mic2', 'transcription': 'That would be too easy.'}
+{'audio': 'p318_001_mic2', 'transcription': 'Please call Stella.'}
+{'audio': 'p318_299_mic2', 'transcription': 'The incident is being taken seriously.'}
+{'audio': 'p304_213_mic2', 'transcription': 'It was total confusion.'}
+{'audio': 'p351_342_mic2', 'transcription': 'I am proud of my team.'}
+{'audio': 'p261_028_mic2', 'transcription': 'Life was like a timetable.'}
+{'audio': 'p267_140_mic2', 'transcription': 'It was deployed in the Gulf War.'}
+{'audio': 'p347_219_mic2', 'transcription': 'Two and a half million people have died.'}
+{'audio': 'p225_240_mic2', 'transcription': 'We are in the hat.'}
+{'audio': 'p264_361_mic2', 'transcription': "It shows we're not much of a rugby country."}
+{'audio': 'p259_455_mic2', 'transcription': 'Nobody has told the story.'}
+{'audio': 'p297_109_mic2', 'transcription': 'You need insurance to bring people in.'}
+{'audio': 'p335_176_mic2', 'transcription': 'Laura is an investment banker.'}
+{'audio': 'p248_081_mic2', 'transcription': "That's the principal difference between an artist and a dog."}
+{'audio': 'p264_051_mic2', 'transcription': 'We were leading by two goals.'}
+{'audio': 'p241_085_mic2', 'transcription': 'Someone who cares'}
+{'audio': 'p363_003_mic2', 'transcription': 'Six spoons of fresh snow peas, five thick slabs of blue cheese, and maybe a snack for her brother Bob.'}
+{'audio': 'p314_155_mic2', 'transcription': 'But we are not immune to the problem.'}
+{'audio': 'p302_263_mic2', 'transcription': 'She said he showed no remorse.'}
+{'audio': 'p295_040_mic2', 'transcription': 'Our children are the future of our society.'}
+{'audio': 'p256_300_mic2', 'transcription': 'One was a lawyer.'}
+{'audio': 'p260_017_mic2', 'transcription': 'Others have tried to explain the phenomenon physically. '}
+{'audio': 'p293_239_mic2', 'transcription': 'She returned home a few days later.'}
+{'audio': 'p228_176_mic2', 'transcription': 'And I was happy for the happiness of my brothers.'}
+{'audio': 'p278_163_mic2', 'transcription': "It's never great to finish second."}
+{'audio': 'p267_213_mic2', 'transcription': 'He would discuss the peace process in Northern Ireland.'}
+{'audio': 'p272_306_mic2', 'transcription': 'You may have a short memory.'}
+{'audio': 'p287_321_mic2', 'transcription': 'I have signed a contract.'}
+{'audio': 'p298_174_mic2', 'transcription': 'I think we showed that after half time.'}
+{'audio': 'p252_083_mic2', 'transcription': 'Celtic have a great base of travelling fans.'}
+{'audio': 'p225_179_mic2', 'transcription': 'They know no other way.'}
+{'audio': 'p264_363_mic2', 'transcription': 'The purchase was widely criticised by both analysts and investors.'}
+{'audio': 'p236_107_mic2', 'transcription': 'They will notice a difference.'}
+{'audio': 'p363_268_mic2', 'transcription': 'The test case is still awaiting action.'}
+{'audio': 'p245_035_mic2', 'transcription': 'So if we can take anything from tonight, it will be fantastic.'}
+{'audio': 'p329_136_mic2', 'transcription': 'Each one has its own system.'}
+{'audio': 'p225_152_mic2', 'transcription': "The weather forecast isn't good."}
+{'audio': 'p232_063_mic2', 'transcription': 'You do not change overnight.'}
+{'audio': 'p270_216_mic2', 'transcription': 'It would appear to be a good time to invest.'}
+{'audio': 'p272_242_mic2', 'transcription': "I can't get a job."}
+{'audio': 'p278_045_mic2', 'transcription': 'Why do you want to come to Edinburgh?'}
+{'audio': 'p317_365_mic2', 'transcription': 'He would help me with the form.'}
+{'audio': 'p277_250_mic2', 'transcription': 'They must play for each other.'}
+{'audio': 'p329_400_mic2', 'transcription': 'We have high hopes that this will work.'}
+{'audio': 'p305_388_mic2', 'transcription': 'Two years ago, the commission did not want to get involved.'}
+{'audio': 'p234_201_mic2', 'transcription': 'They have to get that sorted.'}
+{'audio': 'p336_085_mic2', 'transcription': "I don't think it is."}
+{'audio': 'p249_082_mic2', 'transcription': 'It is a job creation scheme.'}
+{'audio': 'p268_405_mic2', 'transcription': 'The two clubs have agreed the transfer fee.'}
+{'audio': 'p273_109_mic2', 'transcription': 'He thought she was amazing.'}
+{'audio': 'p248_211_mic2', 'transcription': 'He is slightly confused.'}
+{'audio': 'p268_310_mic2', 'transcription': 'You were an easy target and therefore an easy sacrifice.'}
+{'audio': 'p317_080_mic2', 'transcription': 'That must be left to the Parole Board.'}
+{'audio': 'p246_145_mic2', 'transcription': 'He sets the nature of his Parliament in a simple, realistic context.'}
+{'audio': 'p295_277_mic2', 'transcription': "I've never regretted my decision."}
+{'audio': 'p295_246_mic2', 'transcription': 'Their condition was described as stable yesterday.'}
+{'audio': 'p339_335_mic2', 'transcription': "We won't do that."}
+{'audio': 'p253_376_mic2', 'transcription': 'Since then, he has played no active part in the company.'}
+{'audio': 'p231_218_mic2', 'transcription': "I've wanted to buy one for the National Gallery."}
+{'audio': 'p267_082_mic2', 'transcription': 'The cut is excellent news for the consumer.'}
+{'audio': 'p264_019_mic2', 'transcription': 'Since then physicists have found that it is not reflection, but refraction by the raindrops which causes the rainbows. '}
+{'audio': 'p318_157_mic2', 'transcription': 'I am not blaming audiences.'}
+{'audio': 'p230_413_mic2', 'transcription': 'Even if they come out playing a physical game, we can cope.'}
+{'audio': 'p285_333_mic2', 'transcription': 'Three years ago he would have been.'}
+{'audio': 'p258_006_mic2', 'transcription': 'When the sunlight strikes raindrops in the air, they act as a prism and form a rainbow. '}
+{'audio': 'p239_375_mic2', 'transcription': 'This should come as no surprise.'}
+{'audio': 'p295_210_mic2', 'transcription': 'And what is she escaping from?'}
+{'audio': 'p304_376_mic2', 'transcription': 'They say they feel different.'}
+{'audio': 'p243_170_mic2', 'transcription': 'That is a big risk at any price.'}
+{'audio': 'p240_118_mic2', 'transcription': 'This is the first big idea of the Scottish Parliament election.'}
+{'audio': 'p376_184_mic2', 'transcription': 'That would be a miracle.'}
+{'audio': 'p298_129_mic2', 'transcription': 'We have great team spirit.'}
+{'audio': 'p300_262_mic2', 'transcription': 'They failed in their duty to Mr Logan.'}
+{'audio': 'p250_415_mic2', 'transcription': "It's too close to call."}
+{'audio': 'p267_302_mic2', 'transcription': 'I am a retailer by nature.'}
+{'audio': 'p276_063_mic2', 'transcription': 'We like being the underdogs.'}
+{'audio': 's5_283_mic2', 'transcription': 'Larsson is clearly the form player just now.'}
+{'audio': 'p232_059_mic2', 'transcription': "That's the truth."}
+{'audio': 'p243_347_mic2', 'transcription': 'And the top prize draw award is certainly impressive.'}
+{'audio': 'p260_169_mic2', 'transcription': 'Is Saddam a threat?'}
+{'audio': 'p281_054_mic2', 'transcription': 'That is very hard, alone.'}
+{'audio': 'p311_246_mic2', 'transcription': 'The English are coming.'}
+{'audio': 'p300_346_mic2', 'transcription': 'English is the language of pop music.'}
+{'audio': 'p241_010_mic2', 'transcription': 'People look, but no one ever finds it. '}
+{'audio': 'p229_363_mic2', 'transcription': 'It benefits the whole family.'}
+{'audio': 'p307_317_mic2', 'transcription': 'I look for dancers who are also actors.'}
+{'audio': 'p243_178_mic2', 'transcription': 'Therefore, this type of aircraft is completely safe.'}
+{'audio': 'p260_144_mic2', 'transcription': 'Note the date.'}
+{'audio': 'p236_459_mic2', 'transcription': 'Dennis was not so sure.'}
+{'audio': 'p229_345_mic2', 'transcription': 'But the disease has not been confined to the Tory Party.'}
+{'audio': 'p255_025_mic2', 'transcription': 'He has not been named.'}
+{'audio': 'p269_385_mic2', 'transcription': 'He denied the charge.'}
+{'audio': 'p335_363_mic2', 'transcription': 'It was a job he loved.'}
+{'audio': 'p239_025_mic2', 'transcription': 'They might have asked, for goodness sake.'}
+{'audio': 'p248_194_mic2', 'transcription': 'However, this idea is never developed.'}
+{'audio': 'p232_142_mic2', 'transcription': 'I do not want to have a fight with Mr Hastings.'}
+{'audio': 'p323_368_mic2', 'transcription': 'There are simply no orders.'}
+{'audio': 'p267_277_mic2', 'transcription': 'It has the potential to be another North Sea.'}
+{'audio': 'p313_044_mic2', 'transcription': 'We have not had a formal request.'}
+{'audio': 'p258_073_mic2', 'transcription': 'It is not long term, but I need time to recover.'}
+{'audio': 'p284_302_mic2', 'transcription': 'One was a lawyer.'}
+{'audio': 'p284_379_mic2', 'transcription': 'The task is enormous.'}
+{'audio': 'p288_177_mic2', 'transcription': "It's a portrait of Glasgow, not the portrait."}
+{'audio': 'p256_111_mic2', 'transcription': 'Before the game we went for a pint.'}
+{'audio': 'p360_125_mic2', 'transcription': 'It was all very good stuff.'}
+{'audio': 'p362_002_mic2', 'transcription': 'Ask her to bring these things with her from the store.'}
+{'audio': 'p230_335_mic2', 'transcription': 'Does that put pressure on us?'}
+{'audio': 'p267_193_mic2', 'transcription': 'If I was a woman.'}
+{'audio': 'p323_208_mic2', 'transcription': 'Post offices are closing now.'}
+{'audio': 'p271_303_mic2', 'transcription': 'They are wrong.'}
+{'audio': 'p323_198_mic2', 'transcription': 'It was published yesterday on the internet.'}
+{'audio': 'p263_264_mic2', 'transcription': 'It is linked to the row over proposed changes at Scottish Ballet.'}
+{'audio': 'p243_142_mic2', 'transcription': 'The allegations were still under investigation, he added.'}
+{'audio': 'p241_300_mic2', 'transcription': 'The whole matter is somewhat in the air.'}
+{'audio': 'p277_167_mic2', 'transcription': 'It is not like us.'}
+{'audio': 'p266_378_mic2', 'transcription': "I'm not going to get upset by two comedy promoters."}
+{'audio': 'p256_125_mic2', 'transcription': 'We recognise the important role of golf in attracting visitors.'}
+{'audio': 'p275_014_mic2', 'transcription': 'To the Hebrews it was a token that there would be no more universal floods. '}
+{'audio': 'p329_394_mic2', 'transcription': 'As if he were a High Court judge.'}
+{'audio': 's5_075_mic2', 'transcription': 'Why do you want to come to Edinburgh?'}
+{'audio': 'p267_134_mic2', 'transcription': 'I am just trying to do my job.'}
+{'audio': 'p243_256_mic2', 'transcription': 'The British Government should follow the Irish example.'}
+{'audio': 'p241_171_mic2', 'transcription': 'A helpline number is published at the end of this article.'}
+{'audio': 'p250_345_mic2', 'transcription': 'The Premier League has been a huge success.'}
+{'audio': 'p248_247_mic2', 'transcription': 'The project has already secured the support of Sir Sean Connery.'}
+{'audio': 'p246_131_mic2', 'transcription': 'On Friday, the headteacher and deputy headteacher appeared at the door.'}
+{'audio': 'p238_115_mic2', 'transcription': "It's very bad timing, but it's happened."}
+{'audio': 'p374_073_mic2', 'transcription': "We're just a family working hard, working seven days a week."}
+{'audio': 'p318_357_mic2', 'transcription': 'It seems very odd.'}
+{'audio': 'p240_364_mic2', 'transcription': 'The council said the house would have to be demolished.'}
+{'audio': 'p341_155_mic2', 'transcription': 'We would welcome a greater emphasis on carcasses.'}
+{'audio': 'p360_250_mic2', 'transcription': 'It is part of his game.'}
+{'audio': 'p340_274_mic2', 'transcription': 'The second half was a different affair.'}
+{'audio': 'p323_084_mic2', 'transcription': 'And, within itself, it is visionary.'}
+{'audio': 'p361_281_mic2', 'transcription': 'I am really sorry that he is going.'}
+{'audio': 'p258_211_mic2', 'transcription': 'It had all been arranged.'}
+{'audio': 'p272_407_mic2', 'transcription': 'However, the players should have a voice in these matters.'}
+{'audio': 'p247_099_mic2', 'transcription': 'The oil companies would be asked to contribute.'}
+{'audio': 'p277_404_mic2', 'transcription': 'Whether the High Court will interfere with the sentence is another matter.'}
+{'audio': 'p267_340_mic2', 'transcription': 'Do you think we are a top nation?'}
+{'audio': 'p340_098_mic2', 'transcription': 'He did not have to stop and think.'}
+{'audio': 'p334_261_mic2', 'transcription': 'He was sentenced to seven years.'}
+{'audio': 'p257_375_mic2', 'transcription': 'It is likely the rest of the market will follow suit.'}
+{'audio': 'p277_355_mic2', 'transcription': 'He could make it.'}
+{'audio': 'p258_121_mic2', 'transcription': 'I could see his desire for the job in his eyes.'}
+{'audio': 'p329_138_mic2', 'transcription': 'The Devil is the creator of weapons.'}
+{'audio': 'p255_305_mic2', 'transcription': 'Details of the new vessel were given in London yesterday.'}
+{'audio': 'p250_357_mic2', 'transcription': 'Finally came the moment of truth.'}
+{'audio': 'p288_405_mic2', 'transcription': 'Quality Meat Scotland was vigorous in its defence of the labelling.'}
+{'audio': 'p257_027_mic2', 'transcription': 'They should have a major rethink about the event for next year.'}
+{'audio': 'p244_322_mic2', 'transcription': 'We did something about it.'}
+{'audio': 'p314_169_mic2', 'transcription': "That doesn't make a whole lot of sense."}
+{'audio': 'p334_238_mic2', 'transcription': 'I never wanted a legal battle.'}
+{'audio': 'p323_362_mic2', 'transcription': 'Mexico City was a wonderful experience.'}
+{'audio': 'p341_262_mic2', 'transcription': 'When people talk about the Beach Boys and Brian Wilson.'}
+{'audio': 'p374_236_mic2', 'transcription': "It's not the end of the matter, of course."}
+{'audio': 'p347_135_mic2', 'transcription': 'No-one else is like Michael Jackson.'}
+{'audio': 'p229_091_mic2', 'transcription': 'We must look forward.'}
+{'audio': 'p323_386_mic2', 'transcription': "I don't have any more contact with Airdrie."}
+{'audio': 'p240_254_mic2', 'transcription': 'I have a lot of relatives in this part of the country.'}
+{'audio': 'p264_417_mic2', 'transcription': 'A report will be issued by March.'}
+{'audio': 'p347_060_mic2', 'transcription': 'It is a very special city.'}
+{'audio': 'p279_103_mic2', 'transcription': 'After that time, the market itself will set the prices.'}
+{'audio': 'p255_377_mic2', 'transcription': "He's delighted, too, with the new premises."}
+{'audio': 'p268_353_mic2', 'transcription': 'Instead, he missed the lot.'}
+{'audio': 'p249_182_mic2', 'transcription': 'The jury is still out.'}
+{'audio': 'p266_336_mic2', 'transcription': "Perhaps it's because I haven't finished the first two races."}
+{'audio': 'p266_403_mic2', 'transcription': 'So I did.'}
+{'audio': 'p279_348_mic2', 'transcription': 'The pressure is on Celtic in the main.'}
+{'audio': 'p284_183_mic2', 'transcription': 'Our team is just so young.'}
+{'audio': 'p239_155_mic2', 'transcription': 'He removed the rubble with the help of passers-by.'}
+{'audio': 'p271_366_mic2', 'transcription': 'It has only been rumours.'}
+{'audio': 'p303_313_mic2', 'transcription': 'Rapid revision was required.'}
+{'audio': 'p265_022_mic2', 'transcription': 'The actual primary rainbow observed is said to be the effect of super-imposition of a number of bows. '}
+{'audio': 'p234_072_mic2', 'transcription': 'Seriously, we are not concerned at all.'}
+{'audio': 'p374_248_mic2', 'transcription': 'It all depends on the Chancellor.'}
+{'audio': 'p278_179_mic2', 'transcription': 'His team management was protective.'}
+{'audio': 'p236_095_mic2', 'transcription': 'I had a ball today.'}
+{'audio': 'p244_001_mic2', 'transcription': 'Please call Stella.  '}
+{'audio': 'p341_139_mic2', 'transcription': 'The case will now go to appeal.'}
+{'audio': 'p363_190_mic2', 'transcription': 'It was far more important than that.'}
+{'audio': 'p262_369_mic2', 'transcription': 'Talks are progressing.'}
+{'audio': 'p326_288_mic2', 'transcription': 'They have to work so hard.'}
+{'audio': 'p243_253_mic2', 'transcription': 'Rangers then had a couple of good efforts.'}
+{'audio': 'p351_263_mic2', 'transcription': 'This is a dream come true for me.'}
+{'audio': 'p265_161_mic2', 'transcription': 'Mr Blunkett said he was deeply concerned by the ruling.'}
+{'audio': 'p335_096_mic2', 'transcription': 'I would think they are just behind them.'}
+{'audio': 'p270_139_mic2', 'transcription': 'Italy was just behind the US.'}
+{'audio': 'p281_070_mic2', 'transcription': 'Why do you want to come to Edinburgh?'}
+{'audio': 'p247_354_mic2', 'transcription': 'That is a trend which will be encouraged.'}
+{'audio': 'p308_002_mic2', 'transcription': 'Ask her to bring these things with her from the store.'}
+{'audio': 'p292_263_mic2', 'transcription': 'They loved it and it showed.'}
+{'audio': 'p231_441_mic2', 'transcription': 'We shall not forget him.'}
+{'audio': 'p263_346_mic2', 'transcription': 'In the old days, it was easy.'}
+{'audio': 'p299_123_mic2', 'transcription': 'However, in Scotland this figure was four weeks.'}
+{'audio': 'p317_004_mic2', 'transcription': 'We also need a small plastic snake and a big toy frog for the kids.'}
+{'audio': 'p301_328_mic2', 'transcription': 'He is young but not too young.'}
+{'audio': 'p254_122_mic2', 'transcription': 'This is a scheme that has a lot of potential.'}
+{'audio': 'p255_111_mic2', 'transcription': 'We have to look at everything before we make any final decision.'}
+{'audio': 'p279_061_mic2', 'transcription': "Here's a clue."}
+{'audio': 'p303_020_mic2', 'transcription': 'Many complicated ideas about the rainbow have been formed.'}
+{'audio': 'p282_267_mic2', 'transcription': 'One knows the feeling.'}
+{'audio': 'p330_149_mic2', 'transcription': 'I was unconscious for two or three seconds.'}
+{'audio': 'p278_066_mic2', 'transcription': 'The talks were announced yesterday by Brian Wilson, the foreign office minister.'}
+{'audio': 'p281_006_mic2', 'transcription': 'When the sunlight strikes raindrops in the air, they act as a prism and form a rainbow. '}
+{'audio': 'p283_291_mic2', 'transcription': 'I should think so, too.'}
+{'audio': 'p265_235_mic2', 'transcription': 'Hospitals and school building will go ahead.'}
+{'audio': 'p263_022_mic2', 'transcription': 'The actual primary rainbow observed is said to be the effect of super-imposition of a number of bows. '}
+{'audio': 'p286_313_mic2', 'transcription': 'The rescue package is public money.'}
+{'audio': 'p311_337_mic2', 'transcription': 'They would have been forgiven for doing so.'}
+{'audio': 'p318_122_mic2', 'transcription': "It's a way of making a mark."}
+{'audio': 'p247_210_mic2', 'transcription': 'Losing in that manner is very hard to take.'}
+{'audio': 'p266_079_mic2', 'transcription': 'He is in the queue.'}
+{'audio': 'p226_165_mic2', 'transcription': 'We have to move forward.'}
+{'audio': 'p305_371_mic2', 'transcription': 'The Treasury confirmed that the latter was correct.'}
+{'audio': 'p253_071_mic2', 'transcription': 'Sounds like The Sixth Sense?'}
+{'audio': 'p305_144_mic2', 'transcription': 'It would have very little impact on them.'}
+{'audio': 'p335_204_mic2', 'transcription': 'She was an only child.'}
+{'audio': 'p263_364_mic2', 'transcription': 'It is the latter which has prompted the warning.'}
+{'audio': 'p249_061_mic2', 'transcription': 'Jobs could go.'}
+{'audio': 'p230_204_mic2', 'transcription': 'This is a holy place.'}
+{'audio': 'p240_192_mic2', 'transcription': 'People will ask about us.'}
+{'audio': 'p238_156_mic2', 'transcription': 'Hopefully, no-one will suffer too badly.'}
+{'audio': 'p284_213_mic2', 'transcription': "This obsession wasn't just contained within the world of the losers."}
+{'audio': 'p284_039_mic2', 'transcription': 'However, they continued in their pursuit of victory.'}
+{'audio': 'p271_146_mic2', 'transcription': 'Alice, the girl, was said by doctors to be in good condition.'}
+{'audio': 'p361_192_mic2', 'transcription': 'Failure is not an option.'}
+{'audio': 'p330_423_mic2', 'transcription': 'I have no problem with that.'}
+{'audio': 'p236_335_mic2', 'transcription': 'There was no time scale.'}
+{'audio': 'p225_006_mic2', 'transcription': 'When the sunlight strikes raindrops in the air, they act as a prism and form a rainbow.'}
+{'audio': 'p336_335_mic2', 'transcription': 'Not because they want to sing about something.'}
+{'audio': 'p238_337_mic2', 'transcription': 'Abbey National is an option.'}
+{'audio': 'p264_411_mic2', 'transcription': 'They like big name players.'}
+{'audio': 'p333_017_mic2', 'transcription': 'Others have tried to explain the phenomenon physically.'}
+{'audio': 'p276_226_mic2', 'transcription': 'Marconi is struggling against terrible market forces.'}
+{'audio': 'p266_088_mic2', 'transcription': 'It will be tight.'}
+{'audio': 'p299_045_mic2', 'transcription': 'It should be a great game, though.'}
+{'audio': 'p250_309_mic2', 'transcription': 'She has fallen in love with Scotland, however.'}
+{'audio': 'p343_269_mic2', 'transcription': 'People should make their own decisions.'}
+{'audio': 'p251_366_mic2', 'transcription': 'However, it was well worth the wait.'}
+{'audio': 'p374_373_mic2', 'transcription': 'This is not a struggle against Islam.'}
+{'audio': 'p253_238_mic2', 'transcription': 'It is hard won.'}
+{'audio': 'p329_004_mic2', 'transcription': 'We also need a small plastic snake and a big toy frog for the kids.'}
+{'audio': 'p228_350_mic2', 'transcription': 'As, indeed, they would be.'}
+{'audio': 'p308_188_mic2', 'transcription': "I'm really proud of my young players."}
+{'audio': 'p335_198_mic2', 'transcription': 'He added,  It is all about the search for power.'}
+{'audio': 'p283_226_mic2', 'transcription': 'You could feel the heat.'}
+{'audio': 'p231_256_mic2', 'transcription': 'A thousand years ago the church was a powerful force in Europe.'}
+{'audio': 'p292_392_mic2', 'transcription': "It's a true story."}
+{'audio': 'p277_239_mic2', 'transcription': 'I should think so, too.'}
+{'audio': 'p241_343_mic2', 'transcription': 'Tiger is the exception.'}
+{'audio': 'p258_095_mic2', 'transcription': "We're not seeing an image of the person, he said."}
+{'audio': 'p313_239_mic2', 'transcription': 'I was an athlete.'}
+{'audio': 'p227_286_mic2', 'transcription': 'Not many companies can say that these days.'}
+{'audio': 'p260_038_mic2', 'transcription': 'Other members of the family were too upset to comment last night.'}
+{'audio': 'p283_270_mic2', 'transcription': 'What was the matter for concern?'}
+{'audio': 'p293_167_mic2', 'transcription': "It's unfair on her."}
+{'audio': 'p311_078_mic2', 'transcription': 'THE pain was almost too much to bear.'}
+{'audio': 'p314_101_mic2', 'transcription': 'He was the deputy editor at the paper.'}
+{'audio': 'p285_144_mic2', 'transcription': 'The amount of energy in a tornado is enormous.'}
+{'audio': 'p326_251_mic2', 'transcription': 'I tend not to look back.'}
+{'audio': 'p252_331_mic2', 'transcription': 'Our relationship has been very good.'}
+{'audio': 'p234_333_mic2', 'transcription': 'Sadly, the revival could not be sustained.'}
+{'audio': 'p361_023_mic2', 'transcription': 'If the red of the second bow falls upon the green of the first, the result is to give a bow with an abnormally wide yellow band, since red and green light when mixed form yellow.'}
+{'audio': 'p341_180_mic2', 'transcription': 'The crackdown is launched today by the government.'}
+{'audio': 'p268_178_mic2', 'transcription': 'We are happy with the referee.'}
+{'audio': 'p271_407_mic2', 'transcription': 'However, the players should have a voice in these matters.'}
+{'audio': 'p293_292_mic2', 'transcription': 'We told them in June.'}
+{'audio': 'p298_275_mic2', 'transcription': 'There are lots of these women in Finland.'}
+{'audio': 'p262_076_mic2', 'transcription': "I'd like to continue that record."}
+{'audio': 'p293_166_mic2', 'transcription': 'It is physical but it is also good.'}
+{'audio': 'p263_020_mic2', 'transcription': 'Many complicated ideas about the rainbow have been formed. '}
+{'audio': 'p239_027_mic2', 'transcription': 'And so was a photograph.'}
+{'audio': 'p256_217_mic2', 'transcription': 'On a technical level, they were not afraid to play good football.'}
+{'audio': 'p362_154_mic2', 'transcription': 'Wrong decisions Address in full'}
+{'audio': 'p251_344_mic2', 'transcription': 'Finally, he paid for the movie.'}
+{'audio': 'p311_104_mic2', 'transcription': 'But things are never the same again.'}
+{'audio': 'p293_036_mic2', 'transcription': 'There is a growing anger among the group.'}
+{'audio': 'p314_246_mic2', 'transcription': 'However, civil rights campaigners welcomed the ruling.'}
+{'audio': 'p246_303_mic2', 'transcription': 'The award to Senator Mitchell was announced by the Foreign Office.'}
+{'audio': 'p363_385_mic2', 'transcription': 'Does it really matter?'}
+{'audio': 'p258_403_mic2', 'transcription': 'My house was shaking at the time.'}
+{'audio': 'p249_270_mic2', 'transcription': 'It depends on the internal discussions in the Ministry of Defence.'}
+{'audio': 'p313_257_mic2', 'transcription': 'Nor is it likely to do so.'}
+{'audio': 'p317_300_mic2', 'transcription': 'This is the start of a new campaign.'}
+{'audio': 'p270_438_mic2', 'transcription': 'It would be very dangerous.'}
+{'audio': 'p360_294_mic2', 'transcription': 'We are in it for the long-term.'}
+{'audio': 'p300_390_mic2', 'transcription': 'Certainly, in terms of league position, we must be favourites.'}
+{'audio': 'p300_207_mic2', 'transcription': 'Lottery cash is rightly dependent on grassroots approval.'}
+{'audio': 'p288_211_mic2', 'transcription': 'In each case they were a goal down.'}
+{'audio': 'p228_211_mic2', 'transcription': 'He had suffered a heart attack.'}
+{'audio': 'p246_237_mic2', 'transcription': 'Attendance at the project is a condition of a probation order.'}
+{'audio': 'p281_338_mic2', 'transcription': 'Did it work?'}
+{'audio': 'p364_236_mic2', 'transcription': 'Thankfully they liked it.'}
+{'audio': 'p244_283_mic2', 'transcription': 'If so, it is a funny time to introduce it.'}
+{'audio': 'p363_094_mic2', 'transcription': 'What has happened?'}
+{'audio': 'p240_262_mic2', 'transcription': 'So, in a sense, it was a government subsidy.'}
+{'audio': 'p308_218_mic2', 'transcription': 'They could go no further forward.'}
+{'audio': 'p233_155_mic2', 'transcription': 'He will emerge as a world leader.'}
+{'audio': 'p249_090_mic2', 'transcription': 'When people talk about the Beach Boys and Brian Wilson.'}
+{'audio': 'p276_154_mic2', 'transcription': 'But they must believe in themselves.'}
+{'audio': 'p263_033_mic2', 'transcription': 'Allan Johnston was not match fit.'}
+{'audio': 'p267_029_mic2', 'transcription': 'Because we do not need it.'}
+{'audio': 'p298_364_mic2', 'transcription': "I'm looking at ways to do that now."}
+{'audio': 'p270_250_mic2', 'transcription': 'The irony was not lost.'}
+{'audio': 'p307_177_mic2', 'transcription': 'But is it ethical to practice in humans?'}
+{'audio': 'p345_003_mic2', 'transcription': 'Six spoons of fresh snow peas, five thick slabs of blue cheese, and maybe a snack for her brother Bob.'}
+{'audio': 'p323_072_mic2', 'transcription': 'Advice and counselling will be offered.'}
+{'audio': 'p298_387_mic2', 'transcription': 'In all cases computer equipment was seized.'}
+{'audio': 'p304_314_mic2', 'transcription': 'It is too early to say.'}
+{'audio': 'p326_310_mic2', 'transcription': 'We will meet again.'}
+{'audio': 'p308_290_mic2', 'transcription': 'Holyrood is just a part of the jigsaw.'}
+{'audio': 'p314_182_mic2', 'transcription': "That's when you hope to take advantage."}
+{'audio': 'p261_254_mic2', 'transcription': 'It was a poor performance.'}
+{'audio': 'p262_022_mic2', 'transcription': 'The actual primary rainbow observed is said to be the effect of super-imposition of a number of bows. '}
+{'audio': 'p329_081_mic2', 'transcription': 'I was there for five hours.'}
+{'audio': 'p285_057_mic2', 'transcription': 'Scotland had great assets.'}
+{'audio': 'p339_164_mic2', 'transcription': 'It would be very dangerous.'}
+{'audio': 'p351_286_mic2', 'transcription': 'That was not the norm.'}
+{'audio': 'p361_020_mic2', 'transcription': 'Many complicated ideas about the rainbow have been formed.'}
+{'audio': 'p316_058_mic2', 'transcription': 'However, he said it would be likely to bring a chill.'}
+{'audio': 'p274_431_mic2', 'transcription': 'A police spokeswoman said last night that the case was closed.'}
+{'audio': 'p246_323_mic2', 'transcription': 'There was no time scale.'}
+{'audio': 'p236_156_mic2', 'transcription': 'It was a funny feeling.'}
+{'audio': 'p304_002_mic2', 'transcription': 'Ask her to bring these things with her from the store.'}
+{'audio': 'p250_313_mic2', 'transcription': 'There was a final revealing detail about the broadcast.'}
+{'audio': 'p336_249_mic2', 'transcription': "I don't have any regrets about the edit."}
+{'audio': 'p334_033_mic2', 'transcription': "I don't know why you say goodbye."}
+{'audio': 'p258_148_mic2', 'transcription': 'My Dad is a hero.'}
+{'audio': 'p302_242_mic2', 'transcription': "So we said, no, we're not going to do that."}
+{'audio': 'p298_402_mic2', 'transcription': 'You are going to Glasgow Airport, and not coming back.'}
+{'audio': 'p281_310_mic2', 'transcription': 'Disruption will be kept to a minimum.'}
+{'audio': 'p283_324_mic2', 'transcription': 'What form did that take?'}
+{'audio': 'p363_298_mic2', 'transcription': 'What was the cause of all this outrage?'}
+{'audio': 'p343_073_mic2', 'transcription': 'I am ready to go.'}
+{'audio': 'p237_306_mic2', 'transcription': 'I was the sheep.'}
+{'audio': 'p270_010_mic2', 'transcription': 'People look, but no one ever finds it. '}
+{'audio': 'p304_038_mic2', 'transcription': 'At half-time you have?'}
+{'audio': 'p271_429_mic2', 'transcription': 'We have the location, which is assured.'}
+{'audio': 'p243_386_mic2', 'transcription': 'What kind of man does that, Mr Dick?'}
+{'audio': 'p233_377_mic2', 'transcription': 'Star and producer were in agreement about their opinion of the director.'}
+{'audio': 'p251_109_mic2', 'transcription': 'You had better believe it.'}
+{'audio': 'p279_179_mic2', 'transcription': 'I drove the ball well.'}
+{'audio': 'p295_185_mic2', 'transcription': 'The board would report to the Scottish Parliament.'}
+{'audio': 'p329_382_mic2', 'transcription': 'He was dead on arrival at the hospital.'}
+{'audio': 'p318_361_mic2', 'transcription': 'Well, you can have a tree.'}
+{'audio': 'p225_147_mic2', 'transcription': 'Does the name matter?'}
+{'audio': 'p275_056_mic2', 'transcription': 'We need the chief medical officer to clarify the matter.'}
+{'audio': 's5_279_mic2', 'transcription': 'I am convinced that this is a subject which can make a difference.'}
+{'audio': 'p284_038_mic2', 'transcription': 'Other members of the family were too upset to comment last night.'}
+{'audio': 'p312_047_mic2', 'transcription': 'I feel pretty good.'}
+{'audio': 'p299_365_mic2', 'transcription': "I don't have a new house."}
+{'audio': 'p268_404_mic2', 'transcription': 'Reaction from Scottish business leaders was mixed.'}
+{'audio': 'p265_143_mic2', 'transcription': 'We are now up against it.'}
+{'audio': 'p304_387_mic2', 'transcription': "But it's a subtle process."}
+{'audio': 'p228_134_mic2', 'transcription': 'Despite the result, it was still a great moment.'}
+{'audio': 'p278_328_mic2', 'transcription': 'We believe the world has too many refugees already.'}
+{'audio': 'p361_413_mic2', 'transcription': 'That can benefit the larger companies.'}
+{'audio': 'p255_101_mic2', 'transcription': 'Oil embargo endorsed.'}
+{'audio': 'p229_024_mic2', 'transcription': 'This is a very common type of bow, one showing mainly red and yellow, with little or no green or blue.'}
+{'audio': 'p261_215_mic2', 'transcription': "We're not seeing an image of the person, he said."}
+{'audio': 'p314_418_mic2', 'transcription': 'As for Owen, class is permanent.'}
+{'audio': 'p345_313_mic2', 'transcription': 'They were not missing much.'}
+{'audio': 'p287_413_mic2', 'transcription': 'I remain a buyer of the shares.'}
+{'audio': 'p347_269_mic2', 'transcription': 'How much of a cop out is that?'}
+{'audio': 'p279_309_mic2', 'transcription': "It's certainly different."}
+{'audio': 'p285_055_mic2', 'transcription': 'We will treat it like a World Cup match.'}
+{'audio': 'p312_134_mic2', 'transcription': 'It may be down, but New York is not out.'}
+{'audio': 'p233_005_mic2', 'transcription': 'She can scoop these things into three red bags, and we will go meet her Wednesday at the train station. '}
+{'audio': 'p249_087_mic2', 'transcription': "That's the principal difference between an artist and a dog."}
+{'audio': 'p243_145_mic2', 'transcription': 'All eight victims were based in Germany.'}
+{'audio': 'p279_352_mic2', 'transcription': 'We are looking for perfection.'}
+{'audio': 'p278_215_mic2', 'transcription': 'They make a selective perception process.'}
+{'audio': 'p257_365_mic2', 'transcription': 'YOU thought it was a headache.'}
+{'audio': 'p307_368_mic2', 'transcription': 'If they have City backing, what is the influence?'}
+{'audio': 'p363_323_mic2', 'transcription': 'That is taking place in Strathclyde.'}
+{'audio': 'p254_201_mic2', 'transcription': 'We have an election in eight days.'}
+{'audio': 'p295_359_mic2', 'transcription': 'You are always aware of the injury potential.'}
+{'audio': 'p313_091_mic2', 'transcription': "It's a very, very special day."}
+{'audio': 'p262_150_mic2', 'transcription': 'They were later discharged from hospital.'}
+{'audio': 'p238_187_mic2', 'transcription': 'This is a frightening development.'}
+{'audio': 'p360_365_mic2', 'transcription': 'She has never been back.'}
+{'audio': 'p231_206_mic2', 'transcription': 'It gave no further details.'}
+{'audio': 'p341_144_mic2', 'transcription': 'He is a very nice man.'}
+{'audio': 'p237_149_mic2', 'transcription': 'She died at her home.'}
+{'audio': 'p287_271_mic2', 'transcription': 'This is a question of Islam.'}
+{'audio': 'p226_075_mic2', 'transcription': "Painful, but only because it's true."}
+{'audio': 'p273_308_mic2', 'transcription': 'The world record is suspicious.'}
+{'audio': 'p283_385_mic2', 'transcription': 'That can be good for us.'}
+{'audio': 'p351_032_mic2', 'transcription': 'Thirty schools were closed in the Western Isles.'}
+{'audio': 'p292_080_mic2', 'transcription': 'That was him under pressure.'}
+{'audio': 'p259_371_mic2', 'transcription': 'He was unable to come.'}
+{'audio': 'p288_281_mic2', 'transcription': 'The attacker died in the crash.'}
+{'audio': 'p317_123_mic2', 'transcription': 'It is essential that we win the game.'}
+{'audio': 'p284_033_mic2', 'transcription': 'This is the window.'}
+{'audio': 'p251_153_mic2', 'transcription': 'It is not normal practice.'}
+{'audio': 'p261_318_mic2', 'transcription': 'He was obviously very genuine.'}
+{'audio': 'p279_281_mic2', 'transcription': 'There was a final revealing detail about the broadcast.'}
+{'audio': 'p283_048_mic2', 'transcription': 'Every aspect of our play was first class.'}
+{'audio': 'p265_322_mic2', 'transcription': 'This is a friendly match?'}
+{'audio': 'p269_333_mic2', 'transcription': 'The problems began a long time ago.'}
+{'audio': 'p329_095_mic2', 'transcription': "It wasn't a conscious decision not to shout."}
+{'audio': 'p336_220_mic2', 'transcription': 'His contract was then not renewed.'}
+{'audio': 'p317_333_mic2', 'transcription': 'Everything is obviously in the very early stages.'}
+{'audio': 'p314_213_mic2', 'transcription': 'I am a little bit tired.'}
+{'audio': 'p276_126_mic2', 'transcription': 'Many others are subjected to violence by men.'}
+{'audio': 'p269_076_mic2', 'transcription': 'It is a job creation scheme.'}
+{'audio': 'p293_364_mic2', 'transcription': 'I felt we had fallen back a little.'}
+{'audio': 'p330_053_mic2', 'transcription': 'I was never going to play against Scotland.'}
+{'audio': 'p326_231_mic2', 'transcription': 'They made it very difficult for us.'}
+{'audio': 'p243_218_mic2', 'transcription': 'A European final must be the millennium target.'}
+{'audio': 'p361_015_mic2', 'transcription': 'The Greeks used to imagine that it was a sign from the gods to foretell war or heavy rain.'}
+{'audio': 'p336_026_mic2', 'transcription': 'She took them for a term.'}
+{'audio': 'p288_276_mic2', 'transcription': 'It happens from time to time.'}
+{'audio': 'p268_120_mic2', 'transcription': 'The ethos of the school was outstanding.'}
+{'audio': 'p298_340_mic2', 'transcription': 'However, they continued in their pursuit of victory.'}
+{'audio': 'p376_044_mic2', 'transcription': 'THE Paragon Ensemble is back.'}
+{'audio': 'p261_002_mic2', 'transcription': 'Ask her to bring these things with her from the store.  '}
+{'audio': 'p274_411_mic2', 'transcription': 'However, the players should have a voice in these matters.'}
+{'audio': 'p299_058_mic2', 'transcription': 'They were not doing it too well, either.'}
+{'audio': 'p227_317_mic2', 'transcription': 'It goes back a long way.'}
+{'audio': 'p276_167_mic2', 'transcription': 'Before the game we went for a pint.'}
+{'audio': 'p308_251_mic2', 'transcription': 'We are not out of touch with politics.'}
+{'audio': 'p251_209_mic2', 'transcription': 'Today was first class.'}
+{'audio': 'p248_068_mic2', 'transcription': "It's good news and long overdue."}
+{'audio': 'p286_224_mic2', 'transcription': 'The tickets will be on sale today at the ticket office.'}
+{'audio': 'p261_253_mic2', 'transcription': 'He is due in Israel tomorrow.'}
+{'audio': 'p326_381_mic2', 'transcription': 'Therein lies the problem.'}
+{'audio': 'p293_300_mic2', 'transcription': 'We remain committed to it, as does the government.'}
+{'audio': 'p274_117_mic2', 'transcription': 'We had another last Tuesday.'}
+{'audio': 'p237_242_mic2', 'transcription': 'Police later said the scheme would end in November.'}
+{'audio': 'p295_360_mic2', 'transcription': 'But that is entirely a matter for them.'}
+{'audio': 'p287_090_mic2', 'transcription': 'Two of the team became ill.'}
+{'audio': 'p347_366_mic2', 'transcription': 'With Pierre, you can never be sure.'}
+{'audio': 'p312_285_mic2', 'transcription': 'Inquiries are ongoing into this incident.'}
+{'audio': 'p376_253_mic2', 'transcription': 'We are really good friends.'}
+{'audio': 'p252_078_mic2', 'transcription': 'So is that it, then?'}
+{'audio': 'p345_056_mic2', 'transcription': 'We expect them to deliver for us.'}
+{'audio': 'p287_380_mic2', 'transcription': 'There is no deal as yet.'}
+{'audio': 'p285_124_mic2', 'transcription': 'Offered the gold medal, he declined.'}
+{'audio': 'p339_411_mic2', 'transcription': 'Where do we spend it?'}
+{'audio': 'p226_184_mic2', 'transcription': "It's a portrait of Glasgow, not the portrait."}
+{'audio': 'p254_337_mic2', 'transcription': 'It should be scrapped.'}
+{'audio': 'p257_320_mic2', 'transcription': 'In addition, certain areas are closed at certain times.'}
+{'audio': 'p273_037_mic2', 'transcription': 'Every aspect of our play was first class.'}
+{'audio': 'p267_408_mic2', 'transcription': 'We will stand for the nation.'}
+{'audio': 'p278_126_mic2', 'transcription': 'It was not a finale he would want to remember.'}
+{'audio': 'p238_321_mic2', 'transcription': 'We believe a third party was involved.'}
+{'audio': 'p347_095_mic2', 'transcription': 'We gave them the goal.'}
+{'audio': 'p364_284_mic2', 'transcription': 'Clearly, the future remains uncertain.'}
+{'audio': 'p307_110_mic2', 'transcription': 'People want to see me on the screen.'}
+{'audio': 'p257_118_mic2', 'transcription': 'We are determined to continue on this mission and we will prevail.'}
+{'audio': 'p313_150_mic2', 'transcription': 'Still, in the end, it was a fair result.'}
+{'audio': 'p263_173_mic2', 'transcription': 'It is an attitude of mind.'}
+{'audio': 'p258_310_mic2', 'transcription': "It's certainly different."}
+{'audio': 'p271_438_mic2', 'transcription': 'Admission is free.'}
+{'audio': 'p255_268_mic2', 'transcription': 'This court has made an order which has not been observed.'}
+{'audio': 'p360_370_mic2', 'transcription': 'The package is a changing one.'}
+{'audio': 'p250_360_mic2', 'transcription': 'What form did that take?'}
+{'audio': 'p239_240_mic2', 'transcription': 'They should stop the bombing.'}
+{'audio': 'p334_413_mic2', 'transcription': 'The hangover was Olympian.'}
+{'audio': 'p277_168_mic2', 'transcription': "We've all had the shots."}
+{'audio': 'p267_210_mic2', 'transcription': 'The course has helped a lot.'}
+{'audio': 'p255_330_mic2', 'transcription': 'It could have gone either way.'}
+{'audio': 'p230_001_mic2', 'transcription': 'Please call Stella.  '}
+{'audio': 'p306_144_mic2', 'transcription': 'Since then, my life has been turned upside down.'}
+{'audio': 'p297_317_mic2', 'transcription': 'He confirmed that there had been no warning.'}
+{'audio': 'p301_290_mic2', 'transcription': 'Everything has been destroyed.'}
+{'audio': 'p340_166_mic2', 'transcription': 'It was very exciting.'}
+{'audio': 'p336_394_mic2', 'transcription': 'There were few surprises.'}
+{'audio': 'p295_259_mic2', 'transcription': "That's the most important thing for me."}
+{'audio': 'p318_243_mic2', 'transcription': "It can't just be a cynical marketing exercise."}
+{'audio': 'p363_098_mic2', 'transcription': 'It was good fun.'}
+{'audio': 'p307_133_mic2', 'transcription': 'Both were later released after a check-up.'}
+{'audio': 'p330_151_mic2', 'transcription': 'They have worked with each other.'}
+{'audio': 'p237_122_mic2', 'transcription': 'It is a delight on every level.'}
+{'audio': 'p265_016_mic2', 'transcription': 'The Norsemen considered the rainbow as a bridge over which the gods passed from earth to their home in the sky. '}
+{'audio': 'p277_394_mic2', 'transcription': 'It was a kind of contempt.'}
+{'audio': 'p271_414_mic2', 'transcription': 'Mrs Thatcher was in the right place, at the right time.'}
+{'audio': 'p226_030_mic2', 'transcription': 'Because we do not need it.'}
+{'audio': 'p351_400_mic2', 'transcription': 'You find it bizarre?'}
+{'audio': 'p292_050_mic2', 'transcription': 'What is the new religion?'}
+{'audio': 'p292_143_mic2', 'transcription': 'These awards will deliver improvements on the ground.'}
+{'audio': 'p227_350_mic2', 'transcription': 'This is a trend which will be encouraged.'}
+{'audio': 'p287_226_mic2', 'transcription': 'Murray Financial has fallen at the first hurdle.'}
+{'audio': 'p253_085_mic2', 'transcription': 'What would be the timetable for withdrawal?'}
+{'audio': 'p299_243_mic2', 'transcription': 'Sub Not Used, McKay.'}
+{'audio': 'p335_228_mic2', 'transcription': 'My dad was working in Ayrshire.'}
+{'audio': 'p308_194_mic2', 'transcription': 'Or so we have long assumed.'}
+{'audio': 'p302_021_mic2', 'transcription': 'The difference in the rainbow depends considerably upon the size of the drops, and the width of the colored band increases as the size of the drop increases.'}
+{'audio': 'p339_081_mic2', 'transcription': 'It all happened so suddenly.'}
+{'audio': 'p363_319_mic2', 'transcription': 'That would be the constructive way forward.'}
+{'audio': 'p244_226_mic2', 'transcription': 'I was not overly concerned about this.'}
+{'audio': 'p267_311_mic2', 'transcription': 'We will make a statement tomorrow.'}
+{'audio': 'p347_062_mic2', 'transcription': 'The message is just not getting through.'}
+{'audio': 'p323_013_mic2', 'transcription': 'Some have accepted it as a miracle without physical explanation.'}
+{'audio': 'p273_122_mic2', 'transcription': 'You are a gambling man.'}
+{'audio': 'p311_288_mic2', 'transcription': 'It has become very confused.'}
+{'audio': 'p247_165_mic2', 'transcription': 'IT S all change at Kilmarnock.'}
+{'audio': 'p297_335_mic2', 'transcription': 'His primary residence is Scotland.'}
+{'audio': 'p285_302_mic2', 'transcription': 'In performance, that quality can prove to be a challenge.'}
+{'audio': 'p347_037_mic2', 'transcription': 'And look at the leading conductors, he says.'}
+{'audio': 'p293_225_mic2', 'transcription': 'Bill Clinton always had an idea to sell.'}
+{'audio': 'p335_003_mic2', 'transcription': 'Six spoons of fresh snow peas, five thick slabs of blue cheese, and maybe a snack for her brother Bob.'}
+{'audio': 'p295_090_mic2', 'transcription': "It didn't come as any great surprise."}
+{'audio': 'p285_237_mic2', 'transcription': 'It is not an option, but a policy requirement.'}
+{'audio': 'p329_065_mic2', 'transcription': 'It was the same old story.'}
+{'audio': 's5_138_mic2', 'transcription': 'But it looks good for next year.'}
+{'audio': 'p281_339_mic2', 'transcription': 'Do you think we are a top nation?'}
+{'audio': 'p292_220_mic2', 'transcription': 'The observer saw no evidence of fighting.'}
+{'audio': 'p295_002_mic2', 'transcription': 'Ask her to bring these things with her from the store.'}
+{'audio': 'p343_162_mic2', 'transcription': 'Dancing was her life.'}
+{'audio': 'p305_299_mic2', 'transcription': "That's how it worked in Bosnia."}
+{'audio': 'p307_315_mic2', 'transcription': 'We are ready for the long haul.'}
+{'audio': 'p241_351_mic2', 'transcription': 'Rangers can expect a physical battle in the national stadium tonight.'}
+{'audio': 'p248_288_mic2', 'transcription': 'The release attracted little attention.'}
+{'audio': 'p343_265_mic2', 'transcription': 'Worry can have that effect on some citizens.'}
+{'audio': 'p244_420_mic2', 'transcription': 'That might mean another delay.'}
+{'audio': 'p250_251_mic2', 'transcription': 'They included certain insurance policies, and his share of the house.'}
+{'audio': 'p310_089_mic2', 'transcription': 'She may even appear in some more films.'}
+{'audio': 'p226_168_mic2', 'transcription': 'It is too much for me.'}
+{'audio': 'p286_211_mic2', 'transcription': 'Mr Blair was ready for him.'}
+{'audio': 'p238_409_mic2', 'transcription': 'How are you, sir?'}
+{'audio': 'p307_219_mic2', 'transcription': 'What are you not good at?'}
+{'audio': 'p318_128_mic2', 'transcription': 'What has changed since then?'}
+{'audio': 'p272_245_mic2', 'transcription': 'However, it is understood that offers of further payments are unlikely.'}
+{'audio': 'p231_257_mic2', 'transcription': 'He admitted that he knew nothing about it.'}
+{'audio': 'p257_029_mic2', 'transcription': 'Life was like a timetable.'}
+{'audio': 'p295_057_mic2', 'transcription': 'We recorded it at our own expense.'}
+{'audio': 'p231_010_mic2', 'transcription': 'People look, but no one ever finds it. '}
+{'audio': 'p351_375_mic2', 'transcription': 'Our message is getting through.'}
+{'audio': 'p256_130_mic2', 'transcription': 'They keep the atmosphere in mind.'}
+{'audio': 'p286_377_mic2', 'transcription': 'They were to blame for the first two goals.'}
+{'audio': 'p286_387_mic2', 'transcription': 'The marshall at the turn was great.'}
+{'audio': 'p262_344_mic2', 'transcription': 'That is the very reason why it was so vital.'}
+{'audio': 'p317_171_mic2', 'transcription': 'This is excellent value for money.'}
+{'audio': 'p361_079_mic2', 'transcription': 'We have never been short of volunteers.'}
+{'audio': 'p249_321_mic2', 'transcription': 'I came into this world with nothing.'}
+{'audio': 'p303_082_mic2', 'transcription': 'Disruption will be kept to a minimum.'}
+{'audio': 'p302_301_mic2', 'transcription': "Shaking his head, Mr Cook said he simply couldn't understand it."}
+{'audio': 'p285_127_mic2', 'transcription': 'I am now unemployed.'}
+{'audio': 'p314_264_mic2', 'transcription': 'He is young but not too young.'}
+{'audio': 'p236_070_mic2', 'transcription': 'He was seen as the enemy.'}
+{'audio': 'p236_137_mic2', 'transcription': 'Five minutes later, the home team were back in front.'}
+{'audio': 'p306_153_mic2', 'transcription': 'We need some confidence to get a win.'}
+{'audio': 'p361_176_mic2', 'transcription': 'If they wish to go, they can go.'}
+{'audio': 'p326_044_mic2', 'transcription': 'What did they think of her voice?'}
+{'audio': 'p308_118_mic2', 'transcription': 'Stalkers are capable of killing.'}
+{'audio': 'p303_047_mic2', 'transcription': 'It was an easy decision to come here.'}
+{'audio': 'p297_397_mic2', 'transcription': 'We have understood the problems for some time.'}
+{'audio': 'p303_005_mic2', 'transcription': 'She can scoop these things into three red bags, and we will go meet her Wednesday at the train station.'}
+{'audio': 'p240_205_mic2', 'transcription': 'I, in the meantime, had been far from chilling.'}
+{'audio': 'p273_073_mic2', 'transcription': 'It makes for an interesting conference.'}
+{'audio': 'p295_269_mic2', 'transcription': 'The airport was even different.'}
+{'audio': 's5_114_mic2', 'transcription': 'The balance comes from the five enterprise bodies involved.'}
+{'audio': 'p293_152_mic2', 'transcription': 'I think we have a very strong case.'}
+{'audio': 'p361_324_mic2', 'transcription': 'We are very proud of him.'}
+{'audio': 'p232_238_mic2', 'transcription': 'And thought we would get away with it.'}
+{'audio': 'p330_335_mic2', 'transcription': 'It could have been just a quick fix.'}
+{'audio': 'p288_320_mic2', 'transcription': 'Kids are terrible.'}
+{'audio': 'p270_338_mic2', 'transcription': 'Ms Anderson yesterday put a brave face on the departure.'}
+{'audio': 'p329_128_mic2', 'transcription': 'The trial is set for February.'}
+{'audio': 'p339_066_mic2', 'transcription': 'But that title is a mistake.'}
+{'audio': 'p287_165_mic2', 'transcription': 'Are you going to win?'}
+{'audio': 'p256_141_mic2', 'transcription': 'We want to keep the pound.'}
+{'audio': 'p254_103_mic2', 'transcription': 'The group is due to report by the end of the year.'}
+{'audio': 'p286_285_mic2', 'transcription': 'These figures are truly terrible.'}
+{'audio': 'p300_076_mic2', 'transcription': 'Henman is taking nothing for granted.'}
+{'audio': 'p241_369_mic2', 'transcription': 'There was no hint of scandal.'}
+{'audio': 'p241_273_mic2', 'transcription': 'Yesterday, he had a chilling warning for the game in Scotland.'}
+{'audio': 'p232_269_mic2', 'transcription': 'The government has until midnight tomorrow to make a decision.'}
+{'audio': 'p271_029_mic2', 'transcription': 'They have no history.'}
+{'audio': 'p233_051_mic2', 'transcription': 'But, after a dip in sales, growth was recorded.'}
+{'audio': 'p227_252_mic2', 'transcription': 'The irony was not lost.'}
+{'audio': 'p339_189_mic2', 'transcription': 'The other was a football match.'}
+{'audio': 'p305_024_mic2', 'transcription': 'This is a very common type of bow, one showing mainly red and yellow, with little or no green or blue.'}
+{'audio': 'p284_321_mic2', 'transcription': 'We have got to get the points from this one.'}
+{'audio': 'p330_063_mic2', 'transcription': 'Nor does it have a stock of medicines.'}
+{'audio': 'p237_271_mic2', 'transcription': 'It is fantastic that other women will be able to benefit.'}
+{'audio': 'p261_471_mic2', 'transcription': "I'm very pleased for the club and for myself."}
+{'audio': 'p246_218_mic2', 'transcription': "If it doesn't, it doesn't."}
+{'audio': 'p285_340_mic2', 'transcription': 'In the early days, I was obsessed with working in the theatre.'}
+{'audio': 'p312_221_mic2', 'transcription': 'I love you so very much.'}
+{'audio': 'p267_291_mic2', 'transcription': 'They were on holiday in Egypt.'}
+{'audio': 'p364_154_mic2', 'transcription': 'Everyone would have been happy.'}
+{'audio': 'p360_155_mic2', 'transcription': 'First meeting was next week.'}
+{'audio': 'p284_133_mic2', 'transcription': 'On Friday, the headteacher and deputy headteacher appeared at the door.'}
+{'audio': 'p249_022_mic2', 'transcription': 'The actual primary rainbow observed is said to be the effect of super-imposition of a number of bows. '}
+{'audio': 'p245_004_mic2', 'transcription': 'We also need a small plastic snake and a big toy frog for the kids.  '}
+{'audio': 'p314_209_mic2', 'transcription': 'You saw the football.'}
+{'audio': 'p276_196_mic2', 'transcription': 'I did not concentrate on my performance.'}
+{'audio': 'p284_031_mic2', 'transcription': "I'd just like to play."}
+{'audio': 'p361_095_mic2', 'transcription': "If it's going in, it goes in."}
+{'audio': 'p272_321_mic2', 'transcription': 'You have to be able to deal with all age groups.'}
+{'audio': 'p347_043_mic2', 'transcription': 'He had a really frustrating time last year.'}
+{'audio': 'p340_016_mic2', 'transcription': 'The Norsemen considered the rainbow as a bridge over which the gods passed from earth to their home in the sky.'}
+{'audio': 'p351_084_mic2', 'transcription': 'She was also very brave.'}
+{'audio': 'p333_115_mic2', 'transcription': 'I thought he was terrific.'}
+{'audio': 'p267_373_mic2', 'transcription': 'They are used to the big stage.'}
+{'audio': 'p287_104_mic2', 'transcription': 'I was impressed with them.'}
+{'audio': 'p239_499_mic2', 'transcription': 'I am not unduly surprised.'}
+{'audio': 'p274_397_mic2', 'transcription': "It's never great to finish second."}
+{'audio': 'p267_065_mic2', 'transcription': 'So is that it, then?'}
+{'audio': 'p339_132_mic2', 'transcription': 'We are still waiting.'}
+{'audio': 'p295_219_mic2', 'transcription': "I'm very tired, but it was worth it."}
+{'audio': 'p245_224_mic2', 'transcription': 'It is not the message alone.'}
+{'audio': 'p329_193_mic2', 'transcription': 'It was a miserable afternoon in Fife.'}
+{'audio': 'p278_013_mic2', 'transcription': 'Some have accepted it as a miracle without physical explanation. '}
+{'audio': 'p255_069_mic2', 'transcription': 'He highlighted a lack of staff.'}
+{'audio': 'p226_224_mic2', 'transcription': 'It was a miserable afternoon in Fife.'}
+{'audio': 'p253_365_mic2', 'transcription': 'By that time, however, it was already too late.'}
+{'audio': 'p298_246_mic2', 'transcription': 'There are just two tournaments remaining.'}
+{'audio': 'p248_295_mic2', 'transcription': 'Davis is very supportive, as a director.'}
+{'audio': 'p279_209_mic2', 'transcription': "We're not seeing an image of the person, he said."}
+{'audio': 'p252_207_mic2', 'transcription': 'My targets for the Scottish Conservative party are high.'}
+{'audio': 'p363_286_mic2', 'transcription': 'We have got no money to go anywhere.'}
+{'audio': 'p311_226_mic2', 'transcription': 'Gone with them is any sense of narrative.'}
+{'audio': 'p286_046_mic2', 'transcription': 'Pulled a huge number of viewers.'}
+{'audio': 'p336_320_mic2', 'transcription': 'Yes, it was uplifting.'}
+{'audio': 'p301_094_mic2', 'transcription': 'His female companion was being treated for shock.'}
+{'audio': 'p276_123_mic2', 'transcription': 'Petrol prices were widely blamed.'}
+{'audio': 'p336_090_mic2', 'transcription': 'We have to get this sorted out.'}
+{'audio': 'p274_407_mic2', 'transcription': 'Nobody will be forced to work.'}
+{'audio': 'p243_226_mic2', 'transcription': 'If not, a deal could take many months.'}
+{'audio': 'p249_004_mic2', 'transcription': 'We also need a small plastic snake and a big toy frog for the kids.  '}
+{'audio': 'p312_093_mic2', 'transcription': 'They should be swept away.'}
+{'audio': 'p374_287_mic2', 'transcription': 'It is something that we will put right.'}
+{'audio': 'p254_139_mic2', 'transcription': 'Everyone is in favour of the need for welfare reform in general.'}
+{'audio': 'p311_418_mic2', 'transcription': 'I agree with them.'}
+{'audio': 'p258_055_mic2', 'transcription': 'Until recently, she worked as a recruitment consultant in London.'}
+{'audio': 'p270_113_mic2', 'transcription': 'IT HAS been the year of the youngster at Kilmarnock.'}
+{'audio': 'p313_145_mic2', 'transcription': "However, it's not all bad news for women."}
+{'audio': 'p248_155_mic2', 'transcription': 'They were later discharged from hospital.'}
+{'audio': 'p313_330_mic2', 'transcription': 'We are now in an election period.'}
+{'audio': 'p238_211_mic2', 'transcription': 'But experts have disputed that statistic.'}
+{'audio': 'p229_191_mic2', 'transcription': 'It is the whole package.'}
+{'audio': 'p306_105_mic2', 'transcription': 'People just came on their own.'}
+{'audio': 's5_008_mic2', 'transcription': 'These take the shape of a long round arch, with its path high above, and its two ends apparently beyond the horizon. '}
+{'audio': 'p269_285_mic2', 'transcription': 'It happens from time to time.'}
+{'audio': 'p271_319_mic2', 'transcription': 'Henman has been warned.'}
+{'audio': 'p249_044_mic2', 'transcription': "It's a blessing."}
+{'audio': 'p310_245_mic2', 'transcription': 'They are not an item.'}
+{'audio': 'p287_382_mic2', 'transcription': "This remains the party's policy."}
+{'audio': 'p243_027_mic2', 'transcription': "I've got the same feeling as I had last week in Germany."}
+{'audio': 'p308_410_mic2', 'transcription': 'There are simply no orders.'}
+{'audio': 'p330_407_mic2', 'transcription': 'I am greatly encouraged.'}
+{'audio': 'p266_078_mic2', 'transcription': 'I will miss him.'}
+{'audio': 'p361_074_mic2', 'transcription': 'They said there was nothing.'}
+{'audio': 'p310_191_mic2', 'transcription': 'This is the first job of the director - leadership.'}
+{'audio': 'p241_033_mic2', 'transcription': 'People love to see this stuff.'}
+{'audio': 'p298_184_mic2', 'transcription': 'Lifeboat is at the Tron Theatre, Glasgow, tonight.'}
+{'audio': 'p249_237_mic2', 'transcription': 'The role was a knockout, but really difficult.'}
+{'audio': 'p313_341_mic2', 'transcription': 'The picture is the same across Scotland.'}
+{'audio': 'p285_112_mic2', 'transcription': 'It is so sad.'}
+{'audio': 'p311_173_mic2', 'transcription': 'This is a very interesting move.'}
+{'audio': 'p240_286_mic2', 'transcription': 'If not, he should go home.'}
+{'audio': 'p307_164_mic2', 'transcription': 'I thought it was a fantastic game.'}
+{'audio': 'p283_008_mic2', 'transcription': 'These take the shape of a long round arch, with its path high above, and its two ends apparently beyond the horizon. '}
+{'audio': 'p334_356_mic2', 'transcription': 'Lottery cash is rightly dependent on grassroots approval.'}
+{'audio': 'p334_242_mic2', 'transcription': 'A venue was found.'}
+{'audio': 'p240_220_mic2', 'transcription': 'He said that healthy eating was high on the council agenda.'}
+{'audio': 'p225_108_mic2', 'transcription': 'Mr Chisholm said the move was made on the advice of consultants.'}
+{'audio': 'p258_099_mic2', 'transcription': 'Now, though, he believes that the new formation has helped his form.'}
+{'audio': 'p236_328_mic2', 'transcription': 'After some discussion they did.'}
+{'audio': 'p279_250_mic2', 'transcription': 'This year I understood.'}
+{'audio': 'p261_229_mic2', 'transcription': 'Life is too short to be bitter.'}
+{'audio': 'p254_343_mic2', 'transcription': 'It is long gone.'}
+{'audio': 'p248_230_mic2', 'transcription': "It's the same as Glasgow."}
+{'audio': 'p351_058_mic2', 'transcription': 'The jury is still out.'}
+{'audio': 'p258_080_mic2', 'transcription': 'We have other options.'}
+{'audio': 'p329_257_mic2', 'transcription': 'This is a wonderful honour for me.'}
+{'audio': 's5_043_mic2', 'transcription': 'For career reasons, too, he believed he needed to come home.'}
+{'audio': 'p361_408_mic2', 'transcription': 'It is believed he had been stabbed.'}
+{'audio': 'p329_165_mic2', 'transcription': "That's the way it is."}
+{'audio': 'p281_174_mic2', 'transcription': 'Do not imagine for a moment that they are not there.'}
+{'audio': 'p237_351_mic2', 'transcription': 'It should be scrapped.'}
+{'audio': 'p274_189_mic2', 'transcription': "But there's an upturn in the sector."}
+{'audio': 'p243_343_mic2', 'transcription': 'Getting that balance right can be very difficult.'}
+{'audio': 'p275_241_mic2', 'transcription': 'Our policy is clear.'}
+{'audio': 'p229_076_mic2', 'transcription': "I've not thought about it."}
+{'audio': 'p347_172_mic2', 'transcription': 'Yesterday, one, from Aberdeen, was postponed.'}
+{'audio': 'p248_219_mic2', 'transcription': 'He said that healthy eating was high on the council agenda.'}
+{'audio': 'p333_104_mic2', 'transcription': 'Safety was also an issue.'}
+{'audio': 'p255_242_mic2', 'transcription': 'Dewar is certainly under attack from within his own party.'}
+{'audio': 'p229_226_mic2', 'transcription': 'However, Dundee deserved to win this game.'}
+{'audio': 'p277_443_mic2', 'transcription': 'Who would be in that desert?'}
+{'audio': 'p232_068_mic2', 'transcription': 'It is like a river running by my home.'}
+{'audio': 'p307_203_mic2', 'transcription': 'If true, it will be the first sign of dissent.'}
+{'audio': 'p259_233_mic2', 'transcription': 'From there, they can go anywhere.'}
+{'audio': 'p268_369_mic2', 'transcription': "It didn't matter who was in their way."}
+{'audio': 'p333_126_mic2', 'transcription': 'This is our way to make our point.'}
+{'audio': 'p300_305_mic2', 'transcription': 'People can get them if they want.'}
+{'audio': 'p263_280_mic2', 'transcription': 'They must play for each other.'}
+{'audio': 'p254_352_mic2', 'transcription': 'But the real problem is the closure of the export market.'}
+{'audio': 'p274_038_mic2', 'transcription': 'Among them are many criminals.'}
+{'audio': 'p312_143_mic2', 'transcription': "It's a fantastic achievement."}
+{'audio': 'p249_029_mic2', 'transcription': 'Because we do not need it.'}
+{'audio': 'p374_065_mic2', 'transcription': 'Where is the discipline?'}
+{'audio': 'p295_100_mic2', 'transcription': 'You can take it almost anywhere and practise.'}
+{'audio': 'p232_042_mic2', 'transcription': 'You must always attempt to raise the bar.'}
+{'audio': 'p245_001_mic2', 'transcription': 'Please call Stella.  '}
+{'audio': 'p228_170_mic2', 'transcription': 'They say that vital evidence was not heard in court.'}
+{'audio': 'p229_136_mic2', 'transcription': 'So the European elections are extremely important.'}
+{'audio': 'p263_149_mic2', 'transcription': 'And the Farmer is worried about another aspect of farming life.'}
+{'audio': 'p238_117_mic2', 'transcription': 'Many others are subjected to violence by men.'}
+{'audio': 'p263_116_mic2', 'transcription': 'He leaves a wife, a son and a daughter.'}
+{'audio': 'p281_199_mic2', 'transcription': 'We always felt we could win.'}
+{'audio': 'p318_164_mic2', 'transcription': 'Agents and coaches must be paid.'}
+{'audio': 'p231_428_mic2', 'transcription': 'Pupils were allowed home at lunchtime.'}
+{'audio': 'p376_320_mic2', 'transcription': 'Worse still, it can be infectious.'}
+{'audio': 'p238_444_mic2', 'transcription': 'I believe we can handle this okay.'}
+{'audio': 'p250_164_mic2', 'transcription': 'Anyway, the job will be part-time.'}
+{'audio': 'p278_201_mic2', 'transcription': 'I wanted to put myself on the line.'}
+{'audio': 'p239_363_mic2', 'transcription': 'The actual increases will be announced next month.'}
+{'audio': 'p303_192_mic2', 'transcription': 'I think we finished fifth.'}
+{'audio': 'p302_128_mic2', 'transcription': 'THE arrow was aimed at the heart.'}
+{'audio': 'p316_344_mic2', 'transcription': 'Not many people like to do that.'}
+{'audio': 'p272_219_mic2', 'transcription': 'At the time, he was a living legend.'}
+{'audio': 'p268_210_mic2', 'transcription': 'The partnership was set up during the summer.'}
+{'audio': 'p278_260_mic2', 'transcription': 'We have no information on Iraq.'}
+{'audio': 'p260_096_mic2', 'transcription': 'We have always maintained that we would never abandon Scottish football.'}
+{'audio': 'p299_391_mic2', 'transcription': 'Everything is surrounded by confusion.'}
+{'audio': 'p276_261_mic2', 'transcription': 'Mr Blair had done well.'}
+{'audio': 'p293_330_mic2', 'transcription': "He's very young but he is growing up."}
+{'audio': 'p295_187_mic2', 'transcription': 'He was born in London of Scottish parents.'}
+{'audio': 'p283_205_mic2', 'transcription': 'Who was she?'}
+{'audio': 'p294_005_mic2', 'transcription': 'She can scoop these things into three red bags, and we will go meet her Wednesday at the train station.'}
+{'audio': 'p275_169_mic2', 'transcription': "We've all had the shots."}
+{'audio': 'p270_172_mic2', 'transcription': 'Next year it plans to open an office in Tokyo.'}
+{'audio': 'p239_251_mic2', 'transcription': 'The question is whether private investors should follow their example.'}
+{'audio': 'p244_027_mic2', 'transcription': 'We want to lift the cup for the fans.'}
+{'audio': 'p273_217_mic2', 'transcription': 'William Hague delighted his party.'}
+{'audio': 'p333_382_mic2', 'transcription': 'Partly, but only partly, this is their own fault.'}
+{'audio': 'p265_282_mic2', 'transcription': 'Who did the recruiting?'}
+{'audio': 'p275_325_mic2', 'transcription': 'Last night, he pledged to clear his name.'}
+{'audio': 'p263_468_mic2', 'transcription': "It's been a long, long journey."}
+{'audio': 'p270_118_mic2', 'transcription': 'You were made to feel so welcome.'}
+{'audio': 'p263_216_mic2', 'transcription': 'The confidence is low, but it is a difficult thing to understand.'}
+{'audio': 'p376_408_mic2', 'transcription': 'Lambert will be playing against Belgium.'}
+{'audio': 'p268_163_mic2', 'transcription': 'He plans to call for an aid package from Mr Macdonald.'}
+{'audio': 'p227_238_mic2', 'transcription': 'William Hague delighted his party.'}
+{'audio': 'p227_006_mic2', 'transcription': 'When the sunlight strikes raindrops in the air, they act as a prism and form a rainbow. '}
+{'audio': 'p351_232_mic2', 'transcription': 'Perhaps that was their mistake.'}
+{'audio': 'p274_065_mic2', 'transcription': 'Then followed a bout of flu.'}
+{'audio': 'p277_164_mic2', 'transcription': 'I will tell you.'}
+{'audio': 'p308_220_mic2', 'transcription': 'Appointed general secretary last September.'}
+{'audio': 'p345_353_mic2', 'transcription': 'It was a very big win for us.'}
+{'audio': 'p333_078_mic2', 'transcription': 'I think we will join the single currency.'}
+{'audio': 'p225_116_mic2', 'transcription': 'Yesterday the company reported a further downturn in profits.'}
+{'audio': 'p301_350_mic2', 'transcription': 'And Michael was just great.'}
+{'audio': 'p345_107_mic2', 'transcription': 'I was going to help with the dinner.'}
+{'audio': 'p246_214_mic2', 'transcription': 'The council has proposed a temporary barrier to protect the monument.'}
+{'audio': 'p364_051_mic2', 'transcription': 'There will be no disruption in the schools.'}
+{'audio': 'p299_119_mic2', 'transcription': 'I am happy with my form.'}
+{'audio': 'p336_385_mic2', 'transcription': 'We were beaten by the better team today.'}
+{'audio': 'p243_132_mic2', 'transcription': 'He said a review of the planning process should encourage fresh thinking.'}
+{'audio': 'p285_239_mic2', 'transcription': 'He also launched a new strategy for the agency.'}
+{'audio': 'p244_376_mic2', 'transcription': 'You have to be patient.'}
+{'audio': 'p231_189_mic2', 'transcription': 'You know the sort of thing.'}
+{'audio': 'p339_050_mic2', 'transcription': 'It is a hard act to follow, the Winning act.'}
+{'audio': 'p304_175_mic2', 'transcription': "I think that's a bit of an invasion."}
+{'audio': 'p252_118_mic2', 'transcription': 'Now the life of this orchestra is very difficult.'}
+{'audio': 'p249_065_mic2', 'transcription': 'You did not change overnight.'}
+{'audio': 'p351_269_mic2', 'transcription': 'There were moments of humour too.'}
+{'audio': 'p227_223_mic2', 'transcription': 'That might help a bit.'}
+{'audio': 'p244_150_mic2', 'transcription': 'There were no grounds for his action.'}
+{'audio': 'p293_289_mic2', 'transcription': 'They have got their position, we have got our position.'}
+{'audio': 'p282_154_mic2', 'transcription': 'They have not been named.'}
+{'audio': 'p316_361_mic2', 'transcription': 'It certainly gives you hope.'}
+{'audio': 'p307_401_mic2', 'transcription': "I won't go back to Holland."}
+{'audio': 'p268_358_mic2', 'transcription': 'We played them off the pitch.'}
+{'audio': 'p243_106_mic2', 'transcription': 'They would now be able to look forward with confidence.'}
+{'audio': 'p351_024_mic2', 'transcription': 'This is a very common type of bow, one showing mainly red and yellow, with little or no green or blue.'}
+{'audio': 'p262_308_mic2', 'transcription': 'They should be swept away.'}
+{'audio': 'p273_106_mic2', 'transcription': 'New Year will be very busy.'}
+{'audio': 'p345_378_mic2', 'transcription': 'I did not name it.'}
+{'audio': 'p255_153_mic2', 'transcription': "The home side didn't stand a chance."}
+{'audio': 'p312_298_mic2', 'transcription': 'Bill is a mentor.'}
+{'audio': 'p286_123_mic2', 'transcription': 'I have learned from him.'}
+{'audio': 'p333_047_mic2', 'transcription': 'Do not forget about Monaco.'}
+{'audio': 'p335_028_mic2', 'transcription': "Let's not go overboard."}
+{'audio': 'p306_298_mic2', 'transcription': 'My view has now completely changed.'}
+{'audio': 'p232_303_mic2', 'transcription': 'He was adamant that he was still ahead on everything that matters.'}
+{'audio': 'p310_060_mic2', 'transcription': 'She has a wonderful mind.'}
+{'audio': 'p293_100_mic2', 'transcription': 'You do have a way out.'}
+{'audio': 'p311_225_mic2', 'transcription': 'And it paid off.'}
+{'audio': 'p298_186_mic2', 'transcription': 'Charles Clarke is an idiot.'}
+{'audio': 'p231_317_mic2', 'transcription': 'They come to enjoy themselves.'}
+{'audio': 'p311_186_mic2', 'transcription': 'There will be no change in government.'}
+{'audio': 'p245_077_mic2', 'transcription': 'That is bound to happen.'}
+{'audio': 'p300_036_mic2', 'transcription': 'He said he now intends to fly today.'}
+{'audio': 'p252_313_mic2', 'transcription': 'It was a total surprise.'}
+{'audio': 'p326_151_mic2', 'transcription': 'But what will we put on it?'}
+{'audio': 'p274_052_mic2', 'transcription': 'The latter were not from Scotland.'}
+{'audio': 'p270_437_mic2', 'transcription': 'Their condition is described as satisfactory.'}
+{'audio': 'p250_283_mic2', 'transcription': 'I felt about this big.'}
+{'audio': 'p237_092_mic2', 'transcription': 'However, it did not end that way.'}
+{'audio': 'p239_096_mic2', 'transcription': 'Kenny Miller might come through.'}
+{'audio': 'p339_013_mic2', 'transcription': 'Some have accepted it as a miracle without physical explanation.'}
+{'audio': 'p236_385_mic2', 'transcription': 'This big issue is whether it can be enforced.'}
+{'audio': 'p256_001_mic2', 'transcription': 'Please call Stella.  '}
+{'audio': 'p229_138_mic2', 'transcription': 'Despite the result, it was still a great moment.'}
+{'audio': 'p347_107_mic2', 'transcription': 'There was nobody on the roof.'}
+{'audio': 'p313_340_mic2', 'transcription': "I'm pleased to get through the opening match."}
+{'audio': 'p263_083_mic2', 'transcription': 'Just two months ago it seemed an unlikely threat.'}
+{'audio': 'p265_140_mic2', 'transcription': 'The amount of energy in a tornado is enormous.'}
+{'audio': 'p333_203_mic2', 'transcription': 'Because of this, he feels the hearing had been unfair.'}
+{'audio': 'p374_224_mic2', 'transcription': 'Does a lot of drawing.'}
+{'audio': 'p301_058_mic2', 'transcription': 'The encounter was to change his life.'}
+{'audio': 'p299_328_mic2', 'transcription': 'Eight new hospitals are set to be built.'}
+{'audio': 'p253_089_mic2', 'transcription': 'The city council is a major property owner in the area.'}
+{'audio': 'p312_164_mic2', 'transcription': 'His first album was a hit.'}
+{'audio': 'p297_147_mic2', 'transcription': 'We had a really good experience with David.'}
+{'audio': 'p339_054_mic2', 'transcription': 'I will make that point tonight.'}
+{'audio': 'p260_161_mic2', 'transcription': 'Councillors are expected to take a decision within the next few weeks.'}
+{'audio': 'p275_299_mic2', 'transcription': 'There were no passengers on board.'}
+{'audio': 'p233_228_mic2', 'transcription': 'Mental health is a massive issue.'}
+{'audio': 'p336_148_mic2', 'transcription': 'Then there is the Mini itself.'}
+{'audio': 'p305_096_mic2', 'transcription': 'We must keep our feet on the ground.'}
+{'audio': 'p312_193_mic2', 'transcription': 'There was no question of him not impressing.'}
+{'audio': 'p376_336_mic2', 'transcription': 'It is highly unlikely.'}
+{'audio': 'p272_015_mic2', 'transcription': 'The Greeks used to imagine that it was a sign from the gods to foretell war or heavy rain. '}
+{'audio': 'p257_415_mic2', 'transcription': 'We shall be victorious.'}
+{'audio': 'p288_400_mic2', 'transcription': 'Then , he laughs.'}
+{'audio': 'p343_147_mic2', 'transcription': 'On the other hand, the poster did not help.'}
+{'audio': 'p326_274_mic2', 'transcription': 'However, within five minutes they were able to celebrate.'}
+{'audio': 'p243_050_mic2', 'transcription': 'Have I really come to this?'}
+{'audio': 'p275_378_mic2', 'transcription': 'It is the old story.'}
+{'audio': 'p266_220_mic2', 'transcription': "If it doesn't, it doesn't."}
+{'audio': 'p231_266_mic2', 'transcription': 'Is it in the right place?'}
+{'audio': 'p234_309_mic2', 'transcription': 'That was a bonus, but it was not the main objective.'}
+{'audio': 'p300_394_mic2', 'transcription': 'The award was a lifeline for me.'}
+{'audio': 'p317_422_mic2', 'transcription': 'Appointments should be made on merit.'}
+{'audio': 'p261_076_mic2', 'transcription': 'After five weeks the vehicle will be sold at auction.'}
+{'audio': 'p329_178_mic2', 'transcription': "It's been very exciting, very challenging, and a privilege."}
+{'audio': 'p312_095_mic2', 'transcription': 'It will be a challenging film.'}
+{'audio': 'p308_359_mic2', 'transcription': 'The discussions will surely not last too long.'}
+{'audio': 'p248_120_mic2', 'transcription': "They've got to account for it."}
+{'audio': 'p239_277_mic2', 'transcription': 'They receive a high profile in the media.'}
