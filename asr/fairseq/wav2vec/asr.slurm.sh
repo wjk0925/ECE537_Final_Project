@@ -50,12 +50,13 @@ wav2vec_path="/home/junkaiwu/workspace/ulm_eval/models/asr/wav2vec_big_960h.pt"
 lm_path="/home/junkaiwu/workspace/ulm_eval/models/asr/4-gram.bin"
 lexicon_path="/home/junkaiwu/workspace/ulm_eval/models/asr/lexicon_ltr.lst"
 
-roots=( "/nobackup/users/junkaiwu/data/VCTK/test" )
+roots=( "/home/junkaiwu/ECE537_Final_Project/datasets/LJSpeech/hubert/outputs/500val" )
 
 nnmos_dir="/home/junkaiwu/ECE537_Final_Project/nnmos"
 # transcription_path="/home/junkaiwu/ECE537_Final_Project/datasets/LibriTTS_train-clean-100/libritts.json"
-transcription_path="/home/junkaiwu/ECE537_Final_Project/datasets/VCTK/vctk.json"
-ext="flac"
+# transcription_path="/home/junkaiwu/ECE537_Final_Project/datasets/VCTK/vctk.json"
+transcription_path="datasets/LJSpeech/ljspeech.json"
+ext="wav"
 
 for i in ${!roots[@]}; do
     root=${roots[$i]}
