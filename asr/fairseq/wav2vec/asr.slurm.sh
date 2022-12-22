@@ -55,6 +55,7 @@ roots=( "/nobackup/users/junkaiwu/data/VCTK/test" )
 nnmos_dir="/home/junkaiwu/ECE537_Final_Project/nnmos"
 # transcription_path="/home/junkaiwu/ECE537_Final_Project/datasets/LibriTTS_train-clean-100/libritts.json"
 transcription_path="/home/junkaiwu/ECE537_Final_Project/datasets/VCTK/vctk.json"
+ext="flac"
 
 for i in ${!roots[@]}; do
     root=${roots[$i]}
@@ -65,7 +66,7 @@ for i in ${!roots[@]}; do
     mkdir -p ${manifest_dir}
     cp ${dict_path} ${manifest_dir}
 
-    srun --ntasks=1 --exclusive --gres=gpu:1 --mem=200G -c 16 python generate_manifest.py --root ${root} --transcription_path ${transcription_path} --dict_path dict.ltr.txt
+    srun --ntasks=1 --exclusive --gres=gpu:1 --mem=200G -c 16 python generate_manifest.py --root ${root} --transcription_path ${transcription_path} --dict_path dict.ltr.txt --ext ${ext}
 
     srun --ntasks=1 --exclusive --gres=gpu:1 --mem=200G -c 16 python ${FAIRSEQ_ROOT}/examples/speech_recognition/infer.py  \
         ${manifest_dir} \
