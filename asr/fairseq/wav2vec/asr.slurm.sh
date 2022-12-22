@@ -55,7 +55,7 @@ roots=( "/home/junkaiwu/ECE537_Final_Project/datasets/LJSpeech/hubert/outputs/50
 nnmos_dir="/home/junkaiwu/ECE537_Final_Project/nnmos"
 # transcription_path="/home/junkaiwu/ECE537_Final_Project/datasets/LibriTTS_train-clean-100/libritts.json"
 # transcription_path="/home/junkaiwu/ECE537_Final_Project/datasets/VCTK/vctk.json"
-transcription_path="datasets/LJSpeech/ljspeech.json"
+transcription_path="/home/junkaiwu/ECE537_Final_Project/datasets/LJSpeech/ljspeech.json"
 ext="wav"
 
 for i in ${!roots[@]}; do
