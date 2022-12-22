@@ -74,7 +74,7 @@ def main(args):
                 "{}\t{}".format(os.path.relpath(file_path, dir_path), frames), file=dest
             )
             
-            audio_name = os.path.basename(file_path).strip(".wav")
+            audio_name = os.path.basename(file_path).strip(f".{args.ext}")
             text = transcription_dict[audio_name]["char"]
             processed_text = ""
             for c in text:
