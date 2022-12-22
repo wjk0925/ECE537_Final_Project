@@ -47,8 +47,9 @@ echo ""
 echo " Run started at:- "
 date
 
-vocab_sizes=( 100 200 )
-data_dirs=( "/nobackup/users/junkaiwu/data/VCTK/wav16_silence_trimmed_padded" ) 
+vocab_sizes=( 500 )
+data_dirs=( "/nobackup/users/junkaiwu/data/LJSpeech-1.1/wavs_16khz" ) 
+ext="wav"
 
 for i in ${!vocab_sizes[@]}; do
 
@@ -58,7 +59,7 @@ for i in ${!vocab_sizes[@]}; do
 
         data_dir=${data_dirs[$j]}
 
-        ./s2u.sh --data_dir ${data_dir} --TYPE hubert --vocab_size ${vocab_size} --ext .flac --LAYER 6
+        ./s2u.sh --data_dir ${data_dir} --TYPE hubert --vocab_size ${vocab_size} --ext .${ext} --LAYER 6
     
     done
 done
