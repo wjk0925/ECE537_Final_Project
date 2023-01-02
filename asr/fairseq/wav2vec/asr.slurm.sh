@@ -50,7 +50,7 @@ wav2vec_path="/home/junkaiwu/workspace/ulm_eval/models/asr/wav2vec_big_960h.pt"
 lm_path="/home/junkaiwu/workspace/ulm_eval/models/asr/4-gram.bin"
 lexicon_path="/home/junkaiwu/workspace/ulm_eval/models/asr/lexicon_ltr.lst"
 
-roots=( "/home/junkaiwu/ECE537_Final_Project/datasets/LJSpeech/hubert/outputs/500val" )
+roots=( "/home/junkaiwu/ECE537_Final_Project/datasets/LJSpeech/hubert/outputs/500_00340000" )
 
 nnmos_dir="/home/junkaiwu/ECE537_Final_Project/nnmos"
 # transcription_path="/home/junkaiwu/ECE537_Final_Project/datasets/LibriTTS_train-clean-100/libritts.json"
