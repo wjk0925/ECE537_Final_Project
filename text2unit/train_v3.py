@@ -129,7 +129,7 @@ def main(args):
                                  num_heads=args.num_heads,
                                  num_layers=args.num_layers,
                                  dim_feedforward=args.dim_feedforward,
-                                 max_len_trg=int(1.2*args.max_len_trg),
+                                 max_len_trg=int(1.5*args.max_len_trg),
                                  dropout_rate=args.input_dropout_rate,
                                  embedding_factor=args.embedding_factor)
     encoder = encoder.to(device)
@@ -219,7 +219,7 @@ def main(args):
                 src = src.to(device).transpose(0,1) # [max_src_length, batch_size]
                 trg = trg.to(device).transpose(0,1) # [max_trg_length, batch_size]
 
-                curr_output, curr_predictions = decode_transformer_model(encoder, decoder, src, args.max_len_trg, int(1.2*args.trg_vocab_size), device)
+                curr_output, curr_predictions = decode_transformer_model(encoder, decoder, src, int(1.5*args.max_len_trg), args.trg_vocab_size, device)
 
                 curr_output = curr_output.transpose(0,1)
 
