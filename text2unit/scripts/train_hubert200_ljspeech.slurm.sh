@@ -62,9 +62,9 @@ text2unit_dir="/home/junkaiwu/ECE537_Final_Project/text2unit"
 train_txt_path="/home/junkaiwu/ECE537_Final_Project/datasets/LJSpeech/hubert/train200.txt"
 val_txt_path="/home/junkaiwu/ECE537_Final_Project/datasets/LJSpeech/hubert/val200.txt"
 trg_vocab_size=203
-exp_name="hubert200_ljspeech_emb${embedding_dim}_heads${num_heads}_layers${num_layers}_batch${train_batch_size}_warm${warmup_steps}"
+exp_name="hubert200_ljspeech"
 
-srun --gres=gpu:1 --ntasks=1  python ${text2unit_dir}/train_v2.py \
+srun --gres=gpu:1 --ntasks=1  python ${text2unit_dir}/train_v3.py \
     --embedding_dim ${embedding_dim}  \
     --num_workers 16 \
     --num_heads ${num_heads} \
