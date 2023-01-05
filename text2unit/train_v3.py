@@ -277,11 +277,11 @@ if __name__ == '__main__':
     parser = ArgumentParser(description='Training Transformer for TEXT2UNIT')
     
     # datasets
-    parser.add_argument('--train_txt_paths',
+    parser.add_argument('--train_txt_path',
                         nargs='+',
                         required=True,
                         help='txt file containing text and unit pairs')
-    parser.add_argument('--val_txt_paths',
+    parser.add_argument('--val_txt_path',
                         nargs='+',
                         required=True,
                         help='txt file containing text and unit pairs')
