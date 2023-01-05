@@ -277,11 +277,13 @@ if __name__ == '__main__':
     parser = ArgumentParser(description='Training Transformer for TEXT2UNIT')
     
     # datasets
-    parser.add_argument('--train_txt_path', 
-                        default="/u/junkaiwu/ECE537_Project/datasets/LJSpeech/hubert100/train_t.txt",
+    parser.add_argument('--train_txt_paths',
+                        nargs='+',
+                        required=True,
                         help='txt file containing text and unit pairs')
-    parser.add_argument('--val_txt_path',
-                        default="/u/junkaiwu/ECE537_Project/datasets/LJSpeech/hubert100/val_t.txt",
+    parser.add_argument('--val_txt_paths',
+                        nargs='+',
+                        required=True,
                         help='txt file containing text and unit pairs')
     parser.add_argument('--trg_vocab_size', type=int, default=103, 
                         help='num of units + <start> <end> <pad>')

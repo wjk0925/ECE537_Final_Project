@@ -8,7 +8,7 @@ from utils.text import text_to_sequence
 
 # paired text and content units
 class Text2UnitDataset(torch.utils.data.Dataset):
-    def __init__(self, txt_path, feature_type, split="train", max_in_len=200, min_in_len=15, max_out_len=600):
+    def __init__(self, txt_paths, feature_type, split="train", max_in_len=200, min_in_len=15, max_out_len=600):
         super().__init__()
         assert feature_type in ["hubert"]
         self.split = split
@@ -18,21 +18,22 @@ class Text2UnitDataset(torch.utils.data.Dataset):
         in_lens = []
         out_lens = []
 
-        with open(txt_path, "r") as f:
-            for i, line in enumerate(f):
-                utterance_dict = eval(line.strip("\n"))
-                text_len = len(text_to_sequence(utterance_dict["transcription"]))
-                unit_len = len(utterance_dict[feature_type].split(" "))
-                
-                if text_len < min_in_len or text_len > max_in_len:
-                    continue
+        for txt_path in txt_paths:
+            with open(txt_path, "r") as f:
+                for i, line in enumerate(f):
+                    utterance_dict = eval(line.strip("\n"))
+                    text_len = len(text_to_sequence(utterance_dict["transcription"]))
+                    unit_len = len(utterance_dict[feature_type].split(" "))
                     
-                if unit_len > (max_out_len - 2):
-                    continue
+                    if text_len < min_in_len or text_len > max_in_len:
+                        continue
+                        
+                    if unit_len > (max_out_len - 2):
+                        continue
 
-                in_lens.append(text_len)
-                out_lens.append(unit_len)
-                data_dict.append(utterance_dict)
+                    in_lens.append(text_len)
+                    out_lens.append(unit_len)
+                    data_dict.append(utterance_dict)
 
         in_lens = np.array(in_lens)
         out_lens = np.array(out_lens)
