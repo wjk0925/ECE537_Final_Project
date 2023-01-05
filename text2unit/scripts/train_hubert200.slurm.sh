@@ -36,8 +36,8 @@ grad_clip=1
 
 text2unit_dir="/u/junkaiwu/ECE537_Project/text2unit"
 
-train_txt_path="/u/junkaiwu/ECE537_Project/datasets/LJSpeech/hubert100/train200.txt"
-val_txt_path="/u/junkaiwu/ECE537_Project/datasets/LJSpeech/hubert100/val200.txt"
+train_txt_path="/u/junkaiwu/ECE537_Project/datasets/LJSpeech/hubert/train200.txt"
+val_txt_path="/u/junkaiwu/ECE537_Project/datasets/LJSpeech/hubert/val200.txt"
 trg_vocab_size=203
 exp_name="hubert200_v1"
 
