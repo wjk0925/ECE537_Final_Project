@@ -9,7 +9,7 @@ from . import cmudict
 _pad        = '_'
 _eos        = '~'
 # _characters = '1234ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz!\'(),-.:;? '
-_characters = 'VE\'LXf?H;IkB.“/!êZpCD]y:M)UTRhw[é,Neio’m—JtPsdgu-lK}üW{vjc”(GzQAbq"èraxàYFSâOn'
+_characters = 'Belastoh."TfirngwcmpdukC,HyW;?\'IbSv-M:N!EqPxjzLAJFGDYVOR[()UKXQZ]—æ¯/œêé}{âàüè“”’'
 
 # Prepend "@" to ARPAbet symbols to ensure uniqueness (some are the same as uppercase letters):
 _arpabet = ['@' + s for s in cmudict.valid_symbols]
