@@ -8,7 +8,7 @@ from utils.text import text_to_sequence
 
 # paired text and content units
 class Text2UnitDataset(torch.utils.data.Dataset):
-    def __init__(self, txt_paths, feature_type, split="train", max_in_len=200, min_in_len=15, max_out_len=600):
+    def __init__(self, txt_paths, feature_type, split="train", max_in_len=200, min_in_len=15, max_out_len=600, ratio=1):
         super().__init__()
         assert feature_type in ["hubert"]
         self.split = split
@@ -18,7 +18,9 @@ class Text2UnitDataset(torch.utils.data.Dataset):
         in_lens = []
         out_lens = []
 
-        for txt_path in txt_paths:
+        prev_len = 0
+
+        for j, txt_path in enumerate(txt_paths):
             with open(txt_path, "r") as f:
                 for i, line in enumerate(f):
                     utterance_dict = eval(line.strip("\n"))
@@ -35,14 +37,29 @@ class Text2UnitDataset(torch.utils.data.Dataset):
                     out_lens.append(unit_len)
                     data_dict.append(utterance_dict)
 
+            cur_len = len(data_dict) - prev_len
+            if split == "val":
+                d_len = cur_len // 2
+                in_lens = in_lens[:prev_len + d_len]
+                out_lens = out_lens[:prev_len + d_len]
+                data_dict = data_dict[:prev_len + d_len]
+            prev_len = len(data_dict)
+
+            if j == 0 and len(txt_paths) == 2:
+                ljspeech_len = len(data_dict)
+
+        if len(txt_paths) == 1:
+            ljspeech_len = 0
+
         in_lens = np.array(in_lens)
         out_lens = np.array(out_lens)
         data_dict = np.array(data_dict)
 
-        if split == "val":
-            in_lens = in_lens[:len(data_dict)//2]
-            out_lens = out_lens[:len(data_dict)//2]
-            data_dict = data_dict[:len(data_dict)//2]
+        if split == "train" and ratio < 1:
+            dataset_len = ljspeech_len + int((len(data_dict) - ljspeech_len) * ratio)
+            in_lens = in_lens[:dataset_len]
+            out_lens = out_lens[:dataset_len]
+            data_dict = data_dict[:dataset_len]
         
         if split != "train":
             order = np.argsort(-out_lens)
@@ -129,8 +146,8 @@ def from_path(txt_path, batch_size, split="train", num_workers=16, is_distribute
         sampler=DistributedSampler(dataset) if is_distributed else None,
         drop_last=True)
 
-def from_path_v2(txt_path, batch_size, split="train", max_in_len=200, min_in_len=15, max_out_len=512, num_workers=16, is_distributed=False):
-    dataset = Text2UnitDataset(txt_path, "hubert", split=split, max_in_len=max_in_len, min_in_len=min_in_len, max_out_len=max_out_len)
+def from_path_v2(txt_path, batch_size, split="train", max_in_len=200, min_in_len=15, max_out_len=512, num_workers=16, ratio=1, is_distributed=False):
+    dataset = Text2UnitDataset(txt_path, "hubert", split=split, max_in_len=max_in_len, min_in_len=min_in_len, max_out_len=max_out_len, ratio=ratio)
     
     # max_in_len = np.max(dataset.in_lens)
     # max_out_len = np.max(dataset.out_lens)

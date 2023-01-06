@@ -109,7 +109,7 @@ def main(args):
     from torchmetrics import WordErrorRate
     metric = WordErrorRate()
 
-    train_dataloader = from_path_v2(args.train_txt_path, args.train_batch_size, split="train", max_in_len=args.max_len_src, max_out_len=args.max_len_trg, num_workers=args.num_workers, is_distributed=False)
+    train_dataloader = from_path_v2(args.train_txt_path, args.train_batch_size, split="train", max_in_len=args.max_len_src, max_out_len=args.max_len_trg, num_workers=args.num_workers, ratio=args.ratio, is_distributed=False)
     val_dataloader = from_path_v2(args.val_txt_path, args.val_batch_size, split="val", max_in_len=args.max_len_src, max_out_len=args.max_len_trg, num_workers=args.num_workers, is_distributed=False) # not used for now
     # not in args
     device = torch.device('cuda') # only single gpu
@@ -233,7 +233,7 @@ def main(args):
                             continue
                         if token == 2:
                             break
-                        pred_str += str(int(token.item()))
+                        pred_str += str(int(token.item()) - 3)
                         pred_str += " "
 
                     for token in trg[:, b_i]:
@@ -241,7 +241,7 @@ def main(args):
                             continue
                         if token == 2:
                             break
-                        target_str += str(int(token.item()))
+                        target_str += str(int(token.item()) - 3)
                         target_str += " "
 
 
@@ -287,6 +287,7 @@ if __name__ == '__main__':
                         help='txt file containing text and unit pairs')
     parser.add_argument('--trg_vocab_size', type=int, default=103, 
                         help='num of units + <start> <end> <pad>')
+    parser.add_argument('--ratio', type=float, default=1.0)
     
     
     # transformer

@@ -22,3 +22,4 @@ Untitled.ipynb
 *.zip
 **/kan-bayashi
 **/outputs
+datasets/LibriTTS/hubert/train200.txt
