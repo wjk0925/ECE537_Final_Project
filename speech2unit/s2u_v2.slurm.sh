@@ -47,8 +47,8 @@ echo ""
 echo " Run started at:- "
 date
 
-vocab_sizes=( 500 )
-data_dirs=( "/nobackup/users/junkaiwu/data/LJSpeech-1.1/wavs_16khz" ) 
+vocab_sizes=( 200 100 )
+data_dirs=( "/nobackup/users/junkaiwu/data/LibriTTS_16khz" ) 
 ext="wav"
 
 for i in ${!vocab_sizes[@]}; do
