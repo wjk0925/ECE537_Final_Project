@@ -77,4 +77,5 @@ srun --gres=gpu:1 --ntasks=1  python ${text2unit_dir}/train_v3.py \
     --train_txt_path ${train_txt_path} \
     --val_txt_path ${val_txt_path} \
     --trg_vocab_size ${trg_vocab_size} \
-    --exp_name ${exp_name}
+    --exp_name ${exp_name} \
+    --ratio 0.5

@@ -209,7 +209,7 @@ def main(args):
         val_targets = []
         
         # greedy
-        if (epoch % 5) == 0:
+        if (epoch % 5) == 0 and epoch >= 30:
             encoder.eval()
             decoder.eval()
             

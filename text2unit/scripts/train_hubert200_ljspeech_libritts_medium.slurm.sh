@@ -75,4 +75,5 @@ srun --gres=gpu:1 --ntasks=1  python ${text2unit_dir}/train_v3.py \
     --train_txt_path "/home/junkaiwu/ECE537_Final_Project/datasets/LJSpeech/hubert/train200.txt" "/home/junkaiwu/ECE537_Final_Project/datasets/LibriTTS/hubert/train200.txt" \
     --val_txt_path "/home/junkaiwu/ECE537_Final_Project/datasets/LJSpeech/hubert/val200.txt" "/home/junkaiwu/ECE537_Final_Project/datasets/LibriTTS/hubert/val200.txt" \
     --trg_vocab_size ${trg_vocab_size} \
-    --exp_name ${exp_name}
+    --exp_name ${exp_name} \
+    --ratio 0.5
